@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es-SV">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <meta name="title" content="Daniel Vargas" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- design -->
+    <link rel="stylesheet" href="/danielvargas/style.css" />
+    <link rel="shortcut icon" href="/danielvargas/images/favicon.png" type="image/x-icon" />
+
+    <!-- icons {new} -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+
+    <!-- icons {old} -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+    <!-- fonts {Google Fonts} -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- scripts -->
+    <script defer src="/danielvargas/script.js"></script>
+    <title>Daniel Vargas</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="/danielvargas/">
+                <span>Daniel Vargas</span>
+            </a>
+        </div>
+        <nav class="nav">
+            <button class="btn item" type="button" id="btnHome" aria-label="">
+                <span>Inicio</span>
+            </button>
+            <button class="btn item" type="button" id="btnContent" aria-label="">
+                <span>Contenido</span>
+            </button>
+            <button class="btn item" type="button" id="btnBio" aria-label="">
+                <span>Biografía</span>
+            </button>
+        </nav>
+        <button class="btn icon" type="button" id="btnMenu" aria-label="Abrir menú">
+            <span class="material-icons md-light">menu</span>
+        </button>
+    </header>
+    
+    <header class="menu-mobile">
+        <div class="menu-head">
+        </div>
+        <nav class="nav-mobile">
+            <button class="nav-item active" type="button" id="btnMobileHome" aria-label="">
+                <span class="material-icons-round">home</span>
+                <div class="nav-item-name">Inicio</div>
+            </button>
+            <button class="nav-item" type="button" id="btnMobileContent" aria-label="">
+                <span class="material-icons-round">inventory_2</span>
+                <div class="nav-item-name">contenido</div>
+            </button>
+            <button class="nav-item" type="button" id="btnMobileBio" aria-label="">
+                <span class="material-icons-round">badge</span>
+                <div class="nav-item-name">biografía</div>
+            </button>
+            <button class="nav-item md-inactive" type="button" id="" aria-label="">
+                <span class="material-icons-round">shopping_cart</span>
+                <div class="nav-item-name">tienda</div>
+            </button>
+        </nav>
+    </header>
+    
+    <main class="main active" id="main">
+        <div class="main-box">
+            <div class="banner">
+                <div class="banner-box">
+                    <img src="https://lh6.googleusercontent.com/ZuzZpB97fae3TVVZkgbYlCzMJUQNGRrqeMR53JKLfJbWFAWme1cGVvhOSSbcBiQ4avBH_hR3Fs-6jKyd5TVtHbUaRoXepC1PjauDT-SSMGVG4-oyeWmRwmrlSjOSj9-IUMu93EinbHUswiWtT2hjeg=w1280" alt="" />
+                    <div class="banner-box-text">
+                        <h2>Drop Tracks</h2>
+                        <h3>¡Ya está disponible!</h3>
+                        <div class="banner-box-button">
+                            <a href="https://danielvargas.fanlink.to/droptracks" target="_blank">
+                                <button class="btn listen" type="button" id="btnListen">escuchar</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="section">
+                <div class="section-title">Música</div>
+                <div class="section-box">
+                    <img src="https://lh6.googleusercontent.com/ZuzZpB97fae3TVVZkgbYlCzMJUQNGRrqeMR53JKLfJbWFAWme1cGVvhOSSbcBiQ4avBH_hR3Fs-6jKyd5TVtHbUaRoXepC1PjauDT-SSMGVG4-oyeWmRwmrlSjOSj9-IUMu93EinbHUswiWtT2hjeg=w1280" alt="" />
+                    <h3>Drop Tracks</h3>
+                </div>
+                <div class="section-button">
+                    <button class="btn more" type="button" id="btnMainMusic">ver más</button>
+                </div>
+            </div>
+            <hr>
+            <div class="section">
+                <div class="section-title">Vídeos</div>
+                <div class="section-box">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLnPafu0fOnS1bUsoVCdVeRgLdsNu2rIFf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <h3>Drop Tracks - Playlist</h3>
+                </div>
+                <div class="section-button">
+                    <button class="btn more" type="button" id="btnMainVideos">ver más</button>
+                </div>
+            </div>
+            <div class="space-40"></div>
+        </div>
+    </main>
+    
+    <main class="content" id="content">
+        <div class="nav-menu">
+            <button class="btn normal active" type="button" id="btnMusic">Música</button>
+            <button class="btn normal" type="button" id="btnVideos">Vídeos</button>
+        </div>
+        <div class="music-box active">
+            <div class="music-box-item">
+                <a href="https://danielvargas.fanlink.to/droptracks" target="_blank">
+                    <img src="/danielvargas/images/droptracks.png" alt="Drop Tracks" title="Drop Tracks">
+                </a>
+            </div>
+            <div class="music-box-item loader"></div>
+            <div class="music-box-item loader"></div>
+            <div class="space-10"></div>
+        </div>
+        <div class="videos-box">
+            <iframe width="420" height="236" src="https://www.youtube.com/embed/AmUoVGKSf28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="420" height="236" src="https://www.youtube.com/embed/r7x1Mfvmpxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="420" height="236" src="https://www.youtube.com/embed/6F-qZ1EVQaE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="420" height="236" src="https://www.youtube.com/embed/oeL14tyTytQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="420" height="236" src="https://www.youtube.com/embed/WsD7zoTwN1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="420" height="236" src="https://www.youtube.com/embed/JjCQfmNMfck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="space-10"></div>
+        </div>
+    </main>
+    
+    <main class="bio" id="bio">
+        <div class="bio-box">
+            <div class="bio-box-header">
+                <div class="bio-box-header-photo">
+                    <img src="https://lh5.googleusercontent.com/CO0HAdVep4x42ZL3qBZj-Cu45Iq8yh9ZPWr3wXoQXyhHWCt_sirKt-sb2i5X-IAO19hbKRLfM5Lb0fK41Wdp_VKd59jE3R_INFCeCsYTyDW5Qu-wKVXcm1x9Fs1Ox2tfb8bEUEw1j7lclEd2rjlv=w1280" alt="">
+                </div>
+                <div class="bio-box-info">
+                    <h2>Daniel Vargas</h2>
+                    <h3>Músico, Desarrollador Web</h3>
+                    <div class="box-socials">
+                        <!-- instagram -->
+                        <a href="https://instagram.com/esdanielvargas" target="_blank">
+                            <button class="btn icon" type="button" id="" aria-label="Ir a Instagram" title="Instagram">
+                                <img src="https://ssl.gstatic.com/atari/images/sociallinks/instagram_white_44dp.png" alt="" width="40px" height="40px">
+                            </button>
+                        </a>
+                        <!-- facebook -->
+                        <a href="https://facebook.com/danielvargas.es" target="_blank">
+                            <button class="btn icon" type="button" id="" aria-label="Ir a Twitter" title="Twitter">
+                                <img src="https://ssl.gstatic.com/atari/images/sociallinks/twitter_white_44dp.png" alt="" width="40px" height="40px">
+                            </button>
+                        </a>
+                        <!-- twitter -->
+                        <a href="https://twitter.com/esdanielvargas" target="_blank">
+                            <button class="btn icon" type="button" id="" aria-label="Ir a Facebook" title="Facebook">
+                                <img src="https://ssl.gstatic.com/atari/images/sociallinks/facebook_white_44dp.png" alt="" width="40px" height="40px">
+                            </button>
+                        </a>
+                        <!-- tiktok -->
+                        <a href="https://tiktok.com/@esdanielvargas" target="_blank">
+                            <button class="btn icon" type="button" id="" aria-label="Ir a TikTok" title="TikTok">
+                                <img src="https://ssl.gstatic.com/atari/images/sociallinks/tiktok_white_44dp.png" alt="" width="40px" height="40px">
+                            </button>
+                        </a>
+                        <!-- youtube -->
+                        <a href="https://youtube.com/@esdanielvargas" target="_blank">
+                            <button class="btn icon" type="button" id="" aria-label="Ir a YouTube" title="YouTube">
+                                <img src="https://ssl.gstatic.com/atari/images/sociallinks/youtube_white_44dp.png" alt="" width="40px" height="40px">
+                            </button>
+                        </a>
+                        <!-- patreon -->
+                        <a href="https://patreon.com/esdanielvargas" target="_blank">
+                            <button class="btn icon" type="button" id="" aria-label="Ir a Patreon" title="Patreon">
+                                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968722.png" alt="" width="40px" height="40px">
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="bio-title">
+                <h2>Acerca de</h2>
+            </div>
+            <div class="bio-box-text">
+                <p>Daniel Marcelo López Vargas, o mejor conocido como Daniel Vargas, es un desarrollador web. Nació el 01 de agosto del 2001, en San Salvador, El Salvador (21 años).</p>
+                <br>
+                <p>Daniel también está comenzando su carrera musical, su primer lanzamiento es un EP (Extended Play) llamado ''Drop Tracks'' que está compuesto de seis canciones, dicho lanzamiento está en versión instrumental, entre las canciones más populares están, Raindrop, Just Me, Clouds, Look At Me.</p>
+                <br>
+                <p>--</p>
+                <p><a href="https://danielvargas.bio.link" target="_blank">danielvargas.bio.link</a></p>
+            </div>
+            <hr>
+            <div class="bio-title">
+                <h2>Profesión</h2>
+            </div>
+            <div class="bio-box-text">
+                <ul>
+                    <li>Músico (Keyboard)</li>
+                    <li>Desarrollador Web</li>
+                    <li>Ing. en Sistemas & Computación</li>
+                </ul>
+            </div>
+            <hr>
+            <div class="bio-title">
+                <h2>Educación</h2>
+            </div>
+            <div class="bio-box-text">
+                <ul>
+                    <li><b>Universidad Tecnológica de El Salvador</b> - Ing. Sistemas & Computación</li>
+                </ul>
+            </div>
+            <div class="space-40"></div>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer-socials">
+            <div class="box-socials">
+                <!-- instagram -->
+                <a href="https://instagram.com/esdanielvargas" target="_blank">
+                    <button class="btn icon" type="button" id="" aria-label="Ir a Instagram" title="Instagram">
+                        <img src="https://ssl.gstatic.com/atari/images/sociallinks/instagram_white_44dp.png" alt="" width="40px" height="40px">
+                    </button>
+                </a>
+                <!-- facebook -->
+                <a href="https://facebook.com/danielvargas.es" target="_blank">
+                    <button class="btn icon" type="button" id="" aria-label="Ir a Twitter" title="Twitter">
+                        <img src="https://ssl.gstatic.com/atari/images/sociallinks/twitter_white_44dp.png" alt="" width="40px" height="40px">
+                    </button>
+                </a>
+                <!-- twitter -->
+                <a href="https://twitter.com/esdanielvargas" target="_blank">
+                    <button class="btn icon" type="button" id="" aria-label="Ir a Facebook" title="Facebook">
+                        <img src="https://ssl.gstatic.com/atari/images/sociallinks/facebook_white_44dp.png" alt="" width="40px" height="40px">
+                    </button>
+                </a>
+                <!-- tiktok -->
+                <a href="https://tiktok.com/@esdanielvargas" target="_blank">
+                    <button class="btn icon" type="button" id="" aria-label="Ir a TikTok" title="TikTok">
+                        <img src="https://ssl.gstatic.com/atari/images/sociallinks/tiktok_white_44dp.png" alt="" width="40px" height="40px">
+                    </button>
+                </a>
+                <!-- youtube -->
+                <a href="https://youtube.com/@esdanielvargas" target="_blank">
+                    <button class="btn icon" type="button" id="" aria-label="Ir a YouTube" title="YouTube">
+                        <img src="https://ssl.gstatic.com/atari/images/sociallinks/youtube_white_44dp.png" alt="" width="40px" height="40px">
+                    </button>
+                </a>
+                <!-- patreon -->
+                <a href="https://patreon.com/esdanielvargas" target="_blank">
+                    <button class="btn icon" type="button" id="" aria-label="Ir a Patreon" title="Patreon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968722.png" alt="" width="40px" height="40px">
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="footer-legal">
+            <div class="footer-legal-brand">
+                <p>&copy; <span id="year"></span> Daniel Vargas</p>
+                <span> - </span><p>All Rights Reserved.</p>
+            </div>
+            <div class="footer-legal-link">
+                <a href="/danielvargas/terms.html" target="_blank">terms</a>
+                <a href="/danielvargas/privacy.html" target="_blank">privacy</a>
+            </div>
+        </div>
+    </footer>
+    <div class="box-glass"></div>
+
+</body>
+</html>
