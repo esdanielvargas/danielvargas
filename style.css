@@ -775,6 +775,38 @@ hr {
     display: flex;
 }
 
+/* wrong */
+.wrong {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: var(--white-f1);
+    flex-direction: column;
+    justify-content: center;
+    background: var(--black-1b);
+}
+
+.wrong > h1 {
+    margin-bottom: 40px;
+    letter-spacing: 10px;
+    font: 800 80px 'Inter', sans-serif;
+}
+
+.wrong > p {
+    margin-top: 4px;
+    letter-spacing: 1px;
+    font: 400 14px 'Inter', sans-serif;
+}
+
+.wrong > p > a {
+    color: var(--highlight);
+}
+
+.wrong > p > a:hover {
+    text-decoration: underline;
+}
+
 /* laptops */
 @media (max-width: 992px) {
 
