@@ -571,9 +571,10 @@ hr {
     gap: 20px;
     display: none;
     flex-wrap: wrap;
+    flex-flow: row wrap;
     width: calc(100% - 40px);
     background: var(--black-1b);
-    justify-content: space-evenly;
+    justify-content: stretch;
 }
 
 .videos-box.active {
