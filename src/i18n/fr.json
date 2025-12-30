@@ -1,0 +1,511 @@
+{
+    "website.title": "Daniel Vargas | Développeur Web Full Stack",
+    "menu": {
+        "title": "Menu de navigation",
+        "services": "Services",
+        "plans": "Forfaits",
+        "projects": "Projets",
+        "about": "À propos",
+        "contact": "Contact",
+        "support": "Soutenez-moi",
+        "github": "Aller sur Github"
+    },
+    "footer": {
+        "explore": {
+            "title": "Explorer",
+            "services": "Services",
+            "pricing": "Tarifs",
+            "projects": "Projets",
+            "about": "À propos",
+            "contact": "Contact",
+            "support": "Soutenez-moi"
+        },
+        "plans": {
+            "title": "Forfaits",
+            "landing": "Page d'atterrissage",
+            "basic": "Site Web de base",
+            "standard": "Site Web standard",
+            "professional": "Site Web professionnel"
+        },
+        "tools": {
+            "title": "Outils",
+            "utm": "Générateur d'UTM",
+            "citations": "Générateur de citations",
+            "references": "Générateur de références",
+            "id_generator": "Générateur d'identifiants"
+        },
+        "legal": {
+            "title": "Légal",
+            "terms": "Termes et conditions",
+            "privacy": "Politique de confidentialité",
+            "cookies": "Politique de cookies",
+            "notice": "Mentions légales",
+            "sitemap": "Plan du site"
+        },
+        "copyright": "Tous droits réservés.",
+        "powered": "Développé par Daniel Vargas"
+    },
+    "hero": {
+        "title": "Je fais briller votre entreprise en ligne avec des sites web personnalisés",
+        "description": "Développeur web full stack spécialisé dans la création de sites web uniques et adaptatifs pour les entrepreneurs et les petites entreprises.",
+        "button": {
+            "contact": "Contactez-moi",
+            "projects": "Voir les projets"
+        }
+    },
+    "services": {
+        "title": "Services de développement web",
+        "short_title": "Services",
+        "description": "Découvrez les services que je propose pour concrétiser vos projets web, des sites statiques aux applications dynamiques.",
+        "web_development": {
+            "title": "Développement de sites web",
+            "description": "Création de sites web personnalisés, conçus spécifiquement pour répondre aux besoins de votre marque en tant qu'entrepreneur et/ou petite entreprise."
+        },
+        "web_design": {
+            "title": "Conception web adaptative",
+            "description": "Conception de sites web adaptatifs qui s'affichent parfaitement sur tous les appareils, des ordinateurs de bureau aux téléphones mobiles."
+        },
+        "maintenance": {
+            "title": "Maintenance de sites web",
+            "description": "Maintenance continue de votre site web pour garantir qu'il reste toujours à jour et fonctionne sans problème."
+        },
+        "seo": {
+            "title": "Optimisation SEO",
+            "description": "Améliorez la visibilité de votre site web sur les moteurs de recherche."
+        },
+        "ecommerce": {
+            "title": "Commerce électronique",
+            "description": "Développement de boutiques en ligne pour les entrepreneurs souhaitant vendre leurs produits ou services."
+        },
+        "content_creation": {
+            "title": "Création de contenu",
+            "description": "Développement de contenu attrayant et pertinent pour votre site web."
+        },
+        "digital_marketing": {
+            "title": "Marketing numérique",
+            "description": "Stratégies de marketing numérique pour accroître la visibilité et la portée de votre entreprise."
+        },
+        "consulting": {
+            "title": "Consulting",
+            "description": "Conseils personnalisés pour les entrepreneurs souhaitant améliorer leur présence en ligne."
+        }
+    },
+    "plans": {
+        "title": "Tarifs et forfaits personnalisés",
+        "short_title": "Forfaits",
+        "description": "Consultez les forfaits et tarifs conçus pour s'adapter à des projets de différentes tailles et besoins.",
+        "includes": "Inclut",
+        "hire": "Souscrire au forfait",
+        "more": "Plus d'informations",
+        "landing": {
+            "title": "Page d'atterrissage",
+            "features": [
+                "1 page web",
+                "1 Go d'hébergement",
+                "Conception adaptative",
+                "Contenu statique",
+                "Certificat SSL inclus",
+                "Optimisation SEO de base",
+                "Domaine standard (1 an)",
+                "Liens vers les réseaux sociaux",
+                "Intégration avec Google Analytics",
+                "Collecte d'emails"
+            ]
+        },
+        "basic": {
+            "title": "Site Web de base",
+            "description": "Parfait pour les entrepreneurs cherchant une présence en ligne.",
+            "features": [
+                "4 pages web",
+                "2 Go d'hébergement",
+                "Conception adaptative",
+                "Contenu statique",
+                "Certificat SSL inclus",
+                "Optimisation SEO de base",
+                "Domaine standard (1 an)",
+                "Liens vers les réseaux sociaux",
+                "Intégration avec Google Analytics",
+                "Collecte d'emails"
+            ]
+        },
+        "standard": {
+            "title": "Site Web standard",
+            "description": "Parfait pour les entrepreneurs cherchant une présence en ligne plus robuste.",
+            "features": [
+                "6 pages web",
+                "4 Go d'hébergement",
+                "Conception adaptative",
+                "Contenu statique",
+                "Certificat SSL inclus",
+                "Optimisation SEO intermédiaire",
+                "Domaine standard (1 an)",
+                "Liens vers les réseaux sociaux",
+                "Intégration avec Google Analytics",
+                "Collecte d'emails"
+            ]
+        },
+        "professional": {
+            "title": "Site Web professionnel",
+            "description": "Parfait pour les entrepreneurs cherchant une présence en ligne solide et professionnelle.",
+            "features": [
+                "8 pages web",
+                "6 Go d'hébergement",
+                "Conception adaptative",
+                "Contenu statique",
+                "Certificat SSL inclus",
+                "Optimisation SEO intermédiaire",
+                "Domaine standard (1 an)",
+                "Liens vers les réseaux sociaux",
+                "Intégration avec Google Analytics",
+                "Collecte d'emails"
+            ]
+        },
+        "app": {
+            "title": "Application Web",
+            "description": "Parfait pour les entrepreneurs cherchant une présence en ligne solide et professionnelle.",
+            "features": [
+                "10 pages web",
+                "8 Go d'hébergement",
+                "Conception adaptative",
+                "Contenu dynamique",
+                "Certificat SSL inclus",
+                "Optimisation SEO avancée",
+                "Domaine standard (1 an)",
+                "Liens vers les réseaux sociaux",
+                "Intégration avec Google Analytics",
+                "Collecte d'emails"
+            ]
+        },
+        "ecommerce": {
+            "title": "Commerce électronique",
+            "description": "Parfait pour les entrepreneurs cherchant une présence en ligne solide et professionnelle.",
+            "features": [
+                "12 pages web",
+                "10 Go d'hébergement",
+                "Conception adaptative",
+                "Contenu dynamique",
+                "Certificat SSL inclus",
+                "Optimisation SEO avancée",
+                "Domaine standard (1 an)",
+                "Liens vers les réseaux sociaux",
+                "Intégration avec Google Analytics",
+                "Collecte d'emails"
+            ]
+        }
+    },
+    "projects": {
+        "title": "Projets réalisés et travaux destacados",
+        "short_title": "Projets",
+        "description": "Découvrez certains des sites et applications web que j'ai développés, avec un accent sur la fonctionnalité, le design et l'expérience utilisateur."
+    },
+    "about": {
+        "title": "À propos de moi",
+        "heading": "Bonjour ! Je suis Daniel Vargas",
+        "description": "Je suis un développeur web Full Stack salvadorien, passionné par la création d'interfaces modernes, fonctionnelles et accessibles. J'aime écrire du code propre et concevoir des expériences qui non seulement sont esthétiques, mais résolvent également des problèmes réels de manière efficace et élégante.",
+        "quote": "Je construis l'internet que j'aimerais parcourir",
+        "image": {
+            "alt": "Photographie de profil de Daniel Vargas | Développeur Web Full Stack",
+            "title": "Photographie de profil de Daniel Vargas | Développeur Web Full Stack"
+        },
+        "button": {
+            "contact": "Contactez-moi",
+            "resume": "Voir le CV"
+        },
+        "technologies": {
+            "title": "Technologies utilisées",
+            "short_title": "Technologies",
+            "description": "Je travaille avec une variété de technologies modernes pour créer des solutions web efficaces et évolutives.",
+            "list": [
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "React.js",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Git & GitHub",
+                "Figma"
+            ]
+        },
+        "tools": {
+            "title": "Outils utilisés",
+            "short_title": "Outils",
+            "description": "J'utilise des outils et des plateformes qui me permettent d'être plus efficace et productif dans mon travail quotidien.",
+            "list": [
+                "Visual Studio Code",
+                "Postman",
+                "Docker",
+                "Netlify",
+                "Vercel",
+                "Heroku",
+                "Firebase",
+                "Slack"
+            ]
+        }
+    },
+    "tools": {
+        "title": "Outils gratuits pour développeurs et étudiants",
+        "short_title": "Outils",
+        "description": "Utilitaires simples et gratuits pour faciliter les tâches dans les projets et/ou travaux académiques.",
+        "button": {
+            "action": "Tester l'outil",
+            "copy": "Copier",
+            "copied": "Copié",
+            "back": "Retour aux outils",
+            "id_generator": "Générer un identifiant",
+            "utm_generator": "Générer un lien"
+        },
+        "utm": {
+            "title": "Générateur d'Urchin Tracking Module (UTM)",
+            "short_title": "Générateur d'UTM",
+            "description": "Créez des liens avec des paramètres UTM pour mesurer les performances de vos campagnes marketing.",
+            "generated_url_title": "URL de suivi UTM générée",
+            "generated_url_label": "URL générée",
+            "generated_url_text": "Utilisez cette adresse dans n'importe quel canal promotionnel que vous souhaitez associer à cette campagne personnalisée.",
+            "form_title": "Entrez l'URL du site web et les informations de la campagne",
+            "base_label": "URL du site web *",
+            "base_text": "L'adresse complète du site web que vous souhaitez promouvoir.",
+            "source_label": "Source de la campagne *",
+            "source_text": "L'origine du trafic, comme le site web, le réseau social ou la plateforme d'où proviendra le visiteur (ex. google, facebook, newsletter).",
+            "medium_label": "Moyen de la campagne *",
+            "medium_text": "Le canal marketing utilisé : par exemple, email, CPC, bannière, social, entre autres.",
+            "campaign_label": "Nom de la campagne *",
+            "campaign_text": "Identifie la campagne que vous menez : le nom du produit, de la promotion ou de la stratégie (ex. été2025, blackfriday).",
+            "id_label": "Identification de la campagne",
+            "id_text": "Un identifiant unique pour la campagne publicitaire, utile pour les analyses internes ou la liaison avec d'autres plateformes.",
+            "term_label": "Terme de la campagne",
+            "term_text": "Mots-clés pour les campagnes de recherche payante. Aide à analyser les performances de termes spécifiques.",
+            "content_label": "Contenu de la campagne",
+            "content_text": "Permet de distinguer différentes versions d'une annonce ou d'un lien au sein de la même campagne.",
+            "generate_button": "Générer un lien",
+            "copy_button_title": "Copier le lien avec paramètres"
+        },
+        "citations": {
+            "title": "Générateur de citations",
+            "short_title": "Générateur de citations",
+            "description": "Générez des citations rapides et précises au format APA pour vos travaux académiques."
+        },
+        "references": {
+            "title": "Générateur de références",
+            "short_title": "Générateur de références",
+            "description": "Construisez des références complètes au format APA prêtes pour vos documents et projets."
+        },
+        "id_generator": {
+            "title": "Générateur d'identifiants (IDs)",
+            "short_title": "Générateur d'identifiants",
+            "description": "Générez des identifiants uniques rapidement et de manière personnalisée. Choisissez la longueur, le type et le format. Utile pour les formulaires, bases de données ou projets web.",
+            "format_label": "Format *",
+            "format_text": "Choisissez le format de l'identifiant à générer.",
+            "format_options": {
+                "alphanumeric": "Alphanumérique",
+                "numeric": "Numérique",
+                "letters": "Lettres uniquement",
+                "uuid": "UUID v4"
+            },
+            "length_label": "Longueur *",
+            "length_text": "Définissez le nombre de caractères de l'identifiant.",
+            "prefix_label": "Préfixe",
+            "prefix_placeholder": "Ex. : user_, temp-, ID-",
+            "prefix_text": "Texte apparaissant au début de l'identifiant.",
+            "suffix_label": "Suffixe",
+            "suffix_placeholder": "Ex. : _dev, -2025, _x1",
+            "suffix_text": "Texte apparaissant à la fin de l'identifiant.",
+            "generate_button": "Générer un nouveau",
+            "result_label": "Identifiant généré",
+            "result_text": "Résultat prêt à être copié et utilisé."
+        }
+    },
+    "legal": {
+        "title": "Pages légales",
+        "updated": "Dernière mise à jour : {{date}}.",
+        "button": {
+            "action": "Lire la politique"
+        },
+        "terms": {
+            "date": "01 août 2025",
+            "title": "Termes et conditions",
+            "intro": "Ce site web, accessible depuis danielvargas.dev, est géré par Daniel Vargas. En naviguant ou en utilisant l'une des fonctionnalités disponibles sur ce site, vous acceptez les présents Termes et Conditions.",
+            "sections": {
+                "1": {
+                    "title": "1. Objectif du site",
+                    "content": "Le site a pour objectif de présenter les services proposés par Daniel Vargas dans le domaine du développement web et des domaines connexes. Il offre également un accès gratuit à des outils numériques créés pour faciliter les tâches courantes dans l'environnement web."
+                },
+                "2": {
+                    "title": "2. Conditions d'utilisation",
+                    "content": "L'accès et l'utilisation du site sont libres et gratuits. Il est interdit d'utiliser le site à des fins illégales, diffamatoires ou portant atteinte aux droits de tiers ou au bon fonctionnement du service."
+                },
+                "3": {
+                    "title": "3. Propriété intellectuelle",
+                    "content": "Tous les contenus publiés sur ce site — y compris les textes, outils, images générées numériquement et éléments visuels — sont la propriété de Daniel Vargas, sauf indication contraire. Leur reproduction, distribution ou modification sans autorisation préalable est interdite."
+                },
+                "4": {
+                    "title": "4. Liens externes",
+                    "content": "Le site peut contenir des liens vers des plateformes tierces telles que PayPal, LinkedIn ou GitHub. Daniel Vargas n'est pas responsable du contenu, de l'exactitude ou du fonctionnement de ces sites externes."
+                },
+                "5": {
+                    "title": "5. Protection des données",
+                    "content": "Actuellement, aucune donnée personnelle n'est collectée directement. En cas de mise en place de formulaires à l'avenir, les données fournies pourront être utilisées à des fins statistiques, informatives, promotionnelles ou de contact, toujours dans les limites légales applicables."
+                },
+                "6": {
+                    "title": "6. Services proposés",
+                    "content": "Divers services liés à l'environnement numérique sont proposés, tels que la conception et le développement web, l'assistance à la gestion de domaines, la configuration de profils professionnels et le conseil. Ces services sont soumis à disponibilité et font l'objet de devis individuels."
+                },
+                "7": {
+                    "title": "7. Modifications",
+                    "content": "Daniel Vargas se réserve le droit de modifier à tout moment les présents Termes et Conditions. Les modifications entreront en vigueur dès leur publication sur cette même page."
+                },
+                "8": {
+                    "title": "8. Législation applicable",
+                    "content": "Ces termes sont régis par la législation en vigueur en République d'El Salvador. En cas de litige lié à l'utilisation du site, les parties se soumettront aux tribunaux compétents du pays."
+                }
+            }
+        },
+        "privacy": {
+            "date": "01 août 2025",
+            "title": "Politique de confidentialité",
+            "intro": "Cette Politique de confidentialité décrit comment les données personnelles sont gérées sur le site web danielvargas.dev, géré par Daniel Vargas.",
+            "sections": {
+                "1": {
+                    "title": "1. Données collectées",
+                    "content": "Actuellement, ce site ne collecte pas d'informations personnelles directement. Cependant, à l'avenir, des formulaires pourraient être mis en place pour collecter des noms, adresses e-mail ou autres données de contact à des fins informatives, promotionnelles ou statistiques."
+                },
+                "2": {
+                    "title": "2. Finalité du traitement",
+                    "content": "Les données éventuellement collectées seront utilisées pour améliorer le service, répondre aux demandes, envoyer des mises à jour pertinentes ou analyser le comportement d'utilisation sur le site."
+                },
+                "3": {
+                    "title": "3. Conservation des données",
+                    "content": "Les informations fournies seront conservées uniquement le temps nécessaire pour atteindre les finalités mentionnées, et pourront être supprimées à la demande de l'utilisateur."
+                },
+                "4": {
+                    "title": "4. Partage avec des tiers",
+                    "content": "Les données personnelles ne seront ni vendues, ni louées, ni partagées avec des tiers, sauf obligation légale ou requête judiciaire."
+                },
+                "5": {
+                    "title": "5. Droits de l'utilisateur",
+                    "content": "L'utilisateur peut exercer à tout moment ses droits d'accès, de rectification, de suppression ou d'opposition (ARCO) en écrivant à hello@danielvargas.dev."
+                },
+                "6": {
+                    "title": "6. Modifications de la politique",
+                    "content": "Cette politique peut être modifiée à tout moment. La version la plus récente sera toujours disponible sur cette même page."
+                }
+            }
+        },
+        "cookies": {
+            "date": "01 août 2025",
+            "title": "Politique de cookies",
+            "intro": "Sur ce site web, danielvargas.dev, la confidentialité et la transparence sont des principes fondamentaux. Cette politique explique comment les technologies de stockage dans le navigateur, y compris l'utilisation actuelle et potentielle future des cookies et du stockage local, sont utilisées.",
+            "sections": {
+                "1": {
+                    "title": "1. Qu'est-ce qu'un cookie ?",
+                    "content": "Les cookies sont de petits fichiers texte qu'un site web peut stocker dans le navigateur de l'utilisateur. Leur fonction principale est de mémoriser certaines informations sur la visite, telles que les préférences de navigation ou les informations de connexion. Certains cookies sont supprimés à la fermeture du navigateur (cookies de session), tandis que d'autres restent stockés pendant une période déterminée (cookies persistants)."
+                },
+                "2": {
+                    "title": "2. Qu'est-ce que le stockage local ?",
+                    "content": "Le stockage local, également connu sous le nom de localStorage, permet aux sites web de stocker des données directement dans le navigateur de l'utilisateur. Contrairement aux cookies, le stockage local a une capacité plus importante et n'expire pas automatiquement."
+                },
+                "3": {
+                    "title": "3. Quelles technologies sont utilisées sur ce site ?",
+                    "content": "Actuellement, aucun cookie n'est utilisé sur danielvargas.dev. Le stockage local est utilisé exclusivement pour mémoriser la langue préférée de l'utilisateur (clé : i18nextLng), sans collecter de données personnelles ni partager d'informations avec des tiers."
+                },
+                "4": {
+                    "title": "4. Google Analytics",
+                    "content": "Ce site utilise Google Analytics 4 (GA4) pour obtenir des statistiques sur l'utilisation du site. Les interactions sont enregistrées via des événements anonymes. Aucune donnée n'est partagée avec Google à des fins publicitaires ou d'amélioration de produits."
+                },
+                "5": {
+                    "title": "5. Utilisation future potentielle des cookies",
+                    "content": "Des cookies propriétaires ou tiers pourraient être mis en place à des fins techniques ou analytiques. Aucun cookie publicitaire ne sera utilisé sans le consentement explicite de l'utilisateur."
+                },
+                "6": {
+                    "title": "6. Comment gérer les cookies",
+                    "content": "La plupart des navigateurs permettent d'accepter, de bloquer ou de supprimer les cookies. Il est recommandé de consulter la documentation officielle du navigateur pour plus d'informations."
+                }
+            }
+        }
+    },
+    "bug": {
+        "title": "Désolé, cette page n'existe pas.",
+        "text": "Il est possible que cette page ait été supprimée, déplacée ou que vous ayez mal saisi l'URL.",
+        "button": {
+            "home": "Retour au début",
+            "back": "Retour"
+        }
+    },
+    "resume": {
+        "title": "Développeur Web Front-End",
+        "profile": {
+            "title": "Objectif professionnel",
+            "bio": "Développeur Web Front-End axé sur la conception d'interfaces modernes, accessibles et adaptatives. Possède une expérience dans le développement de solutions numériques fonctionnelles utilisant des technologies telles que React, TailwindCSS et Vite. Son objectif est de fournir des solutions créatives, efficaces et centrées sur l'utilisateur final, dans des environnements collaboratifs ou en tant que professionnel indépendant."
+        },
+        "skills": {
+            "title": "Compétences"
+        },
+        "languages": {
+            "title": "Langues",
+            "list": {
+                "spanish": {
+                    "title": "Espagnol (natif)"
+                },
+                "english": {
+                    "title": "Anglais (niveau intermédiaire)"
+                }
+            }
+        },
+        "experience": {
+            "title": "Expérience",
+            "positions": [
+                {
+                    "title": "Développeur Web Front-End",
+                    "date": {
+                        "start": "Fév. 2024",
+                        "end": "Nov. 2024"
+                    },
+                    "description": "Responsable du développement intégral du site web corporatif de l'entreprise. Le projet incluait une conception adaptative, une optimisation de base pour les moteurs de recherche (SEO) et la configuration DNS. Travail à distance, livré dans un environnement de production."
+                },
+                {
+                    "title": "Développeur Web Full Stack",
+                    "company": "Indépendant",
+                    "locale": "San Salvador, El Salvador",
+                    "date": {
+                        "start": "Jan. 2025",
+                        "end": "Actuellement"
+                    },
+                    "description": "Conception et développement de sites web pour des entrepreneurs, des projets personnels et des petites entreprises. Mise en œuvre d'interfaces modernes, adaptatives et fonctionnelles avec des technologies telles que React, TailwindCSS et Vite."
+                }
+            ]
+        },
+        "education": {
+            "title": "Formation",
+            "degrees": [
+                {
+                    "title": "Baccalauréat général",
+                    "date": {
+                        "start": "Jan. 2020",
+                        "end": "Déc. 2021"
+                    }
+                },
+                {
+                    "title": "Ingénierie en systèmes et informatique",
+                    "date": {
+                        "start": "Juil. 2022",
+                        "end": "Actuellement"
+                    }
+                }
+            ]
+        },
+        "projects": {
+            "title": "Projets",
+            "list": [
+                {
+                    "title": "Projet de réseau social (en développement)",
+                    "company": "Sans nom — San Salvador",
+                    "date": {
+                        "start": "Oct. 2022",
+                        "end": "Actuellement"
+                    },
+                    "description": "Développement d'un réseau social expérimental axé sur l'interaction par affinité et les relations mutuelles. Le projet a évolué à travers plusieurs itérations et refontes, permettant l'application de nouvelles technologies et de bonnes pratiques de développement. Mise en œuvre avec React, TailwindCSS et Firebase. Fonctionnalités : système d'authentification, flux personnalisé, publication de contenu, réactions et architecture évolutive pour un futur déploiement en production."
+                }
+            ]
+        }
+    }
+}

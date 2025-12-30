@@ -1,0 +1,6 @@
+# robots.txt para danielvargas.dev
+
+User-agent: *
+Allow: /
+
+Sitemap: https://danielvargas.dev/sitemap.xml

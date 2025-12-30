@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Página principal -->
+  <url>
+    <loc>https://danielvargas.dev/</loc>
+  </url>
+
+  <!-- Secciones principales -->
+  <url>
+    <loc>https://danielvargas.dev/services</loc>
+  </url>
+  <url>
+    <loc>https://danielvargas.dev/plans</loc>
+  </url>
+  <url>
+    <loc>https://danielvargas.dev/contact</loc>
+  </url>
+  <url>
+    <loc>https://danielvargas.dev/about</loc>
+  </url>
+  <url>
+    <loc>https://danielvargas.dev/tools</loc>
+  </url>
+  <url>
+    <loc>https://danielvargas.dev/legal</loc>
+  </url>
+
+  <!-- Servicios individuales -->
+  <url>
+    <loc>https://danielvargas.dev/services/web-development</loc>
+  </url>
+  <url>
+    <loc>https://danielvargas.dev/services/web-design</loc>
+  </url>
+  <url>
+    <loc>https://danielvargas.dev/services/maintenance</loc>
+  </url>
+  <url>
+    <loc>https://danielvargas.dev/services/google-maps</loc>
+  </url>
+  <url>
+    <loc>https://danielvargas.dev/services/professional-emails</loc>
+  </url>
+
+  <!-- Planes individuales -->
+  <url>
+    <loc>https://danielvargas.dev/plans/landing-page</loc>
+  </url>
+  <url>
+    <loc>https://danielvargas.dev/plans/basic-website</loc>
+  </url>
+  <url>
+    <loc>https://danielvargas.dev/plans/standard-website</loc>
+  </url>
+  <url>
+    <loc>https://danielvargas.dev/plans/professional-website</loc>
+  </url>
+  <url>
+    <loc>https://danielvargas.dev/plans/application-website</loc>
+  </url>
+  <url>
+    <loc>https://danielvargas.dev/plans/ecommerce-website</loc>
+  </url>
+
+  <!-- Herramientas -->
+  <url>
+    <loc>https://danielvargas.dev/tools/utm-generator</loc>
+  </url>
+  <url>
+    <loc>https://danielvargas.dev/tools/id-generator</loc>
+  </url>
+  <url>
+    <loc>https://danielvargas.dev/tools/currency-converter</loc>
+  </url>
+
+  <!-- Página de CV -->
+   <url>
+    <loc>https://danielvargas.dev/resume</loc>
+  </url>
+  <url>
+    <loc>https://danielvargas.dev/about/resume</loc>
+  </url>
+
+  <!-- Páginas legales -->
+  <url>
+    <loc>https://danielvargas.dev/legal/terms</loc>
+  </url>
+  <url>
+    <loc>https://danielvargas.dev/legal/privacy</loc>
+  </url>
+  <url>
+    <loc>https://danielvargas.dev/legal/cookies</loc>
+  </url>
+</urlset>

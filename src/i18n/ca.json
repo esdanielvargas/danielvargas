@@ -1,0 +1,511 @@
+{
+    "website.title": "Daniel Vargas | Desenvolupador Web Full Stack",
+    "menu": {
+        "title": "Menú de navegació",
+        "services": "Serveis",
+        "plans": "Plans",
+        "projects": "Projectes",
+        "about": "Sobre Mi",
+        "contact": "Contacte",
+        "support": "Dóna'm suport",
+        "github": "Anar a Github"
+    },
+    "footer": {
+        "explore": {
+            "title": "Explorar",
+            "services": "Serveis",
+            "pricing": "Preus",
+            "projects": "Projectes",
+            "about": "Sobre Mi",
+            "contact": "Contacte",
+            "support": "Dóna'm suport"
+        },
+        "plans": {
+            "title": "Plans",
+            "landing": "Pàgina d'Aterratge",
+            "basic": "Lloc Web Bàsic",
+            "standard": "Lloc Web Estàndard",
+            "professional": "Lloc Web Professional"
+        },
+        "tools": {
+            "title": "Eines",
+            "utm": "Generador d'UTM",
+            "citations": "Generador de Cites",
+            "references": "Generador de Referències",
+            "id_generator": "Generador d'Identificadors"
+        },
+        "legal": {
+            "title": "Legal",
+            "terms": "Termes i Condicions",
+            "privacy": "Política de Privadesa",
+            "cookies": "Política de Cookies",
+            "notice": "Avís Legal",
+            "sitemap": "Mapa del Lloc"
+        },
+        "copyright": "Tots els drets reservats.",
+        "powered": "Desenvolupat per Daniel Vargas"
+    },
+    "hero": {
+        "title": "Faig que el teu negoci brilli en línia amb llocs web personalitzats",
+        "description": "Desenvolupador web full stack especialitzat en crear llocs web únics i adaptables per a emprenedors i petites empreses.",
+        "button": {
+            "contact": "Contacta'm",
+            "projects": "Veure projectes"
+        }
+    },
+    "services": {
+        "title": "Serveis de Desenvolupament Web",
+        "short_title": "Serveis",
+        "description": "Explora els serveis que ofereixo per ajudar-te a materialitzar els teus projectes web, des de llocs estàtics fins a aplicacions dinàmiques.",
+        "web_development": {
+            "title": "Desenvolupament de Llocs Web",
+            "description": "Creació de llocs web personalitzats, dissenyats específicament per satisfer les necessitats de la teva marca com a emprenedor i/o petita empresa."
+        },
+        "web_design": {
+            "title": "Disseny Web Adaptable",
+            "description": "Disseny de llocs web adaptables que es veuen bé en qualsevol dispositiu, des d'ordinadors d'escriptori fins a telèfons mòbils."
+        },
+        "maintenance": {
+            "title": "Manteniment de Llocs Web",
+            "description": "Manteniment continu del teu lloc web per garantir que sempre estigui actualitzat i funcioni sense problemes."
+        },
+        "seo": {
+            "title": "Optimització SEO",
+            "description": "Millora la visibilitat del teu lloc web als motors de cerca."
+        },
+        "ecommerce": {
+            "title": "Comerç Electrònic",
+            "description": "Desenvolupament de botigues en línia per a emprenedors que volen vendre els seus productes o serveis."
+        },
+        "content_creation": {
+            "title": "Creació de Contingut",
+            "description": "Desenvolupament de contingut atractiu i rellevant per al teu lloc web."
+        },
+        "digital_marketing": {
+            "title": "Màrqueting Digital",
+            "description": "Estratègies de màrqueting digital per augmentar la visibilitat i l'abast del teu negoci."
+        },
+        "consulting": {
+            "title": "Consultoria",
+            "description": "Assessorament personalitzat per a emprenedors que volen millorar la seva presència en línia."
+        }
+    },
+    "plans": {
+        "title": "Preus i Plans Personalitzats",
+        "short_title": "Plans",
+        "description": "Consulta els plans i tarifes dissenyats per adaptar-se a projectes de diferents mides i necessitats.",
+        "includes": "Inclou",
+        "hire": "Contractar pla",
+        "more": "Més informació",
+        "landing": {
+            "title": "Pàgina d'Aterratge",
+            "features": [
+                "1 Pàgina web",
+                "1 GB d'allotjament",
+                "Disseny adaptable",
+                "Contingut estàtic",
+                "Certificat SSL inclòs",
+                "Optimització SEO bàsica",
+                "Domini estàndard (1 any)",
+                "Enllaços de xarxes socials",
+                "Integració amb Google Analytics",
+                "Recollida de correus electrònics"
+            ]
+        },
+        "basic": {
+            "title": "Lloc Web Bàsic",
+            "description": "Perfecte per a emprenedors que busquen una presència en línia.",
+            "features": [
+                "4 Pàgines web",
+                "2 GB d'allotjament",
+                "Disseny adaptable",
+                "Contingut estàtic",
+                "Certificat SSL inclòs",
+                "Optimització SEO bàsica",
+                "Domini estàndard (1 any)",
+                "Enllaços de xarxes socials",
+                "Integració amb Google Analytics",
+                "Recollida de correus electrònics"
+            ]
+        },
+        "standard": {
+            "title": "Lloc Web Estàndard",
+            "description": "Perfecte per a emprenedors que busquen una presència en línia més robusta.",
+            "features": [
+                "6 Pàgines web",
+                "4 GB d'allotjament",
+                "Disseny adaptable",
+                "Contingut estàtic",
+                "Certificat SSL inclòs",
+                "Optimització SEO intermèdia",
+                "Domini estàndard (1 any)",
+                "Enllaços de xarxes socials",
+                "Integració amb Google Analytics",
+                "Recollida de correus electrònics"
+            ]
+        },
+        "professional": {
+            "title": "Lloc Web Professional",
+            "description": "Perfecte per a emprenedors que busquen una presència en línia sòlida i professional.",
+            "features": [
+                "8 Pàgines web",
+                "6 GB d'allotjament",
+                "Disseny adaptable",
+                "Contingut estàtic",
+                "Certificat SSL inclòs",
+                "Optimització SEO intermèdia",
+                "Domini estàndard (1 any)",
+                "Enllaços de xarxes socials",
+                "Integració amb Google Analytics",
+                "Recollida de correus electrònics"
+            ]
+        },
+        "app": {
+            "title": "Aplicació Web",
+            "description": "Perfecte per a emprenedors que busquen una presència en línia sòlida i professional.",
+            "features": [
+                "10 Pàgines web",
+                "8 GB d'allotjament",
+                "Disseny adaptable",
+                "Contingut dinàmic",
+                "Certificat SSL inclòs",
+                "Optimització SEO avançada",
+                "Domini estàndard (1 any)",
+                "Enllaços de xarxes socials",
+                "Integració amb Google Analytics",
+                "Recollida de correus electrònics"
+            ]
+        },
+        "ecommerce": {
+            "title": "Comerç Electrònic",
+            "description": "Perfecte per a emprenedors que busquen una presència en línia sòlida i professional.",
+            "features": [
+                "12 Pàgines web",
+                "10 GB d'allotjament",
+                "Disseny adaptable",
+                "Contingut dinàmic",
+                "Certificat SSL inclòs",
+                "Optimització SEO avançada",
+                "Domini estàndard (1 any)",
+                "Enllaços de xarxes socials",
+                "Integració amb Google Analytics",
+                "Recollida de correus electrònics"
+            ]
+        }
+    },
+    "projects": {
+        "title": "Projectes Realitzats i Treballs Destacats",
+        "short_title": "Projectes",
+        "description": "Descobreix alguns dels llocs i aplicacions web que he desenvolupat, amb un enfocament en funcionalitat, disseny i experiència d'usuari."
+    },
+    "about": {
+        "title": "Sobre Mi",
+        "heading": "Hola! Sóc Daniel Vargas",
+        "description": "Sóc un desenvolupador web Full Stack salvadorenc, apassionat per crear interfícies modernes, funcionals i accessibles. M'agrada escriure codi net i dissenyar experiències que no només es veuen bé, sinó que també resolen problemes reals de manera eficient i elegant.",
+        "quote": "Construeixo l'internet que m'agradaria navegar",
+        "image": {
+            "alt": "Fotografia de perfil de Daniel Vargas | Desenvolupador Web Full Stack",
+            "title": "Fotografia de perfil de Daniel Vargas | Desenvolupador Web Full Stack"
+        },
+        "button": {
+            "contact": "Contacta'm",
+            "resume": "Veure currículum"
+        },
+        "technologies": {
+            "title": "Tecnologies que utilitzo",
+            "short_title": "Tecnologies",
+            "description": "Treballo amb una varietat de tecnologies modernes per crear solucions web efectives i escalables.",
+            "list": [
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "React.js",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Git & GitHub",
+                "Figma"
+            ]
+        },
+        "tools": {
+            "title": "Eines que faig servir",
+            "short_title": "Eines",
+            "description": "Utilitzo eines i plataformes que em permeten ser més eficient i productiu en la meva feina diària.",
+            "list": [
+                "Visual Studio Code",
+                "Postman",
+                "Docker",
+                "Netlify",
+                "Vercel",
+                "Heroku",
+                "Firebase",
+                "Slack"
+            ]
+        }
+    },
+    "tools": {
+        "title": "Eines Gratuites per a Desenvolupadors i Estudiants",
+        "short_title": "Eines",
+        "description": "Utilitats senzilles i gratuïtes per facilitar tasques en projectes i/o treballs acadèmics.",
+        "button": {
+            "action": "Provar eina",
+            "copy": "Copiar",
+            "copied": "Copiat",
+            "back": "Tornar a les eines",
+            "id_generator": "Generar identificador",
+            "utm_generator": "Generar enllaç"
+        },
+        "utm": {
+            "title": "Generador d'Urchin Tracking Module (UTM)",
+            "short_title": "Generador d'UTM",
+            "description": "Crea enllaços amb paràmetres UTM per mesurar el rendiment de les teves campanyes de màrqueting.",
+            "generated_url_title": "URL de seguiment d'UTM generada",
+            "generated_url_label": "URL generada",
+            "generated_url_text": "Utilitza aquesta adreça en qualsevol canal promocional que vulguis associar amb aquesta campanya personalitzada.",
+            "form_title": "Introdueix l'URL del lloc web i la informació de la campanya",
+            "base_label": "URL del lloc web *",
+            "base_text": "L'adreça completa del lloc web que vols promocionar.",
+            "source_label": "Font de la campanya *",
+            "source_text": "L'origen del tràfic, com el lloc web, xarxa social o plataforma des d'on arribarà el visitant (p. ex. google, facebook, newsletter).",
+            "medium_label": "Mitjà de la campanya *",
+            "medium_text": "El canal de màrqueting utilitzat: per exemple, correu electrònic, CPC, banner, social, entre d'altres.",
+            "campaign_label": "Nom de la campanya *",
+            "campaign_text": "Identifica la campanya que estàs executant: el nom del producte, promoció o estratègia (p. ex. estiu2025, blackfriday).",
+            "id_label": "Identificació de la campanya",
+            "id_text": "Un ID únic per a la campanya publicitària, útil per a anàlisis interns o vinculació amb altres plataformes.",
+            "term_label": "Terme de la campanya",
+            "term_text": "Paraules clau per a campanyes de cerca pagada. Ajuda a analitzar el rendiment de termes específics.",
+            "content_label": "Contingut de la campanya",
+            "content_text": "Distingeix entre diferents versions d'un anunci o enllaç dins de la mateixa campanya.",
+            "generate_button": "Generar enllaç",
+            "copy_button_title": "Copiar enllaç amb paràmetres"
+        },
+        "citations": {
+            "title": "Generador de Cites",
+            "short_title": "Generador de Cites",
+            "description": "Genera cites ràpides i precises en format APA per als teus treballs acadèmics."
+        },
+        "references": {
+            "title": "Generador de Referències",
+            "short_title": "Generador de Referències",
+            "description": "Construeix referències completes en estil APA llestes per als teus documents i projectes."
+        },
+        "id_generator": {
+            "title": "Generador d'Identificadors (IDs)",
+            "short_title": "Generador d'Identificadors",
+            "description": "Genera identificadors únics de manera ràpida i personalitzada. Tria la longitud, tipus i format. Útil per a formularis, bases de dades o projectes web.",
+            "format_label": "Format *",
+            "format_text": "Tria el format de l'identificador a generar.",
+            "format_options": {
+                "alphanumeric": "Alfanumèric",
+                "numeric": "Numèric",
+                "letters": "Només lletres",
+                "uuid": "UUID v4"
+            },
+            "length_label": "Longitud *",
+            "length_text": "Defineix quants caràcters tindrà l'identificador.",
+            "prefix_label": "Prefix",
+            "prefix_placeholder": "P. ex: user_, temp-, ID-",
+            "prefix_text": "Text que apareix al principi de l'identificador.",
+            "suffix_label": "Sufix",
+            "suffix_placeholder": "P. ex: _dev, -2025, _x1",
+            "suffix_text": "Text que apareix al final de l'identificador.",
+            "generate_button": "Generar nou",
+            "result_label": "Identificador generat",
+            "result_text": "Resultat llest per copiar i utilitzar."
+        }
+    },
+    "legal": {
+        "title": "Pàgines legals",
+        "updated": "Darrera actualització: {{date}}.",
+        "button": {
+            "action": "Llegir política"
+        },
+        "terms": {
+            "date": "01 d'agost de 2025",
+            "title": "Termes i Condicions",
+            "intro": "Aquest lloc web, accessible des de danielvargas.dev, és operat per Daniel Vargas. En navegar o utilitzar qualsevol de les funcionalitats disponibles en aquest lloc, acceptes els presents Termes i Condicions.",
+            "sections": {
+                "1": {
+                    "title": "1. Objectiu del lloc",
+                    "content": "El lloc té com a finalitat mostrar els serveis oferts per Daniel Vargas en l'àmbit del desenvolupament web i àrees relacionades. També ofereix accés gratuït a eines digitals creades per facilitar tasques comunes de l'entorn web."
+                },
+                "2": {
+                    "title": "2. Condicions d'ús",
+                    "content": "L'accés i ús del lloc és lliure i gratuït. Està prohibit utilitzar el lloc per a finalitats il·lícites, difamatòries o que atemptin contra els drets de tercers o el bon funcionament del servei."
+                },
+                "3": {
+                    "title": "3. Propietat intel·lectual",
+                    "content": "Tots els continguts publicats en aquest lloc —incloent-hi textos, eines, imatges generades digitalment i elements visuals— són propietat de Daniel Vargas, llevat que s'indiqui el contrari. Està prohibida la seva reproducció, distribució o modificació sense autorització prèvia."
+                },
+                "4": {
+                    "title": "4. Enllaços externs",
+                    "content": "El lloc pot contenir enllaços cap a plataformes de tercers com PayPal, LinkedIn o GitHub. Daniel Vargas no es responsabilitza pel contingut, exactitud o funcionament d'aquests llocs externs."
+                },
+                "5": {
+                    "title": "5. Protecció de dades",
+                    "content": "Actualment no es recullen dades personals directament. En cas d'implementar formularis en el futur, les dades proporcionades podran utilitzar-se per a finalitats estadístiques, informatives, promocionals o de contacte, sempre dins dels límits legals aplicables."
+                },
+                "6": {
+                    "title": "6. Serveis oferts",
+                    "content": "S'ofereixen diversos serveis relacionats amb l'entorn digital, com ara disseny i desenvolupament web, assistència en la gestió de dominis, configuració de perfils professionals i consultoria. Aquests serveis estan subjectes a disponibilitat i es cotitzen individualment."
+                },
+                "7": {
+                    "title": "7. Modificacions",
+                    "content": "Daniel Vargas es reserva el dret de modificar en qualsevol moment els presents Termes i Condicions. Les modificacions entraran en vigor des del moment en què es publiquin en aquesta mateixa pàgina."
+                },
+                "8": {
+                    "title": "8. Legislació aplicable",
+                    "content": "Aquests termes es regeixen per la legislació vigent a la República d'El Salvador. Davant de qualsevol conflicte relacionat amb l'ús del lloc, les parts se sotmetran als tribunals competents del país."
+                }
+            }
+        },
+        "privacy": {
+            "date": "01 d'agost de 2025",
+            "title": "Política de Privadesa",
+            "intro": "Aquesta Política de Privadesa descriu com es gestionaran les dades personals al lloc web danielvargas.dev, operat per Daniel Vargas.",
+            "sections": {
+                "1": {
+                    "title": "1. Dades recollides",
+                    "content": "Actualment, aquest lloc no recull informació personal de manera directa. Tanmateix, en el futur podrien implementar-se formularis per rebre noms, correus electrònics o altres dades de contacte amb finalitats informatives, promocionals o estadístiques."
+                },
+                "2": {
+                    "title": "2. Finalitat del tractament",
+                    "content": "Les dades que eventualment es recullin seran utilitzades per millorar el servei, respondre consultes, enviar actualitzacions rellevants o analitzar el comportament d'ús dins del lloc."
+                },
+                "3": {
+                    "title": "3. Conservació de dades",
+                    "content": "La informació proporcionada serà emmagatzemada només el temps necessari per complir amb les finalitats esmentades, i podrà ser eliminada a sol·licitud de l'usuari."
+                },
+                "4": {
+                    "title": "4. Compartició amb tercers",
+                    "content": "No es vendran, llogaran ni compartiran les dades personals amb tercers, llevat d'obligació legal o requeriment judicial."
+                },
+                "5": {
+                    "title": "5. Drets de l'usuari",
+                    "content": "L'usuari podrà exercir en qualsevol moment els seus drets d'accés, rectificació, cancel·lació o oposició (ARCO) escrivint a hello@danielvargas.dev."
+                },
+                "6": {
+                    "title": "6. Canvis en la política",
+                    "content": "Aquesta política podrà modificar-se en qualsevol moment. La versió més recent estarà disponible sempre en aquesta mateixa pàgina."
+                }
+            }
+        },
+        "cookies": {
+            "date": "01 d'agost de 2025",
+            "title": "Política de Cookies",
+            "intro": "En aquest lloc web, danielvargas.dev, la privadesa i la transparència són principis fonamentals. Aquesta política explica com s'utilitzen les tecnologies d'emmagatzematge al navegador, incloent-hi l'ús actual i potencial futur de cookies i emmagatzematge local.",
+            "sections": {
+                "1": {
+                    "title": "1. Què són les cookies?",
+                    "content": "Les cookies són petits fitxers de text que un lloc web pot emmagatzemar al navegador de l'usuari. La seva funció principal és recordar certa informació sobre la visita, com ara preferències de navegació o informació d'inici de sessió. Algunes cookies s'eliminen en tancar el navegador (cookies de sessió), mentre que d'altres romanen emmagatzemades durant un període determinat (cookies persistents)."
+                },
+                "2": {
+                    "title": "2. Què és l'emmagatzematge local?",
+                    "content": "L'emmagatzematge local, també conegut com a localStorage, permet als llocs web guardar dades directament al navegador de l'usuari. A diferència de les cookies, l'emmagatzematge local té una capacitat més gran i no expira automàticament."
+                },
+                "3": {
+                    "title": "3. Quines tecnologies s'utilitzen en aquest lloc?",
+                    "content": "Actualment, no s'utilitzen cookies a danielvargas.dev. S'empra l'emmagatzematge local exclusivament per recordar l'idioma preferit de l'usuari (clau: i18nextLng), sense recollir dades personals ni compartir informació amb tercers."
+                },
+                "4": {
+                    "title": "4. Google Analytics",
+                    "content": "Aquest lloc utilitza Google Analytics 4 (GA4) per obtenir estadístiques sobre l'ús del lloc. Les interaccions són registrades mitjançant esdeveniments anònims. No es comparteixen dades amb Google per a finalitats publicitàries ni de millora de productes."
+                },
+                "5": {
+                    "title": "5. Possible ús futur de cookies",
+                    "content": "Podrien implementar-se cookies pròpies o de tercers amb finalitats tècniques o analítiques. No s'utilitzaran cookies publicitàries sense el consentiment explícit de l'usuari."
+                },
+                "6": {
+                    "title": "6. Com gestionar les cookies",
+                    "content": "La majoria de navegadors permeten acceptar, bloquejar o eliminar cookies. Es recomana consultar la documentació oficial del navegador per a més informació."
+                }
+            }
+        }
+    },
+    "bug": {
+        "title": "Em sap greu, aquesta pàgina no existeix.",
+        "text": "És possible que aquesta pàgina hagi estat eliminada, moguda o que hagi escrit malament la URL.",
+        "button": {
+            "home": "Tornar a l'inici",
+            "back": "Retrocedir"
+        }
+    },
+    "resume": {
+        "title": "Desenvolupador Web Front-End",
+        "profile": {
+            "title": "Objectiu Professional",
+            "bio": "Desenvolupador Web Front-End amb enfocament en el disseny d'interfícies modernes, accessibles i adaptables. Té experiència en el desenvolupament de solucions digitals funcionals utilitzant tecnologies com React, TailwindCSS i Vite. El seu objectiu és aportar solucions creatives, eficients i centrades en l'usuari final, dins d'entorns col·laboratius o com a professional independent."
+        },
+        "skills": {
+            "title": "Habilitats"
+        },
+        "languages": {
+            "title": "Idiomes",
+            "list": {
+                "spanish": {
+                    "title": "Castellà (natiu)"
+                },
+                "english": {
+                    "title": "Anglès (nivell intermedi)"
+                }
+            }
+        },
+        "experience": {
+            "title": "Experiència",
+            "positions": [
+                {
+                    "title": "Desenvolupador Web Front-End",
+                    "date": {
+                        "start": "Feb. 2024",
+                        "end": "Nov. 2024"
+                    },
+                    "description": "Responsable del desenvolupament integral del lloc web corporatiu de l'empresa. El projecte va incloure disseny responsiu, optimització bàsica per a motors de cerca (SEO) i configuració de DNS. Treball remot, entregat en un entorn productiu."
+                },
+                {
+                    "title": "Desenvolupador Web Full Stack",
+                    "company": "Autònom",
+                    "locale": "San Salvador, El Salvador",
+                    "date": {
+                        "start": "Gen. 2025",
+                        "end": "Actualment"
+                    },
+                    "description": "Disseny i desenvolupament de llocs web per a emprenedors, projectes personals i petites empreses. Implementació d'interfícies modernes, responsives i funcionals amb tecnologies com React, TailwindCSS i Vite."
+                }
+            ]
+        },
+        "education": {
+            "title": "Educació",
+            "degrees": [
+                {
+                    "title": "Batxiller General",
+                    "date": {
+                        "start": "Gen. 2020",
+                        "end": "Des. 2021"
+                    }
+                },
+                {
+                    "title": "Enginyeria en Sistemes i Computació",
+                    "date": {
+                        "start": "Jul. 2022",
+                        "end": "Actualment"
+                    }
+                }
+            ]
+        },
+        "projects": {
+            "title": "Projectes",
+            "list": [
+                {
+                    "title": "Projecte de Xarxa Social (en desenvolupament)",
+                    "company": "Sense Nom — San Salvador",
+                    "date": {
+                        "start": "Oct. 2022",
+                        "end": "Actualment"
+                    },
+                    "description": "Desenvolupament d'una xarxa social experimental enfocada en la interacció per afinitat i relacions mútues. El projecte ha evolucionat a través de múltiples iteracions i redissenys, permetent l'aplicació de noves tecnologies i bones pràctiques de desenvolupament. Implementació amb React, TailwindCSS i Firebase. Funcionalitats: sistema d'autenticació, feed personalitzat, publicació de contingut, reaccions i arquitectura escalable per al seu futur desplegament en producció."
+                }
+            ]
+        }
+    }
+}

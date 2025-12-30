@@ -1,0 +1,574 @@
+{
+    "menu": {
+        "title": "Menú de navegación",
+        "services": "Servicios",
+        "plans": "Planes",
+        "projects": "Proyectos",
+        "about": "Sobre Mí",
+        "contact": "Contacto",
+        "support": "Apóyame",
+        "github": "Ir a Github",
+        "resume": "Currículum Vitae"
+    },
+    "footer": {
+        "explore": {
+            "title": "Explorar",
+            "services": "Servicios",
+            "pricing": "Precios",
+            "projects": "Proyectos",
+            "about": "Sobre Mí",
+            "contact": "Contacto",
+            "support": "Apóyame"
+        },
+        "plans": {
+            "title": "Planes",
+            "landing": "Página de Aterrizaje",
+            "basic": "Sitio Web Básico",
+            "standard": "Sitio Web Estándar",
+            "professional": "Sitio Web Profesional"
+        },
+        "tools": {
+            "title": "Herramientas",
+            "utm": "Generador de UTM",
+            "citations": "Generador de Citas",
+            "references": "Generador de Referencias",
+            "id_generator": "Generador de Identificadores"
+        },
+        "legal": {
+            "title": "Políticas",
+            "sitemap": "Mapa del Sitio",
+            "terms": "Términos & Condiciones",
+            "privacy": "Política de Privacidad",
+            "cookies": "Política de Cookies",
+            "notice": "Aviso Legal"
+        },
+        "copyright": "Todos los derechos reservados.",
+        "powered": "Desarrollado por Daniel Vargas"
+    },
+    "hero": {
+        "title": "Hago que tu negocio brille en línea con sitios web personalizados",
+        "description": "Desarrollador web especializado en crear sitios web únicos y adaptables para emprendedores y pequeñas empresas.",
+        "button": {
+            "contact": "Contáctame",
+            "projects": "Ver proyectos"
+        }
+    },
+    "services": {
+        "title": "Servicios de Desarrollo Web ~ Daniel Vargas",
+        "header": "Servicios de Desarrollo Web",
+        "description": "Explora las servicios que ofrezco para ayudarte a materializar tus proyectos web, desde sitios estáticos hasta aplicaciones dinámicas.",
+        "button": {
+            "more": "Ver más servicios",
+            "info": "Más información",
+            "hire": "Contratar servicio"
+        },
+        "web_development": {
+            "title": "Desarrollo de Sitios Web",
+            "description": "Creación de sitios web personalizados, diseñados específicamente para satisfacer las necesidades de su marca como emprendedores y/o pequeñas empresas."
+        },
+        "web_design": {
+            "title": "Diseño Web Adaptable",
+            "description": "Diseño de sitios web adaptables que se ven bien en cualquier dispositivo, desde computadoras de escritorio hasta teléfonos móviles."
+        },
+        "maintenance": {
+            "title": "Mantenimiento de Sitios Web",
+            "description": "Mantenimiento continuo de su sitio web para garantizar que siempre esté actualizado y funcionando sin problemas."
+        },
+        "seo": {
+            "title": "Optimización SEO",
+            "description": "Mejora la visibilidad de tu sitio web en los motores de búsqueda."
+        },
+        "ecommerce": {
+            "title": "Comercio Electrónico",
+            "description": "Desarrollo de tiendas en línea para emprendedores que buscan vender sus productos o servicios."
+        },
+        "content_creation": {
+            "title": "Creación de Contenido",
+            "description": "Desarrollo de contenido atractivo y relevante para tu sitio web."
+        },
+        "digital_marketing": {
+            "title": "Marketing Digital",
+            "description": "Estrategias de marketing digital para aumentar la visibilidad y el alcance de tu negocio."
+        },
+        "consulting": {
+            "title": "Consultoría",
+            "description": "Asesoramiento personalizado para emprendedores que buscan mejorar su presencia en línea."
+        }
+    },
+    "plans": {
+        "title": "Precios y Planes ~ Daniel Vargas",
+        "header": "Precios y Planes",
+        "description": "Consulta los planes y tarifas diseñados para ajustarse a proyectos de distintos tamaños y necesidades.",
+        "includes": "Incluye",
+        "button": {
+            "more": "Ver más planes",
+            "info": "Más información",
+            "hire": "Contratar plan"
+        },
+        "all": {
+            "title": "Todos"
+        },
+        "landing": {
+            "title": "Página de Aterrizaje",
+            "features": [
+                "1 Página web",
+                "1 GB de hosting",
+                "Diseño adaptable",
+                "Contenido estático",
+                "Certificado SSL incluido",
+                "Optimización SEO básica",
+                "Dominio estándar (1 año)",
+                "Enlaces de redes sociales",
+                "Integración con Google Analytics",
+                "Recolección de correos electrónicos"
+            ]
+        },
+        "basic": {
+            "title": "Sitio Web Básico",
+            "description": "Perfecto para emprendedores que buscan una presencia en línea.",
+            "features": [
+                "4 Páginas web",
+                "2 GB de hosting",
+                "Diseño adaptable",
+                "Contenido estático",
+                "Certificado SSL incluido",
+                "Optimización SEO básica",
+                "Dominio estándar (1 año)",
+                "Enlaces de redes sociales",
+                "Integración con Google Analytics",
+                "Recolección de correos electrónicos"
+            ]
+        },
+        "standard": {
+            "title": "Sitio Web Estándar",
+            "description": "Perfecto para emprendedores que buscan una presencia en línea más robusta.",
+            "features": [
+                "6 Páginas web",
+                "4 GB de hosting",
+                "Diseño adaptable",
+                "Contenido estático",
+                "Certificado SSL incluido",
+                "Optimización SEO intermedia",
+                "Dominio estándar (1 año)",
+                "Enlaces de redes sociales",
+                "Integración con Google Analytics",
+                "Recolección de correos electrónicos"
+            ]
+        },
+        "professional": {
+            "title": "Sitio Web Profesional",
+            "description": "Perfecto para emprendedores que buscan una presencia en línea sólida y profesional.",
+            "features": [
+                "8 Páginas web",
+                "6 GB de hosting",
+                "Diseño adaptable",
+                "Contenido estático",
+                "Certificado SSL incluido",
+                "Optimización SEO intermedia",
+                "Dominio estándar (1 año)",
+                "Enlaces de redes sociales",
+                "Integración con Google Analytics",
+                "Recolección de correos electrónicos"
+            ]
+        },
+        "app": {
+            "title": "Aplicación Web",
+            "description": "Perfecto para emprendedores que buscan una presencia en línea sólida y profesional.",
+            "features": [
+                "10 Páginas web",
+                "8 GB de hosting",
+                "Diseño adaptable",
+                "Contenido dinámico",
+                "Certificado SSL incluido",
+                "Optimización SEO avanzada",
+                "Dominio estándar (1 año)",
+                "Enlaces de redes sociales",
+                "Integración con Google Analytics",
+                "Recolección de correos electrónicos"
+            ]
+        },
+        "ecommerce": {
+            "title": "Comercio Electrónico",
+            "description": "Perfecto para emprendedores que buscan una presencia en línea sólida y profesional.",
+            "features": [
+                "12 Páginas web",
+                "10 GB de hosting",
+                "Diseño adaptable",
+                "Contenido dinámico",
+                "Certificado SSL incluido",
+                "Optimización SEO avanzada",
+                "Dominio estándar (1 año)",
+                "Enlaces de redes sociales",
+                "Integración con Google Analytics",
+                "Recolección de correos electrónicos"
+            ]
+        },
+        "custom": {
+            "title": "Personalizado"
+        }
+    },
+    "projects": {
+        "title": "Portafolio de Proyectos ~ Daniel Vargas",
+        "header": "Portafolio de Proyectos",
+        "description": "Descubre algunos de los sitios y aplicaciones web que he desarrollado, con un enfoque en funcionalidad, diseño y experiencia de usuario.",
+        "button": {
+            "more": "Ver más proyectos",
+            "info": "Más información",
+            "web": "Ir al sitio web"
+        }
+    },
+    "about": {
+        "title": "Sobre Daniel Vargas ~ Desarrollador Web",
+        "heading": "¡Hola! Soy Daniel Vargas",
+        "description": "Soy un desarrollador web salvadoreño, apasionado por crear interfaces modernas, funcionales y accesibles. Me gusta escribir código limpio y diseñar experiencias que no solo se ven bien, sino que también resuelven problemas reales de forma eficiente y elegante.",
+        "quote": "Construyo el internet que me gustaría navegar",
+        "image": {
+            "alt": "Fotografía de perfil de Daniel Vargas | Desarrollador Web",
+            "title": "Fotografía de perfil de Daniel Vargas | Desarrollador Web"
+        },
+        "button": {
+            "contact": "Contáctame",
+            "resume": "Ver currículum"
+        },
+        "technologies": {
+            "title": "Tecnologías que utilizo",
+            "short_title": "Tecnologías",
+            "description": "Trabajo con una variedad de tecnologías modernas para crear soluciones web efectivas y escalables.",
+            "list": [
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "React.js",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Git & GitHub",
+                "Figma"
+            ]
+        },
+        "tools": {
+            "title": "Herramientas que uso",
+            "short_title": "Herramientas",
+            "description": "Utilizo herramientas y plataformas que me permiten ser más eficiente y productivo en mi trabajo diario.",
+            "list": [
+                "Visual Studio Code",
+                "Postman",
+                "Docker",
+                "Netlify",
+                "Vercel",
+                "Heroku",
+                "Firebase",
+                "Slack"
+            ]
+        }
+    },
+    "tools": {
+        "title": "Herramientas Gratuitas para Emprendedores ~ Daniel Vargas",
+        "header": "Herramientas Gratuitas para Emprendedores",
+        "description": "Utilidades simples y gratuitas, para facilitar tareas en proyectos y/o trabajos académicos.",
+        "button": {
+            "action": "Probar herramienta",
+            "copy": "Copiar",
+            "copied": "Copiado",
+            "back": "Volver a las herramientas",
+            "id_generator": "Generar identificador",
+            "utm_generator": "Generar enlace",
+            "change": "Intercambiar divisas",
+            "calculate": "Calcular IMC"
+        },
+        "utm": {
+            "title": "Generador de Urchin Tracking Module (UTM)",
+            "header": "Generador de UTM",
+            "short_title": "Generador de UTM",
+            "description": "Crea enlaces con parámetros UTM para medir el rendimiento de tus campañas de marketing.",
+            "generated_url_title": "URL de seguimiento de UTM generada",
+            "generated_url_label": "URL generada",
+            "generated_url_text": "Utiliza esta dirección en cualquier canal promocional que desees asociar con esta campaña personalizada.",
+            "form_title": "Ingresa la URL del sitio web y la información de la campaña",
+            "base_label": "URL del sitio web *",
+            "base_text": "La dirección completa del sitio web que deseas promocionar.",
+            "source_label": "Fuente de la campaña *",
+            "source_text": "El origen del tráfico, como el sitio web, red social o plataforma desde donde llegará el visitante (ej. google, facebook, newsletter).",
+            "medium_label": "Medio de la campaña *",
+            "medium_text": "El canal de marketing utilizado: por ejemplo, email, CPC, banner, social, entre otros.",
+            "campaign_label": "Nombre de la campaña *",
+            "campaign_text": "Identifica la campaña que estás ejecutando: el nombre del producto, promoción o estrategia (ej. verano2025, blackfriday).",
+            "id_label": "Identificación de la campaña",
+            "id_text": "Un ID único para la campaña publicitaria, útil para análisis internos o vinculación con otras plataformas.",
+            "term_label": "Término de la campaña",
+            "term_text": "Palabras clave para campañas de búsqueda pagada. Ayuda a analizar el rendimiento de términos específicos.",
+            "content_label": "Contenido de la campaña",
+            "content_text": "Distingue entre diferentes versiones de un anuncio o enlace dentro de la misma campaña.",
+            "generate_button": "Generar enlace",
+            "copy_button_title": "Copiar enlace con parámetros"
+        },
+        "citations": {
+            "title": "Generador de Citas",
+            "header": "Generador de Citas",
+            "description": "Genera citas rápidas y precisas en formato APA para tus trabajos académicos."
+        },
+        "references": {
+            "title": "Generador de Referencias",
+            "header": "Generador de Referencias",
+            "description": "Construye referencias completas en estilo APA listas para tus documentos y proyectos."
+        },
+        "id_generator": {
+            "title": "Generador de Identificadores (IDs)",
+            "header": "Generador de Identificadores",
+            "short_title": "Generador de Identificadores",
+            "description": "Genera identificadores únicos de forma rápida y personalizada. Elige la longitud, tipo y formato. Útil para formularios, bases de datos o proyectos web.",
+            "format_label": "Formato *",
+            "format_text": "Elige el formato del identificador a generar.",
+            "format_options": {
+                "alphanumeric": "Alfanumérico",
+                "numeric": "Numérico",
+                "letters": "Solo letras",
+                "uuid": "UUID v4"
+            },
+            "length_label": "Longitud *",
+            "length_text": "Define cuántos caracteres tendrá el identificador.",
+            "prefix_label": "Prefijo",
+            "prefix_placeholder": "Ej: user_, temp-, ID-",
+            "prefix_text": "Texto que aparece al inicio del identificador.",
+            "suffix_label": "Sufijo",
+            "suffix_placeholder": "Ej: _dev, -2025, _x1",
+            "suffix_text": "Texto que aparece al final del identificador.",
+            "generate_button": "Generar nuevo",
+            "result_label": "Identificador generado",
+            "result_text": "Resultado listo para copiar y usar."
+        },
+        "currency_converter": {
+            "title": "Conversor de Divisas",
+            "header": "Conversor de Divisas",
+            "short_title": "Conversor de Divisas",
+            "description": "",
+            "quantity": "Cantidad",
+            "quantity_text": "Introduce la cantidad de dinero que deseas convertir.",
+            "from": "De",
+            "from_text": "Selecciona la divisa principal.",
+            "to": "A",
+            "to_text": "Selecciona la divisa que desea convertir.",
+            "result": "Resultado",
+            "result_text": ""
+        },
+        "bmi": {
+            "title": "Calculadora de IMC",
+            "header": "Índice de Masa Corporal",
+            "description": "Calcula tu índice de masa corporal ingresando tu peso y altura.",
+            "weight_label": "Peso (kg)",
+            "weight_text": "Ingresa tu peso en kilogramos.",
+            "height_label": "Altura (cm)",
+            "height_text": "Ingresa tu altura en centímetros.",
+            "result_label": "Resultado",
+            "result_text": "Tu IMC calculado:",
+            "categories": {
+                "underweight": "Bajo peso",
+                "normal": "Peso normal",
+                "overweight": "Sobrepeso",
+                "obese": "Obesidad"
+            }
+        }
+    },
+    "legal": {
+        "title": "Páginas de Políticas y Términos ~ Daniel Vargas",
+        "header": "Páginas de Políticas y Términos",
+        "description": "Aquí encontraras las páginas de las políticas y términos del sitio web de Daniel Vargas",
+        "updated": "Última actualización: {{date}}.",
+        "button": {
+            "action": "Leer política",
+            "back": "Volver a las políticas"
+        },
+        "terms": {
+            "title": "Términos y Condiciones ~ Daniel Vargas",
+            "header": "Términos y Condiciones",
+            "description": "",
+            "date": "01 de agosto de 2025",
+            "intro": "Este sitio web, accesible desde danielvargas.dev, es operado por Daniel Vargas. Al navegar o utilizar cualquiera de las funcionalidades disponibles en este sitio, aceptas los presentes Términos y Condiciones.",
+            "sections": {
+                "1": {
+                    "title": "1. Objeto del sitio",
+                    "content": "El sitio tiene como finalidad mostrar los servicios ofrecidos por Daniel Vargas en el ámbito del desarrollo web y áreas relacionadas. También ofrece acceso gratuito a herramientas digitales creadas para facilitar tareas comunes del entorno web."
+                },
+                "2": {
+                    "title": "2. Condiciones de uso",
+                    "content": "El acceso y uso del sitio es libre y gratuito. Queda prohibido utilizar el sitio para fines ilícitos, difamatorios o que atenten contra los derechos de terceros o el buen funcionamiento del servicio."
+                },
+                "3": {
+                    "title": "3. Propiedad intelectual",
+                    "content": "Todos los contenidos publicados en este sitio —incluyendo textos, herramientas, imágenes generadas digitalmente y elementos visuales— son propiedad de Daniel Vargas, salvo que se indique lo contrario. Está prohibida su reproducción, distribución o modificación sin autorización previa."
+                },
+                "4": {
+                    "title": "4. Enlaces externos",
+                    "content": "El sitio puede contener enlaces hacia plataformas de terceros como PayPal, LinkedIn o GitHub. Daniel Vargas no se responsabiliza por el contenido, exactitud o funcionamiento de estos sitios externos."
+                },
+                "5": {
+                    "title": "5. Protección de datos",
+                    "content": "Actualmente no se recogen datos personales directamente. En caso de implementar formularios en el futuro, los datos proporcionados podrán utilizarse para fines estadísticos, informativos, promocionales o de contacto, siempre dentro de los límites legales aplicables."
+                },
+                "6": {
+                    "title": "6. Servicios ofrecidos",
+                    "content": "Se ofrecen diversos servicios relacionados con el entorno digital, tales como diseño y desarrollo web, asistencia en la gestión de dominios, configuración de perfiles profesionales y consultoría. Estos servicios están sujetos a disponibilidad y se cotizan individualmente."
+                },
+                "7": {
+                    "title": "7. Modificaciones",
+                    "content": "Daniel Vargas se reserva el derecho de modificar en cualquier momento los presentes Términos y Condiciones. Las modificaciones entrarán en vigor desde el momento en que se publiquen en esta misma página."
+                },
+                "8": {
+                    "title": "8. Legislación aplicable",
+                    "content": "Estos términos se rigen por la legislación vigente en la República de El Salvador. Ante cualquier conflicto relacionado con el uso del sitio, las partes se someterán a los tribunales competentes del país."
+                }
+            }
+        },
+        "privacy": {
+            "title": "Política de Privacidad ~ Daniel Vargas",
+            "header": "Política de Privacidad",
+            "description": "",
+            "date": "01 de agosto de 2025",
+            "intro": "Esta Política de Privacidad describe cómo se manejarán los datos personales en el sitio web danielvargas.dev, operado por Daniel Vargas.",
+            "sections": {
+                "1": {
+                    "title": "1. Datos recopilados",
+                    "content": "Actualmente, este sitio no recolecta información personal de forma directa. Sin embargo, en el futuro podrán implementarse formularios para recibir nombres, correos electrónicos u otros datos de contacto con fines informativos, promocionales o estadísticos."
+                },
+                "2": {
+                    "title": "2. Finalidad del tratamiento",
+                    "content": "Los datos que eventualmente se recojan serán utilizados para mejorar el servicio, responder consultas, enviar actualizaciones relevantes o analizar el comportamiento de uso dentro del sitio."
+                },
+                "3": {
+                    "title": "3. Conservación de datos",
+                    "content": "La información proporcionada será almacenada únicamente el tiempo necesario para cumplir con las finalidades mencionadas, y podrá ser eliminada a solicitud del usuario."
+                },
+                "4": {
+                    "title": "4. Compartición con terceros",
+                    "content": "No se venderán, alquilarán ni compartirán los datos personales con terceros, salvo obligación legal o requerimiento judicial."
+                },
+                "5": {
+                    "title": "5. Derechos del usuario",
+                    "content": "El usuario podrá ejercer en cualquier momento sus derechos de acceso, rectificación, cancelación u oposición (ARCO) escribiendo a hello@danielvargas.dev."
+                },
+                "6": {
+                    "title": "6. Cambios en la política",
+                    "content": "Esta política podrá modificarse en cualquier momento. La versión más reciente estará disponible siempre en esta misma página."
+                }
+            }
+        },
+        "cookies": {
+            "title": "Política de Cookies ~ Daniel Vargas",
+            "header": "Política de Cookies",
+            "description": "",
+            "date": "01 de agosto de 2025",
+            "intro": "En este sitio web, danielvargas.dev, la privacidad y transparencia son principios fundamentales. Esta política explica cómo se utilizan las tecnologías de almacenamiento en el navegador, incluyendo el uso actual y potencial futuro de cookies y almacenamiento local.",
+            "sections": {
+                "1": {
+                    "title": "1. ¿Qué son las cookies?",
+                    "content": "Las cookies son pequeños archivos de texto que un sitio web puede almacenar en el navegador del usuario. Su función principal es recordar cierta información sobre la visita, como preferencias de navegación o información de inicio de sesión. Algunas cookies se eliminan al cerrar el navegador (cookies de sesión), mientras que otras permanecen almacenadas durante un período determinado (cookies persistentes)."
+                },
+                "2": {
+                    "title": "2. ¿Qué es el almacenamiento local?",
+                    "content": "El almacenamiento local, también conocido como localStorage, permite a los sitios web guardar datos directamente en el navegador del usuario. A diferencia de las cookies, el almacenamiento local tiene una mayor capacidad y no expira automáticamente."
+                },
+                "3": {
+                    "title": "3. ¿Qué tecnologías se utilizan en este sitio?",
+                    "content": "Actualmente, no se utilizan cookies en danielvargas.dev. Se emplea el almacenamiento local exclusivamente para recordar el idioma preferido del usuario (clave: i18nextLng), sin recopilar datos personales ni compartir información con terceros."
+                },
+                "4": {
+                    "title": "4. Google Analytics",
+                    "content": "Este sitio emplea Google Analytics 4 (GA4) para obtener estadísticas sobre el uso del sitio. Las interacciones son registradas mediante eventos anónimos. No se comparten datos con Google para fines de publicidad ni mejora de productos."
+                },
+                "5": {
+                    "title": "5. Posible uso futuro de cookies",
+                    "content": "Podrían implementarse cookies propias o de terceros con fines técnicos o analíticos. No se usarán cookies publicitarias sin consentimiento explícito del usuario."
+                },
+                "6": {
+                    "title": "6. Cómo gestionar las cookies",
+                    "content": "La mayoría de navegadores permiten aceptar, bloquear o eliminar cookies. Se recomienda consultar la documentación oficial del navegador para más información."
+                }
+            }
+        }
+    },
+    "bug": {
+        "title": "Lo siento, esta página no existe.",
+        "text": "Es posible que esta página haya sido eliminada, movida o que haya escrito mal la URL.",
+        "button": {
+            "home": "Volver al inicio",
+            "back": "Retroceder"
+        }
+    },
+    "resume": {
+        "title": "Desarrollador Web Front-End",
+        "profile": {
+            "title": "Objetivo Profesional",
+            "bio": "Desarrollador Web Front-End con enfoque en el diseño de interfaces modernas, accesibles y adaptables. Posee experiencia en el desarrollo de soluciones digitales funcionales utilizando tecnologías como React, TailwindCSS y Vite. Su objetivo es aportar soluciones creativas, eficientes y centradas en el usuario final, dentro de entornos colaborativos o como profesional independiente."
+        },
+        "skills": {
+            "title": "Habilidades"
+        },
+        "languages": {
+            "title": "Idiomas",
+            "list": {
+                "spanish": {
+                    "title": "Español (nativo)"
+                },
+                "english": {
+                    "title": "Inglés (nivel intermedio)"
+                }
+            }
+        },
+        "experience": {
+            "title": "Experiencia",
+            "positions": [
+                {
+                    "title": "Desarrollador Web Front-End",
+                    "date": {
+                        "start": "Feb. 2024",
+                        "end": "Nov. 2024"
+                    },
+                    "description": "Responsable del desarrollo integral del sitio web corporativo de la empresa. El proyecto incluyó diseño responsivo, optimización básica para motores de búsqueda (SEO) y configuración de DNS. Trabajo remoto, entregado en un entorno productivo."
+                },
+                {
+                    "title": "Desarrollador Web",
+                    "company": "Autónomo",
+                    "locale": "San Salvador, El Salvador",
+                    "date": {
+                        "start": "Ene. 2025",
+                        "end": "Actualmente"
+                    },
+                    "description": "Diseño y desarrollo de sitios web para emprendedores, proyectos personales y pequeñas empresas. Implementación de interfaces modernas, responsivas y funcionales con tecnologías como React, TailwindCSS y Vite."
+                }
+            ]
+        },
+        "education": {
+            "title": "Educación",
+            "degrees": [
+                {
+                    "title": "Bachiller General",
+                    "date": {
+                        "start": "Ene. 2020",
+                        "end": "Dic. 2021"
+                    }
+                },
+                {
+                    "title": "Ingeniería en Sistemas y Computación",
+                    "date": {
+                        "start": "Jul. 2022",
+                        "end": " Actualmente"
+                    }
+                }
+            ]
+        },
+        "projects": {
+            "title": "Proyectos",
+            "list": [
+                {
+                    "title": "Proyecto de Red Social (en desarrollo)",
+                    "company": "Sin Nombre — San Salvador",
+                    "date": {
+                        "start": "Oct. 2022",
+                        "end": " Actualmente"
+                    },
+                    "description": "Desarrollo de una red social experimental enfocada en la interacción por afinidad y relaciones mutuas. El proyecto ha evolucionado a través de múltiples iteraciones y rediseños, permitiendo la aplicación de nuevas tecnologías y buenas prácticas de desarrollo. Implementación con React, TailwindCSS y Firebase. Funcionalidades: sistema de autenticación, feed personalizado, publicación de contenido, reacciones y arquitectura escalable para su futuro despliegue en producción."
+                }
+            ]
+        }
+    }
+}

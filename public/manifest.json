@@ -1,0 +1,40 @@
+{
+    "short_name": "Daniel Vargas",
+    "name": "Daniel Vargas | Desarrollador Web Full Stack",
+    "description": "Sitio web profesional de Daniel Vargas, desarrollador web Full Stack. Servicios digitales personalizados, con enfoque en rendimiento, diseño moderno y accesibilidad.",
+    "start_url": ".",
+    "theme_color": "#0a0a0a",
+    "background_color": "#0a0a0a",
+    "orientation": "portrait",
+    "display": "standalone",
+    "scope": "/",
+    "lang": "es-ES",
+    "categories": [
+        "developer-tools",
+        "productivity",
+        "business",
+        "education",
+        "portfolio",
+        "utilities",
+        "web-development",
+        "design",
+        "technology"
+    ],
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "logo192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "logo512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
