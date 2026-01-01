@@ -1,4 +1,4 @@
-// import { useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import Image from "../Image";
 import { SmartButton } from "../buttons";
 
@@ -7,10 +7,9 @@ export default function ServiceBox({
   image,
   title,
   description,
-  // path,
-  // pathname,
+  path,
 }) {
-  // const { t } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div
@@ -52,16 +51,9 @@ export default function ServiceBox({
             order % 2 !== 0 ? "justify-end" : "justify-start"
           } gap-2`}
         >
-          {/* <SmartButton variant="primary" to={`/checkout/${path}`}>
+          <SmartButton variant="primary" to={`/contact?service=${path}`}>
             {t("services.button.hire")}
-          </SmartButton> */}
-          {/* <SmartButton
-            //  variant="secondary"
-            to={pathname + path}
-          >
-            {t("services.button.info")}
-          </SmartButton> */}
-          {/* <SmartButton href>{t("services.button.hire")}</SmartButton> */}
+          </SmartButton>
         </div>
       </div>
     </div>

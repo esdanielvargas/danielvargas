@@ -2,14 +2,7 @@ import { useTranslation } from "react-i18next";
 import Image from "../Image";
 import { SmartButton } from "../buttons";
 
-export default function ProjectBox({
-  image,
-  title,
-  description,
-  path,
-  pathname,
-  link,
-}) {
+export default function ProjectBox({ image, title, description, link }) {
   const { t } = useTranslation();
 
   return (
@@ -36,13 +29,10 @@ export default function ProjectBox({
           {description ||
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea harum earum eos, iure incidunt explicabo voluptatem vero ipsam sint voluptas impedit blanditiis, nemo quae obcaecati, et atque quisquam perspiciatis unde."}
         </p>
-        <div className="w-full flex flex-col-reverse lg:flex-row align-center gap-2 mt-4">
-          <SmartButton variant="primary" to={pathname + path} full>
-            {t("projects.button.info")}
-          </SmartButton>
+        <div className="w-full flex flex-col lg:flex-row align-center gap-2 mt-4">
           {link && (
             <SmartButton
-              variant="secondary"
+              variant="primary"
               href={`${link}?utm_source=danielvargas.dev&utm_medium=cpc`}
               full
             >

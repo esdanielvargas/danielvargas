@@ -18,9 +18,6 @@ export default function PageTitle(props) {
 
   return (
     <div className="w-full min-h-60 relative flex flex-col items-center justify-center gap-6 border-b border-neutral-200 dark:border-neutral-700/50">
-      {/* <title>{title && title}</title> */}
-      {/* <link rel="canonical" href={`${window.location.origin}${path}`} /> */}
-      {/* {noindex && <meta name="robots" content="noindex" />} */}
       <div
         className={`w-full flex flex-col items-center justify-center gap-4 ${
           positionX ? "mt-8" : ""

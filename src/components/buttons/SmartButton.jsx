@@ -26,7 +26,7 @@ export default function SmartButton({
       "bg-neutral-950 hover:bg-neutral-800 dark:bg-neutral-50 dark:hover:bg-neutral-300 text-neutral-50 hover:text-neutral-300 dark:text-neutral-950 dark:hover:text-neutral-800",
     secondary:
       "bg-transparent border border-neutral-950 dark:border-neutral-50 text-neutral-950 dark:text-neutral-50",
-    gray: "text-neutral-50 bg-neutral-600/75 hover:bg-neutral-700/85 dark:bg-neutral-700/75 dark:hover:bg-neutral-600/75",
+    gray: "text-neutral-50 bg-neutral-600/75 hover:bg-neutral-700/85 dark:bg-neutral-700/50 dark:hover:bg-neutral-600/75",
     text: " text-neutral-400 hover:text-neutral-200",
     border:
       "bg-transparent hover:bg-neutral-100/50 dark:hover:bg-neutral-900/50 border border-neutral-200 dark:border-neutral-800",
