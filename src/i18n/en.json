@@ -367,6 +367,23 @@
             "to_text": "Select the currency to convert.",
             "result": "Result",
             "result_text": ""
+        },
+        "bmi": {
+            "title": "BMI Calculator",
+            "header": "Body Mass Index",
+            "description": "Calculate your body mass index by entering your weight and height.",
+            "weight_label": "Weight (kg)",
+            "weight_text": "Enter your weight in kilograms.",
+            "height_label": "Height (cm)",
+            "height_text": "Enter your height in centimeters.",
+            "result_label": "Result",
+            "result_text": "Your calculated BMI:",
+            "categories": {
+                "underweight": "Underweight",
+                "normal": "Normal weight",
+                "overweight": "Overweight",
+                "obese": "Obese"
+            }
         }
     },
     "legal": {
@@ -377,8 +394,9 @@
             "action": "Read policy"
         },
         "terms": {
-            "date": "August 1, 2025",
             "title": "Terms & Conditions",
+            "header": "Terms & Conditions",
+            "date": "August 1, 2025",
             "intro": "This website, accessible from danielvargas.dev, is operated by Daniel Vargas. By browsing or using any of the features available on this site, you agree to these Terms and Conditions.",
             "sections": {
                 "1": {
@@ -416,8 +434,9 @@
             }
         },
         "privacy": {
-            "date": "August 1, 2025",
             "title": "Privacy Policy",
+            "header": "Privacy Policy",
+            "date": "August 1, 2025",
             "intro": "This Privacy Policy explains how personal data is handled on the website danielvargas.dev, operated by Daniel Vargas.",
             "sections": {
                 "1": {
@@ -447,8 +466,9 @@
             }
         },
         "cookies": {
-            "date": "August 1, 2025",
             "title": "Cookies Policy",
+            "header": "Cookies Policy",
+            "date": "August 1, 2025",
             "intro": "At danielvargas.dev, privacy and transparency are fundamental principles. This policy explains how browser storage technologies are used, including the current and potential future use of cookies and local storage.",
             "sections": {
                 "1": {

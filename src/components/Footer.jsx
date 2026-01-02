@@ -68,7 +68,7 @@ export default function Footer() {
             </b>
             <ul className="text-center md:text-start space-y-2 font-text">
               {explore
-                .filter((link) => link.show)
+                .filter((link) => link.show || link.show_header)
                 .slice(0, 4)
                 .map((link) => (
                   <li
