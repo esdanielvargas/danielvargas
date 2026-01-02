@@ -1,4 +1,5 @@
 import {
+  Award,
   BriefcaseBusiness,
   Folder,
   GraduationCap,
@@ -15,12 +16,12 @@ export default function Resume() {
   const habilidades = [
     {
       show: true,
-      title: "HTML5",
+      title: "HTML",
       id: "PqvxNpKr7lFMZG",
     },
     {
       show: true,
-      title: "CSS3",
+      title: "CSS",
       id: "cHzNTQVSWvjacl",
     },
     {
@@ -35,28 +36,38 @@ export default function Resume() {
     },
     {
       show: true,
+      title: "TypeScript",
+      id: "Fisyl63yW0uMHn",
+    },
+    {
+      show: true,
       title: "Vite",
       id: "OTxhonPjDuvQw2",
     },
     {
-      show: !true,
-      title: "Next js",
-      id: "fMoYjQxLd23Qk2",
+      show: true,
+      title: "Astro",
+      id: "opNLySxW2XaFZj",
     },
     {
       show: true,
-      title: "Tailwind CSS",
-      id: "1YJ2bRFzUaZiKV",
+      title: "GitHub",
+      id: "2LMiT5P4RZtC5d",
     },
     {
-      show: !true,
+      show: true,
       title: "Git",
       id: "LxzYlT0kqmF76w",
     },
     {
-      show: !true,
-      title: "GitHub",
-      id: "2LMiT5P4RZtC5d",
+      show: true,
+      title: "TailwindCSS",
+      id: "1YJ2bRFzUaZiKV",
+    },
+    {
+      show: true,
+      title: "UX/UI",
+      id: "9HRTg7uHe6Ek30",
     },
     {
       show: true,
@@ -65,28 +76,8 @@ export default function Resume() {
     },
     {
       show: true,
-      title: "Sas",
+      title: "Supabase",
       id: "DPg4EMiRrryDFc",
-    },
-    {
-      show: !true,
-      title: "Figma",
-      id: "mKrAOJpFiK51mB",
-    },
-    {
-      show: true,
-      title: "Diseño UX/UI",
-      id: "9HRTg7uHe6Ek30",
-    },
-    {
-      show: true,
-      title: "Diseño responsivo",
-      id: "o7inGfWniFas8B",
-    },
-    {
-      show: true,
-      title: "Cloudflare",
-      id: "IcNg4QpXp7WSzq",
     },
     {
       show: true,
@@ -95,7 +86,22 @@ export default function Resume() {
     },
     {
       show: true,
-      title: "Google Analytics",
+      title: "Cloudflare",
+      id: "IcNg4QpXp7WSzq",
+    },
+    {
+      show: true,
+      title: "Figma",
+      id: "mKrAOJpFiK51mB",
+    },
+    {
+      show: true,
+      title: "DNS",
+      id: "o7inGfWniFas8B",
+    },
+    {
+      show: true,
+      title: "Google Analytics GA4",
       id: "PmrT9EpRJJaupm",
     },
     {
@@ -104,20 +110,20 @@ export default function Resume() {
       id: "i4SO149CEFAgM5",
     },
     {
-      show: !true,
-      title: "Comunicación efectiva",
-      id: "i9lK34NLAQ4YMI",
+      show: true,
+      title: "Terminal",
+      id: "",
     },
   ];
 
   const idiomas = [
     {
-      show: !true,
+      show: true,
       title: t("resume.languages.list.spanish.title"),
       id: "3YhwF0VU5fevcX",
     },
     {
-      show: !true,
+      show: true,
       title: t("resume.languages.list.english.title"),
       id: "oIarThWJ2iOKf9",
     },
@@ -133,7 +139,7 @@ export default function Resume() {
       locale: t("resume.experience.positions.0.locale"),
       startDate: t("resume.experience.positions.0.date.start"),
       endDate: t("resume.experience.positions.0.date.end"),
-      description: t("resume.experience.positions.0.description"),
+      caption: t("resume.experience.positions.0.description"),
     },
     {
       order: 1,
@@ -144,43 +150,7 @@ export default function Resume() {
       locale: t("resume.experience.positions.1.locale"),
       startDate: t("resume.experience.positions.1.date.start"),
       endDate: t("resume.experience.positions.1.date.end"),
-      description: t("resume.experience.positions.1.description"),
-    },
-  ];
-
-  const educacion = [
-    {
-      order: 0,
-      show: true,
-      id: "MFPywsr9SNvnE1",
-      title: t("resume.education.degrees.0.title"),
-      company: "Colegio Bautista Misión de Fe",
-      locale: "Apopa",
-      startDate: t("resume.education.degrees.0.date.start"),
-      endDate: t("resume.education.degrees.0.date.end"),
-      description: "",
-    },
-    {
-      order: 1,
-      show: true,
-      id: "OFJkRwGwZh0RJq",
-      title: t("resume.education.degrees.1.title"),
-      company: "Universidad Tecnologíca de El Salvador",
-      locale: "San Salvador",
-      startDate: t("resume.education.degrees.1.date.start"),
-      endDate: t("resume.education.degrees.1.date.start"),
-      description: "",
-    },
-    {
-      order: 2,
-      show: false,
-      id: "9ILKjwp7H2RVnQ",
-      title: "Grado en Ingeniería Informática",
-      company: "",
-      locale: "España",
-      startDate: "",
-      endDate: "",
-      description: "",
+      caption: t("resume.experience.positions.1.description"),
     },
   ];
 
@@ -193,7 +163,7 @@ export default function Resume() {
       locale: "San Salvador",
       startDate: t("resume.projects.list.0.date.start"),
       endDate: t("resume.projects.list.0.date.end"),
-      description: t("resume.projects.list.0.description"),
+      caption: t("resume.projects.list.0.description"),
     },
     {
       show: false,
@@ -203,8 +173,87 @@ export default function Resume() {
       locale: "San Salvador",
       startDate: "Oct. 2022",
       endDate: "Actualmente",
-      description:
+      caption:
         "Desarrollo de una red social experimental enfocada en la interacción por afinidad y relaciones mutuas. El proyecto ha evolucionado a través de múltiples iteraciones y rediseños, permitiendo la aplicación de nuevas tecnologías y buenas prácticas de desarrollo. Implementación con React, TailwindCSS y Firebase. Funcionalidades: sistema de autenticación, feed personalizado, publicación de contenido, reacciones y arquitectura escalable para su futuro despliegue en producción.",
+    },
+  ];
+
+  const educacion = [
+    {
+      order: 0,
+      show: true,
+      id: "MFPywsr9SNvnE1",
+      title: t("resume.education.degrees.0.title"),
+      company: "Colegio Bautista Misión de Fe",
+      locale: "San Salvador, El Salvador",
+      startDate: t("resume.education.degrees.0.date.start"),
+      endDate: t("resume.education.degrees.0.date.end"),
+      caption: "",
+    },
+    {
+      order: 1,
+      show: true,
+      id: "OFJkRwGwZh0RJq",
+      title: t("resume.education.degrees.1.title"),
+      company: "Universidad Tecnologíca de El Salvador",
+      locale: "San Salvador, El Salvador",
+      startDate: t("resume.education.degrees.1.date.start"),
+      endDate: t("resume.education.degrees.1.date.end"),
+      caption: "",
+    },
+    {
+      order: 2,
+      show: false,
+      id: "9ILKjwp7H2RVnQ",
+      title: "Grado en Ingeniería Informática",
+      company: "",
+      locale: "España",
+      startDate: "",
+      endDate: "",
+      caption: "",
+    },
+  ];
+
+  const certificates = [
+    {
+      order: 0,
+      show: true,
+      id: "MFPywsr9SNvnE1",
+      title: t("resume.certificates.list.0.title"),
+      company: "Platzi",
+      locale: t("resume.certificates.list.0.pass"),
+    },
+    {
+      order: 1,
+      show: true,
+      id: "MFPywsr9SNvnE1",
+      title: t("resume.certificates.list.1.title"),
+      company: "Platzi",
+      locale: t("resume.certificates.list.1.pass"),
+    },
+    {
+      order: 2,
+      show: true,
+      id: "MFPywsr9SNvnE1",
+      title: t("resume.certificates.list.2.title"),
+      company: "Platzi",
+      locale: t("resume.certificates.list.2.pass"),
+    },
+    {
+      order: 3,
+      show: true,
+      id: "MFPywsr9SNvnE1",
+      title: t("resume.certificates.list.3.title"),
+      company: "Platzi",
+      locale: t("resume.certificates.list.3.pass"),
+    },
+    {
+      order: 4,
+      show: true,
+      id: "MFPywsr9SNvnE1",
+      title: t("resume.certificates.list.4.title"),
+      company: "Platzi",
+      locale: t("resume.certificates.list.4.pass"),
     },
   ];
 
@@ -226,7 +275,7 @@ export default function Resume() {
         />
       </picture>
       <section className="w-full min-h-screen z-2 absolute flex justify-center bg-neutral-50/75 dark:bg-neutral-950/75 backdrop-blur-xl">
-        <Wrapper className="!my-4 !gap-4">
+        <Wrapper className="my-4! gap-4!">
           <div className="w-full flex flex-col md:flex-row justify-between gap-4">
             <div className="flex flex-col items-start font-grotesk">
               <div className="w-full flex items-center justify-center md:justify-start font-black text-xl md:text-2xl lg:text-3xl uppercase">
@@ -238,20 +287,23 @@ export default function Resume() {
             </div>
             <div className="flex flex-col items-center md:items-end text-sm/6 font-grotesk">
               <div>hello@danielvargas.dev</div>
-              <div>Apopa, San Salvador</div>
+              <div>San Salvador, El Salvador</div>
             </div>
           </div>
-          <div className="w-full flex flex-col md:flex-row justify-between gap-4 lg:gap-6">
-            <div className="w-full md:min-w-80 md:max-w-80 flex flex-col gap-4">
-              <div className="w-full aspect-square">
+          <div className="w-full flex flex-col md:flex-row justify-between gap-4 lg:gap-6 overflow-hidden">
+            {/* Perfil, Habilidades, Idiomas */}
+            <div className="w-full md:w-68 md:min-w-68 md:max-w-68 flex flex-col gap-4">
+              {/* Foto de perfil */}
+              <div className="w-full md:h-79.5 overflow-hidden">
                 <Image
                   src="/images/formal.jpg"
                   alt="Foto de perfil de Daniel Vargas"
                   title="Foto de perfil de Daniel Vargas"
-                  className="aspect-square"
+                  className="overflow-hidden"
                   fetchPriority="high"
                   loading="eager"
-                  size={320}
+                  width={272}
+                  height={318}
                 />
               </div>
               {/* Objetivo Profesional */}
@@ -259,7 +311,7 @@ export default function Resume() {
                 <Heading title={t("resume.profile.title")}>
                   <Target size={18} strokeWidth={2.5} />
                 </Heading>
-                <div className="w-full text-sm/6 font-grotesk text-justify text-neutral-600 dark:text-neutral-300">
+                <div className="w-full text-sm /6 font-grotesk text-justify text-neutral-600 dark:text-neutral-300">
                   {t("resume.profile.bio")}
                 </div>
               </div>
@@ -294,6 +346,7 @@ export default function Resume() {
                 </div>
               )}
             </div>
+            {/* Experiencia, Educación, Proyectos, Certificados */}
             <div className="w-full flex flex-col gap-4">
               {/* Experiencia */}
               {experiencia.filter((a) => a.show).length > 0 && (
@@ -303,6 +356,22 @@ export default function Resume() {
                   </Heading>
                   <div className="w-full flex flex-col gap-4">
                     {experiencia
+                      .filter((item) => item.show)
+                      .sort((a, b) => b.order - a.order)
+                      .map((item, i) => (
+                        <ResumeItem key={item.id || i} {...item} />
+                      ))}
+                  </div>
+                </div>
+              )}
+              {/* Proyectos */}
+              {proyectos.filter((a) => a?.show).length > 0 && (
+                <div className="w-full flex flex-col gap-4">
+                  <Heading title={t("resume.projects.title")}>
+                    <Folder size={18} strokeWidth={2.5} />
+                  </Heading>
+                  <div className="w-full flex flex-col gap-4">
+                    {proyectos
                       .filter((item) => item.show)
                       .sort((a, b) => b.order - a.order)
                       .map((item, i) => (
@@ -327,14 +396,14 @@ export default function Resume() {
                   </div>
                 </div>
               )}
-              {/* Proyectos */}
-              {proyectos.filter((a) => a?.show).length > 0 && (
+              {/* Certificados y Cursos */}
+              {certificates.filter((a) => a?.show).length > 0 && (
                 <div className="w-full flex flex-col gap-4">
-                  <Heading title={t("resume.projects.title")}>
-                    <Folder size={18} strokeWidth={2.5} />
+                  <Heading title={t("resume.certificates.title")}>
+                    <Award size={18} strokeWidth={2.5} />
                   </Heading>
                   <div className="w-full flex flex-col gap-4">
-                    {proyectos
+                    {certificates
                       .filter((item) => item.show)
                       .sort((a, b) => b.order - a.order)
                       .map((item, i) => (

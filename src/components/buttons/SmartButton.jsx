@@ -19,7 +19,7 @@ export default function SmartButton({
     jetBrains: "font-mono-code",
   };
   const base =
-    "min-w-max h-10 px-4 flex items-center justify-center gap-2 cursor-pointer rounded-md font-normal text-sm transition-all duration-300 ease-out active:underline hover:underline select-none";
+    "min-w-max h-11 px-4 flex items-center justify-center gap-2 cursor-pointer rounded-md font-normal text-sm transition-all duration-300 ease-out active:underline hover:underline select-none";
 
   const variants = {
     primary:

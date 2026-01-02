@@ -1,12 +1,29 @@
-import { useState, useEffect } from "react";
-import { useSearchParams } from "react-router-dom"; // Asumo que usas React Router
-import { Mail, Phone, MapPin, Send, CheckCircle } from "lucide-react";
-import { FieldBlock } from "../components";
+import { useState, useEffect, useMemo } from "react";
+import { useSearchParams } from "react-router-dom";
+import { Mail, Phone, MapPin, CheckCircle } from "lucide-react";
+import { FieldBlock, SmartButton } from "../components";
+import { getPlans, getServices } from "../database";
+import { useTranslation } from "react-i18next";
+import emailjs from "@emailjs/browser";
 
 export default function Contact() {
-  const [searchParams] = useSearchParams();
-  const planSeleccionado = searchParams.get("plan");
-  const serviceSeleccionado = searchParams.get("service");
+  const { t } = useTranslation();
+  const [searchParams, setSearchParams] = useSearchParams();
+  const planSelected = searchParams.get("plan");
+  const serviceSelected = searchParams.get("service");
+
+  const plans = useMemo(() => getPlans(t), [t]);
+  const services = useMemo(() => getServices(t), [t]);
+
+  const activePlan = useMemo(
+    () => plans.find((plan) => plan.path === planSelected),
+    [plans, planSelected]
+  );
+
+  const activeService = useMemo(
+    () => services.find((service) => service.path === serviceSelected),
+    [services, serviceSelected]
+  );
 
   const [formData, setFormData] = useState({
     name: "",
@@ -15,39 +32,82 @@ export default function Contact() {
   });
 
   useEffect(() => {
-    if (planSeleccionado) {
-      setFormData((prev) => ({
-        ...prev,
-        message: `Hola Daniel, estoy interesado en contratar el plan ${planSeleccionado.toUpperCase()}. Me gustaría empezar cuanto antes.`,
-      }));
-    }
+    if (formData.message !== "") return;
 
-    if (serviceSeleccionado) {
+    if (activePlan) {
       setFormData((prev) => ({
         ...prev,
-        message: `Hola Daniel, estoy interesado en contratar el servicio ${serviceSeleccionado.toUpperCase()}. Me gustaría empezar cuanto antes.`,
+        message: t("contact.form.message_plan", { val: activePlan.title }),
+      }));
+    } else if (activeService) {
+      setFormData((prev) => ({
+        ...prev,
+        message: t("contact.form.message_service", {
+          val: activeService.title,
+        }),
       }));
     }
-  }, [planSeleccionado, serviceSeleccionado]);
+  }, [activePlan, activeService, formData.message, t]);
+
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert("¡Mensaje enviado! (Simulación)");
-    console.log(formData);
+    setLoading(true);
+
+    const time = new Date().toLocaleString("es-ES", {
+      dateStyle: "full",
+      timeStyle: "short",
+    });
+
+    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
+    const templateParams = {
+      name: formData.name,
+      email: formData.email,
+      message: formData.message,
+      time: time,
+    };
+
+    emailjs
+      .send(serviceId, templateId, templateParams, publicKey)
+      .then((response) => {
+        console.log("SUCCESS!", response.status, response.text);
+        setFormData({ name: "", email: "", message: "" });
+        setSearchParams({});
+      })
+      .catch((err) => {
+        console.log("FAILED...", err);
+        alert("Hubo un error al enviar el mensaje. Inténtalo más tarde.");
+      })
+      .finally(() => {
+        setLoading(false);
+        setSearchParams({});
+      });
   };
 
   return (
     <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8 mt-22.5 font-sans">
       <div className="max-w-4xl mx-auto">
-        {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-extrabold -text-gray-900 mb-4">
-            {planSeleccionado ? "Vamos a empezar tu proyecto" : "Hablemos"}
+          <h1 className="text-4xl font-extrabold mb-4">
+            {planSelected
+              ? t("contact.hero.title_start")
+              : t("contact.hero.title_default")}
           </h1>
+
           <p className="text-lg text-neutral-400">
-            {planSeleccionado
-              ? `Has elegido el plan ${planSeleccionado}. Cuéntame un poco más para formalizar.`
-              : "¿Tienes una idea en mente? Estoy listo para construirla."}
+            {planSelected
+              ? t("contact.hero.subtitle_plan", {
+                  val: activePlan?.title,
+                })
+              : serviceSelected
+              ? t("contact.hero.subtitle_service", {
+                  val: activeService?.title,
+                })
+              : t("contact.hero.subtitle_default")}
           </p>
         </div>
 
@@ -56,11 +116,10 @@ export default function Contact() {
           <div className="p-6 md:p-10 relative flex flex-col justify-between">
             <div className="z-2">
               <h3 className="mb-4 md:mb-6 text-xl md:text-2xl font-bold font-grotesk">
-                Información de Contacto
+                {t("contact.form.title")}
               </h3>
-              <p className="mb-6 md:mb-8 text-indigo-100 font-grotesk">
-                Respondo rápido. Si es urgente, mándame un DM en Twitter o
-                LinkedIn.
+              <p className="mb-6 md:mb-8 text-sm font-grotesk">
+                {t("contact.form.caption")}
               </p>
 
               <div className="space-y-6">
@@ -83,8 +142,8 @@ export default function Contact() {
             <div className="z-2 mt-12">
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5" />
-                <span className="flex items-center text-sm">
-                  Disponible para nuevos proyectos
+                <span className="mt-0.5 flex items-center text-sm">
+                  {t("contact.form.quote")}
                 </span>
               </div>
             </div>
@@ -92,7 +151,7 @@ export default function Contact() {
             <div className="absolute z-1 inset-0 flex items-center justify-center">
               <img
                 src="/images/gradient-i.svg"
-                alt=""
+                alt="null"
                 className="size-full object-cover object-center pointer-events-none select-none"
               />
             </div>
@@ -102,11 +161,10 @@ export default function Contact() {
           <div className="p-8 md:p-10">
             <form onSubmit={handleSubmit} className="space-y-6">
               <FieldBlock
-                name="full_name"
+                name="name"
                 type="text"
-                label="Nombre completo"
-                text="Ingrese su nombre completo."
-                placeholder="Su nombre"
+                label={t("contact.form.name.label")}
+                placeholder={t("contact.form.name.placeholder")}
                 required
                 value={formData.name}
                 onChange={(e) =>
@@ -116,9 +174,8 @@ export default function Contact() {
               <FieldBlock
                 name="email"
                 type="email"
-                label="Correo electrónico"
-                text="Ingrese su correo electrónico."
-                placeholder="alias@dominio.com"
+                label={t("contact.form.email.label")}
+                placeholder={t("contact.form.email.placeholder")}
                 required
                 value={formData.email}
                 onChange={(e) =>
@@ -129,30 +186,25 @@ export default function Contact() {
                 name="message"
                 textarea
                 rows={4}
-                label="Mensaje"
-                text="¿Qué tienes en mente para su proyecto?"
-                placeholder="Cuénteme sobre su proyecto..."
+                label={t("contact.form.message.label")}
+                placeholder={t("contact.form.message.placeholder")}
                 required
                 value={formData.message}
                 onChange={(e) =>
                   setFormData({ ...formData, message: e.target.value })
                 }
               />
-
-              <button
+              <SmartButton
+                full
                 type="submit"
-                className="w-full relative text-white font-bold font-grotesk cursor-pointer py-4 overflow-hidden rounded-lg transition duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                className="transition duration-300 transform hover:-translate-y-1"
               >
-                <div className="z-2 flex items-center justify-center gap-4">
-                  <Send className="w-5 h-5" />
-                  {planSeleccionado ? "Solicitar Cotización" : "Enviar Mensaje"}
-                </div>
-                <img
-                  src="/images/gradient-i.svg"
-                  alt=""
-                  className="absolute z-1 size-full object-cover object-center pointer-events-none select-none"
-                />
-              </button>
+                {loading
+                  ? t("button.sending")
+                  : planSelected
+                  ? t("button.quote")
+                  : t("button.message")}
+              </SmartButton>
             </form>
           </div>
         </div>

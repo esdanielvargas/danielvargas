@@ -24,7 +24,7 @@ export default function Menu({ menuRef }) {
         {/* Enlaces internos */}
         <ul className="w-full flex flex-col">
           {internal
-            .filter((link) => link.show)
+            .filter((link) => link.show_menu)
             .map((link) => (
               <li
                 key={link.id}
@@ -47,7 +47,7 @@ export default function Menu({ menuRef }) {
         {/* Enlaces externos */}
         <ul className="w-full flex flex-col">
           {external
-            .filter((link) => link.show)
+            .filter((link) => link.show_menu)
             .map((link) => (
               <li
                 key={link.id}

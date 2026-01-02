@@ -23,7 +23,6 @@ export default function About() {
                 "React.js",
                 "TailwindCSS",
                 "Vite",
-                // "Firebase",
                 "Next.js",
                 "React Router",
                 "TypeScript",
@@ -34,21 +33,16 @@ export default function About() {
                 "JSON",
                 "XML",
                 "Markdown",
-                // "Vercel",
-                // "Cloudflare",
-                // "Namecheap",
-                // "Google Cloud",
                 "Stripe",
                 "PayPal",
                 "Sass",
-                // "Less",
-                // "GitHub",
+                "GitHub",
               ].map((tech) => (
                 <li
                   key={tech}
                   className="px-2 py-0.5 md:py-1 border border-neutral-600 rounded-lg"
                 >
-                  {tech}
+                  <span className="font-grotesk">{tech}</span>
                 </li>
               ))}
             </ul>
@@ -74,63 +68,14 @@ export default function About() {
                 "Google Search Console",
                 "Google Analytics 4",
                 "React Developer Tools",
-                // "Postman",
               ].map((tool) => (
                 <li
                   key={tool}
                   className="px-2 py-0.5 md:py-1 border border-neutral-600 rounded-lg"
                 >
-                  {tool}
+                  <span className="font-grotesk">{tool}</span>
                 </li>
               ))}
-            </ul>
-          </div>
-          <div className="w-full hidden h-px bg-neutral-200 dark:bg-neutral-800" />
-          {/* MÉTODOS DE PAGO */}
-          <div className="w-full hidden flex-col items-center md:items-start gap-[30px]">
-            <h2 className="text-xl md:text-2xl font-semibold text-neutral-900 dark:text-neutral-100">
-              Métodos de pago
-            </h2>
-            <ul className="flex flex-wrap justify-center md:justify-start gap-3 text-xs md:text-md text-neutral-700 dark:text-neutral-300">
-              {/* <img src="/icons/paypal.svg" alt="PayPal" className="w-8 h-8" /> */}
-              {/* <span>PayPal (hello@danielvargas.dev)</span> */}
-              {[
-                "PayPal",
-                "Stripe",
-                "Visa",
-                "UglyCash",
-                // "GitHub",
-                // "Netlify",
-                // "Vercel",
-              ].map((tool) => (
-                <li
-                  key={tool}
-                  className="px-3 py-1 border border-neutral-600 rounded-lg"
-                >
-                  {tool}
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="w-full hidden h-px bg-neutral-200 dark:bg-neutral-800" />
-          {/* ¿QUÉ MÁS PODÉS AGREGAR? */}
-          <div className="w-full hidden flex-col items-center md:items-start gap-[30px]">
-            <h2 className="text-xl md:text-2xl font-semibold text-neutral-900 dark:text-neutral-100">
-              ¿Por qué elegirme?
-            </h2>
-            <ul className="list-disc list-inside text-neutral-700 dark:text-neutral-300 text-base space-y-1">
-              <li className="text-center md:text-left">
-                Entrega puntual con comunicación clara y constante.
-              </li>
-              <li className="text-center md:text-left">
-                Orientación UX/UI con enfoque responsivo desde el inicio.
-              </li>
-              <li className="text-center md:text-left">
-                Soluciones escalables que evolucionan con tu negocio.
-              </li>
-              <li className="text-center md:text-left">
-                Apoyo post-lanzamiento según tus necesidades.
-              </li>
             </ul>
           </div>
         </Wrapper>

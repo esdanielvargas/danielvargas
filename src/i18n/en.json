@@ -8,6 +8,12 @@
         "contact": "Contact",
         "support": "Support Me"
     },
+    "button": {
+        "github": "Go to GitHub",
+        "message": "Send message",
+        "quote": "Request a quote",
+        "sending": "Sending..."
+    },
     "footer": {
         "explore": {
             "title": "Explore",
@@ -92,6 +98,7 @@
         },
         "landing": {
             "title": "Landing Page",
+            "caption": "Ideal for promotions, personal profiles, or quickly validating an idea.",
             "features": [
                 "1 Web Page",
                 "1 GB de hosting",
@@ -137,6 +144,7 @@
         },
         "professional": {
             "title": "Professional Website",
+            "caption": "The perfect choice for businesses that need a strong corporate presence.",
             "features": [
                 "8 Web Pages",
                 "6 GB de hosting",
@@ -152,6 +160,7 @@
         },
         "app": {
             "title": "Web Application",
+            "captio": "Sistemas complejos con gestión de datos y usuarios.",
             "features": [
                 "10 Web Pages",
                 "8 GB de hosting",
@@ -182,7 +191,9 @@
             ]
         },
         "custom": {
-            "title": "Customized"
+            "title": "Customized",
+            "text": "Consult",
+            "caption": "Do you have a big project in mind? E-commerce, SAAS, or educational platforms."
         }
     },
     "projects": {
@@ -239,6 +250,35 @@
                 "Firebase",
                 "Vercel"
             ]
+        }
+    },
+    "contact": {
+        "title": "Contact",
+        "hero": {
+            "title_default": "Let's talk",
+            "title_start": "Let's start your project",
+            "subtitle_default": "Have an idea in mind? I'm ready to build it.",
+            "subtitle_plan": "You selected the {{val}} plan. Tell me a bit more to make it official.",
+            "subtitle_service": "You selected the {{val}} service. Tell me a bit more to make it official."
+        },
+        "form": {
+            "title": "Contact Information",
+            "caption": "I respond quickly. If it is urgent, send me an email or a DM on Instagram.",
+            "quote": "Available for new projects",
+            "name": {
+                "label": "Full Name",
+                "placeholder": "Enter your full name"
+            },
+            "email": {
+                "label": "Email",
+                "placeholder": "Enter your email address"
+            },
+            "message": {
+                "label": "Message",
+                "placeholder": "Tell me about your project..."
+            },
+            "message_plan": "Hi Daniel, I'm interested in the ''{{val}}'' plan. I'd like to start as soon as possible.",
+            "message_service": "Hi Daniel, I'm interested in the ''{{val}}'' service. I'd like to start as soon as possible."
         }
     },
     "tools": {
@@ -447,7 +487,7 @@
         }
     },
     "resume": {
-        "title": "Front-End Web Developer",
+        "title": "Frontend Web Developer",
         "profile": {
             "title": "Professional Objective",
             "bio": "Front-end web developer with a focus on designing modern, accessible, and adaptable interfaces. Experienced in developing functional digital solutions using technologies such as React, TailwindCSS, and Vite. Aims to provide creative, efficient, and end-user-focused solutions within collaborative environments or as a freelancer."
@@ -462,7 +502,7 @@
                     "title": "Spanish (native)"
                 },
                 "english": {
-                    "title": "English (intermediate level)"
+                    "title": "Basic English A1"
                 }
             }
         },
@@ -470,7 +510,7 @@
             "title": "Experience",
             "positions": [
                 {
-                    "title": "Front-End Web Developer",
+                    "title": "Frontend Web Developer",
                     "locale": "Texas, United States",
                     "date": {
                         "start": "Feb. 2024",
@@ -487,6 +527,20 @@
                         "end": "Present"
                     },
                     "description": "Design and development of websites for entrepreneurs, personal projects, and small businesses. Implementation of modern, responsive, and functional interfaces using technologies such as React, TailwindCSS, and Vite."
+                }
+            ]
+        },
+        "projects": {
+            "title": "Projects",
+            "list": [
+                {
+                    "title": "Social Network Project (in development)",
+                    "company": "No Name — San Salvador",
+                    "date": {
+                        "start": "Oct. 2022",
+                        "end": "Present"
+                    },
+                    "description": "Development of an experimental social network focused on affinity-based interaction and mutual relationships. The project has evolved through multiple iterations and redesigns, enabling the application of new technologies and best development practices. Implemented with React, TailwindCSS, and Firebase. Features: authentication system, personalized feeds, content publishing, reactions, and scalable architecture for future production deployment."
                 }
             ]
         },
@@ -509,17 +563,28 @@
                 }
             ]
         },
-        "projects": {
-            "title": "Projects",
+        "certificates": {
+            "title": "Certificates",
             "list": [
                 {
-                    "title": "Social Network Project (in development)",
-                    "company": "No Name — San Salvador",
-                    "date": {
-                        "start": "Oct. 2022",
-                        "end": "Present"
-                    },
-                    "description": "Development of an experimental social network focused on affinity-based interaction and mutual relationships. The project has evolved through multiple iterations and redesigns, enabling the application of new technologies and best development practices. Implemented with React, TailwindCSS, and Firebase. Features: authentication system, personalized feeds, content publishing, reactions, and scalable architecture for future production deployment."
+                    "title": "Introduction to the Web: History and Functioning of the Internet Certificate",
+                    "pass": "Approved on December 12, 2025"
+                },
+                {
+                    "title": "Basic English A1 Certificate",
+                    "pass": "Approved on December 12, 2025"
+                },
+                {
+                    "title": "Website Creation with Astro Certificate",
+                    "pass": "Approved on December 12, 2025"
+                },
+                {
+                    "title": "Frontend Developer Certificate",
+                    "pass": "Approved on December 14, 2025"
+                },
+                {
+                    "title": "Supabase Certificate",
+                    "pass": "Approved on December 21, 2025"
                 }
             ]
         }

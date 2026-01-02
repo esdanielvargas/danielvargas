@@ -10,7 +10,7 @@ export default function NavMenu() {
     <nav className="size-full h-22.5 hidden md:flex items-center justify-center">
       <ul className="size-full flex items-center justify-center gap-5">
         {internal
-          .filter((link) => link.show)
+          .filter((link) => link.show_header)
           .map((link) => (
             <li
               key={link.id}
