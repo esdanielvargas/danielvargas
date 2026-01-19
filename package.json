@@ -1,7 +1,7 @@
 {
   "name": "danielvargas",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -16,10 +16,12 @@
     "firebase": "^11.7.1",
     "i18next": "^25.2.0",
     "i18next-browser-languagedetector": "^8.1.0",
+    "intlayer": "^7.5.14",
     "lucide-react": "^0.510.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-i18next": "^15.5.2",
+    "react-intlayer": "^7.5.14",
     "react-router-dom": "^7.6.0",
     "tailwindcss": "^4.1.6"
   },
@@ -32,6 +34,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
-    "vite": "^6.3.5"
+    "vite": "^6.3.5",
+    "vite-intlayer": "^7.5.14"
   }
 }
