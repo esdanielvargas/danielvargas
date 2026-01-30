@@ -1,11 +1,14 @@
 import { BrowserRouter } from "react-router-dom";
+import { IntlayerProvider } from "react-intlayer";
 import AppRoutes from "./routes";
 
 function App() {
   return (
-    <BrowserRouter>
-      <AppRoutes />
-    </BrowserRouter>
+    <IntlayerProvider>
+      <BrowserRouter>
+        <AppRoutes />
+      </BrowserRouter>
+    </IntlayerProvider>
   );
 }
 
