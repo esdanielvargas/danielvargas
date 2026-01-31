@@ -1,0 +1,29 @@
+{
+  "title": "Contact",
+  "hero": {
+    "title_default": "Let's Talk",
+    "title_start": "Let's start your project",
+    "subtitle_default": "Have an idea in mind? I'm ready to build it.",
+    "subtitle_plan": "You have chosen the «{{val}}» plan. Tell me a little more to proceed.",
+    "subtitle_service": "You have chosen the «{{val}}» service. Tell me a little more to proceed."
+  },
+  "form": {
+    "title": "Contact Information",
+    "caption": "I respond quickly. If it is urgent, send me an email or a DM on Instagram.",
+    "quote": "Available for new projects",
+    "name": {
+      "label": "Full Name",
+      "placeholder": "Enter your full name"
+    },
+    "email": {
+      "label": "Email Address",
+      "placeholder": "Enter your email address"
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Tell me about your project..."
+    },
+    "message_plan": "Hi Daniel, I am interested in the «{{val}}» plan. I would like to start as soon as possible.",
+    "message_service": "Hi Daniel, I am interested in the «{{val}}» service. I would like to start as soon as possible."
+  }
+}

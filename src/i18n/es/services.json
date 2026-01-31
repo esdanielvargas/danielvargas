@@ -1,0 +1,21 @@
+{
+  "title": "Servicios de Desarrollo Web ~ Daniel Vargas",
+  "heading": "Servicios de Desarrollo Web",
+  "caption": "Soluciones digitales a medida para impulsar tu negocio. Desde landing pages veloces hasta aplicaciones web complejas y escalables.",
+  "web_development": {
+    "title": "Desarrollo de Sitios Web",
+    "caption": "Transformo tus ideas en código limpio y eficiente. Creo sitios web rápidos y optimizados para buscadores (SEO) que ayudan a tu marca a destacar en el mercado digital."
+  },
+  "web_design": {
+    "title": "Diseño Web Adaptable",
+    "caption": "Experiencias visuales que enamoran en cualquier pantalla. Diseño interfaces intuitivas (UI/UX) que garantizan una navegación fluida en móviles, tablets y escritorio."
+  },
+  "maintenance": {
+    "title": "Mantenimiento Web",
+    "caption": "Tu negocio nunca se detiene. Ofrezco actualizaciones de seguridad, copias de seguridad y optimización técnica para que tu web funcione perfecta 24/7."
+  },
+  "google_maps": {
+    "title": "Perfil de Empresa en Google",
+    "caption": "Haz que tu negocio destaque cuando los clientes buscan en tu zona. Creo, verifico y optimizo tu ficha en Google Maps y Búsqueda para atraer tráfico local y mejorar tu reputación."
+}
+}

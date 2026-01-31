@@ -1,0 +1,20 @@
+{
+  "title": "About Daniel Vargas ~ Web Developer",
+  "heading": "Hi! I'm Daniel Vargas",
+  "caption": "I am a Salvadoran web developer, passionate about creating modern, functional, and accessible interfaces. I enjoy writing clean code and designing experiences that not only look good but also solve real problems efficiently and elegantly.",
+  "quote": "I build the internet I would like to browse",
+  "image": {
+    "alt": "Daniel Vargas Profile Photo | Web Developer",
+    "title": "Daniel Vargas Profile Photo | Web Developer"
+  },
+  "technologies": {
+    "title": "Technologies I use",
+    "short_title": "Technologies",
+    "caption": "I work with a variety of modern technologies to create effective and scalable web solutions."
+  },
+  "tools": {
+    "title": "Tools I use",
+    "short_title": "Tools",
+    "caption": "I use tools and platforms that allow me to be more efficient and productive in my daily work."
+  }
+}

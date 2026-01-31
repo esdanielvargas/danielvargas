@@ -1,0 +1,64 @@
+{
+    "title": "Planes de Servicios ~ Daniel Vargas",
+    "heading": "Planes de Servicios",
+    "caption": "Elige el paquete ideal para tu proyecto. Precios transparentes y resultados profesionales.",
+    "landing": {
+        "title": "Página de Aterrizaje",
+        "caption": "Ideal para promociones, perfiles personales o validar una idea rápidamente.",
+        "features": [
+            "1 Página (Página única)",
+            "Diseño 100% adaptable",
+            "Botón de WhatsApp / Chat",
+            "Configuración de dominio",
+            "Enlaces a redes sociales",
+            "Optimización SEO básica"
+        ],
+        "maintenance": {
+            "title": "Mantenimiento Esencial",
+            "caption": "Incluye hosting rápido, renovación de dominio y cambios menores de texto/imágenes."
+        }
+    },
+    "professional": {
+        "title": "Sitio Web Profesional",
+        "caption": "La opción perfecta para negocios que necesitan presencia corporativa sólida.",
+        "features": [
+            "Hasta 6 páginas",
+            "Diseño UI/UX premium",
+            "Mapa de ubicación",
+            "Galería de imágenes",
+            "Optimización de velocidad",
+            "Formulario de contacto funcional"
+        ],
+        "maintenance": {
+            "title": "Mantenimiento Negocio",
+            "caption": "Incluye todo lo básico + Reporte mensual de visitas y soporte prioritario por WhatsApp."
+        }
+    },
+    "app": {
+        "title": "Aplicación Web",
+        "caption": "Sistemas complejos con gestión de datos y usuarios.",
+        "features": [
+            "Autenticación de usuarios",
+            "Base de datos segura",
+            "Panel de administración",
+            "Lógica de negocio a medida",
+            "Almacenamiento de archivos",
+            "Soporte prioritario"
+        ],
+        "maintenance": {
+            "title": "Soporte Técnico App",
+            "caption": "Monitoreo del servidor, copias de seguridad de base de datos y solución de errores."
+        }
+    },
+    "custom": {
+        "title": "Personalizado",
+        "text": "Consultar",
+        "caption": "¿Tienes un proyecto grande en mente? E-commerce, SAAS o plataformas educativas.",
+        "features": [
+            "Consultoría de arquitectura",
+            "Desarrollo a medida",
+            "Integraciones complejas",
+            "Equipo dedicado"
+        ]
+    }
+}

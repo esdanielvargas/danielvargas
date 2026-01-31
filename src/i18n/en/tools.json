@@ -1,0 +1,107 @@
+{
+  "title": "Free Tools for Entrepreneurs ~ Daniel Vargas",
+  "heading": "Free Tools for Entrepreneurs",
+  "caption": "Simple and free utilities to facilitate tasks in projects and/or academic work.",
+  "button": {
+    "action": "Try tool",
+    "copy": "Copy",
+    "copied": "Copied",
+    "back": "Back to tools",
+    "id_generate": "Generate ID",
+    "utm_generate": "Generate link",
+    "change": "Exchange currencies",
+    "calculate": "Calculate BMI"
+  },
+  "utm": {
+    "title": "Urchin Tracking Module (UTM) Generator",
+    "heading": "UTM Generator",
+    "short_title": "UTM Generator",
+    "caption": "Create links with UTM parameters to measure the performance of your marketing campaigns.",
+    "generated_url_title": "Generated UTM Tracking URL",
+    "generated_url_label": "Generated URL",
+    "generated_url_text": "Use this address in any promotional channel you wish to associate with this custom campaign.",
+    "form_title": "Enter website URL and campaign information",
+    "base_label": "Website URL *",
+    "base_text": "The full address of the website you want to promote.",
+    "source_label": "Campaign Source *",
+    "source_text": "The origin of your traffic, such as a website, social network, or platform (e.g., google, facebook, newsletter).",
+    "medium_label": "Campaign Medium *",
+    "medium_text": "The marketing medium used: for example, email, CPC, banner, social, etc.",
+    "campaign_label": "Campaign Name *",
+    "campaign_text": "Identifies the campaign you are running: product name, promotion, or strategy (e.g., summer2025, blackfriday).",
+    "id_label": "Campaign ID",
+    "id_text": "A unique ID for the ad campaign, useful for internal analysis or linking with other platforms.",
+    "term_label": "Campaign Term",
+    "term_text": "Keywords for paid search campaigns. Helps analyze the performance of specific terms.",
+    "content_label": "Campaign Content",
+    "content_text": "Distinguishes between different versions of an ad or link within the same campaign.",
+    "generate_button": "Generate link",
+    "copy_button_title": "Copy link with parameters"
+  },
+  "citations": {
+    "title": "Citation Generator",
+    "heading": "Citation Generator",
+    "caption": "Generate quick and accurate citations in APA format for your academic papers."
+  },
+  "references": {
+    "title": "Reference Generator",
+    "heading": "Reference Generator",
+    "caption": "Build complete APA style references ready for your documents and projects."
+  },
+  "id_generator": {
+    "title": "Identifier Generator (IDs)",
+    "heading": "Identifier Generator",
+    "short_title": "ID Generator",
+    "caption": "Generate unique identifiers quickly and customized. Choose length, type, and format. Useful for forms, databases, or web projects.",
+    "format_label": "Format *",
+    "format_text": "Choose the format of the identifier to generate.",
+    "format_options": {
+      "alphanumeric": "Alphanumeric",
+      "numeric": "Numeric",
+      "letters": "Letters only",
+      "uuid": "UUID v4"
+    },
+    "length_label": "Length *",
+    "length_text": "Define how many characters the identifier will have.",
+    "prefix_label": "Prefix",
+    "prefix_placeholder": "Ex: user_, temp-, ID-",
+    "prefix_text": "Text that appears at the start of the identifier.",
+    "suffix_label": "Suffix",
+    "suffix_placeholder": "Ex: _dev, -2025, _x1",
+    "suffix_text": "Text that appears at the end of the identifier.",
+    "generate_button": "Generate new",
+    "result_label": "Generated Identifier",
+    "result_text": "Result ready to copy and use."
+  },
+  "currency_converter": {
+    "title": "Currency Converter",
+    "heading": "Currency Converter",
+    "short_title": "Currency Converter",
+    "caption": "",
+    "quantity": "Amount",
+    "quantity_text": "Enter the amount of money you want to convert.",
+    "from": "From",
+    "from_text": "Select the main currency.",
+    "to": "To",
+    "to_text": "Select the currency you want to convert to.",
+    "result": "Result",
+    "result_text": ""
+  },
+  "bmi": {
+    "title": "BMI Calculator",
+    "heading": "Body Mass Index",
+    "caption": "Calculate your body mass index by entering your weight and height.",
+    "weight_label": "Weight (kg)",
+    "weight_text": "Enter your weight in kilograms.",
+    "height_label": "Height (cm)",
+    "height_text": "Enter your height in centimeters.",
+    "result_label": "Result",
+    "result_text": "Your calculated BMI:",
+    "categories": {
+      "underweight": "Underweight",
+      "normal": "Normal weight",
+      "overweight": "Overweight",
+      "obese": "Obesity"
+    }
+  }
+}

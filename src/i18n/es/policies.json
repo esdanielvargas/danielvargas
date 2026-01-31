@@ -1,0 +1,117 @@
+{
+    "title": "Páginas de Políticas y Términos ~ Daniel Vargas",
+    "heading": "Páginas de Políticas y Términos",
+    "caption": "Aquí encontraras las páginas de las políticas y términos del sitio web de Daniel Vargas",
+    "updated": "Última actualización: {{date}}.",
+    "button": {
+        "action": "Leer política",
+        "back": "Volver a las políticas"
+    },
+    "terms": {
+        "title": "Términos y Condiciones ~ Daniel Vargas",
+        "heading": "Términos y Condiciones",
+        "caption": "Condiciones legales que establecen las normas de uso de este sitio web y sus servicios.",
+        "date": "01 de agosto de 2025",
+        "intro": "Este sitio web, accesible desde danielvargas.dev, es operado por Daniel Vargas. Al navegar o utilizar cualquiera de las funcionalidades disponibles en este sitio, aceptas los presentes Términos y Condiciones.",
+        "sections": {
+            "1": {
+                "title": "1. Objeto del sitio",
+                "content": "El sitio tiene como finalidad mostrar los servicios ofrecidos por Daniel Vargas en el ámbito del desarrollo web y áreas relacionadas. También ofrece acceso gratuito a herramientas digitales creadas para facilitar tareas comunes del entorno web."
+            },
+            "2": {
+                "title": "2. Condiciones de uso",
+                "content": "El acceso y uso del sitio es libre y gratuito. Queda prohibido utilizar el sitio para fines ilícitos, difamatorios o que atenten contra los derechos de terceros o el buen funcionamiento del servicio."
+            },
+            "3": {
+                "title": "3. Propiedad intelectual",
+                "content": "Todos los contenidos publicados en este sitio —incluyendo textos, herramientas, imágenes generadas digitalmente y elementos visuales— son propiedad de Daniel Vargas, salvo que se indique lo contrario. Está prohibida su reproducción, distribución o modificación sin autorización previa."
+            },
+            "4": {
+                "title": "4. Enlaces externos",
+                "content": "El sitio puede contener enlaces hacia plataformas de terceros como PayPal, LinkedIn o GitHub. Daniel Vargas no se responsabiliza por el contenido, exactitud o funcionamiento de estos sitios externos."
+            },
+            "5": {
+                "title": "5. Protección de datos",
+                "content": "Actualmente no se recogen datos personales directamente. En caso de implementar formularios en el futuro, los datos proporcionados podrán utilizarse para fines estadísticos, informativos, promocionales o de contacto, siempre dentro de los límites legales aplicables."
+            },
+            "6": {
+                "title": "6. Servicios ofrecidos",
+                "content": "Se ofrecen diversos servicios relacionados con el entorno digital, tales como diseño y desarrollo web, asistencia en la gestión de dominios, configuración de perfiles profesionales y consultoría. Estos servicios están sujetos a disponibilidad y se cotizan individualmente."
+            },
+            "7": {
+                "title": "7. Modificaciones",
+                "content": "Daniel Vargas se reserva el derecho de modificar en cualquier momento los presentes Términos y Condiciones. Las modificaciones entrarán en vigor desde el momento en que se publiquen en esta misma página."
+            },
+            "8": {
+                "title": "8. Legislación aplicable",
+                "content": "Estos términos se rigen por la legislación vigente en la República de El Salvador. Ante cualquier conflicto relacionado con el uso del sitio, las partes se someterán a los tribunales competentes del país."
+            }
+        }
+    },
+    "privacy": {
+        "title": "Política de Privacidad ~ Daniel Vargas",
+        "heading": "Política de Privacidad",
+        "caption": "Conozca cómo se gestiona y protege su información personal, así como sus derechos como usuario.",
+        "date": "01 de agosto de 2025",
+        "intro": "Esta Política de Privacidad describe cómo se manejarán los datos personales en el sitio web danielvargas.dev, operado por Daniel Vargas.",
+        "sections": {
+            "1": {
+                "title": "1. Datos recopilados",
+                "content": "Actualmente, este sitio no recolecta información personal de forma directa. Sin embargo, en el futuro podrán implementarse formularios para recibir nombres, correos electrónicos u otros datos de contacto con fines informativos, promocionales o estadísticos."
+            },
+            "2": {
+                "title": "2. Finalidad del tratamiento",
+                "content": "Los datos que eventualmente se recojan serán utilizados para mejorar el servicio, responder consultas, enviar actualizaciones relevantes o analizar el comportamiento de uso dentro del sitio."
+            },
+            "3": {
+                "title": "3. Conservación de datos",
+                "content": "La información proporcionada será almacenada únicamente el tiempo necesario para cumplir con las finalidades mencionadas, y podrá ser eliminada a solicitud del usuario."
+            },
+            "4": {
+                "title": "4. Compartición con terceros",
+                "content": "No se venderán, alquilarán ni compartirán los datos personales con terceros, salvo obligación legal o requerimiento judicial."
+            },
+            "5": {
+                "title": "5. Derechos del usuario",
+                "content": "El usuario podrá ejercer en cualquier momento sus derechos de acceso, rectificación, cancelación u oposición (ARCO) escribiendo a hello@danielvargas.dev."
+            },
+            "6": {
+                "title": "6. Cambios en la política",
+                "content": "Esta política podrá modificarse en cualquier momento. La versión más reciente estará disponible siempre en esta misma página."
+            }
+        }
+    },
+    "cookies": {
+        "title": "Política de Cookies ~ Daniel Vargas",
+        "heading": "Política de Cookies",
+        "caption": "Explicación de las tecnologías de almacenamiento del navegador utilizadas para mejorar su experiencia.",
+        "date": "01 de agosto de 2025",
+        "intro": "En este sitio web, danielvargas.dev, la privacidad y transparencia son principios fundamentales. Esta política explica cómo se utilizan las tecnologías de almacenamiento en el navegador, incluyendo el uso actual y potencial futuro de cookies y almacenamiento local.",
+        "sections": {
+            "1": {
+                "title": "1. ¿Qué son las cookies?",
+                "content": "Las cookies son pequeños archivos de texto que un sitio web puede almacenar en el navegador del usuario. Su función principal es recordar cierta información sobre la visita, como preferencias de navegación o información de inicio de sesión. Algunas cookies se eliminan al cerrar el navegador (cookies de sesión), mientras que otras permanecen almacenadas durante un período determinado (cookies persistentes)."
+            },
+            "2": {
+                "title": "2. ¿Qué es el almacenamiento local?",
+                "content": "El almacenamiento local, también conocido como localStorage, permite a los sitios web guardar datos directamente en el navegador del usuario. A diferencia de las cookies, el almacenamiento local tiene una mayor capacidad y no expira automáticamente."
+            },
+            "3": {
+                "title": "3. ¿Qué tecnologías se utilizan en este sitio?",
+                "content": "Actualmente, no se utilizan cookies en danielvargas.dev. Se emplea el almacenamiento local exclusivamente para recordar el idioma preferido del usuario (clave: i18nextLng), sin recopilar datos personales ni compartir información con terceros."
+            },
+            "4": {
+                "title": "4. Google Analytics",
+                "content": "Este sitio emplea Google Analytics 4 (GA4) para obtener estadísticas sobre el uso del sitio. Las interacciones son registradas mediante eventos anónimos. No se comparten datos con Google para fines de publicidad ni mejora de productos."
+            },
+            "5": {
+                "title": "5. Posible uso futuro de cookies",
+                "content": "Podrían implementarse cookies propias o de terceros con fines técnicos o analíticos. No se usarán cookies publicitarias sin consentimiento explícito del usuario."
+            },
+            "6": {
+                "title": "6. Cómo gestionar las cookies",
+                "content": "La mayoría de navegadores permiten aceptar, bloquear o eliminar cookies. Se recomienda consultar la documentación oficial del navegador para más información."
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Web Development Services ~ Daniel Vargas",
+  "heading": "Web Development Services",
+  "caption": "Custom digital solutions to boost your business. From fast landing pages to complex and scalable web applications.",
+  "web_development": {
+    "title": "Website Development",
+    "caption": "I transform your ideas into clean, efficient code. I build fast, SEO-optimized websites that help your brand stand out in the digital market."
+  },
+  "web_design": {
+    "title": "Responsive Web Design",
+    "caption": "Visual experiences that engage on any screen. I design intuitive interfaces (UI/UX) ensuring smooth navigation on mobile, tablets, and desktop."
+  },
+  "maintenance": {
+    "title": "Web Maintenance",
+    "caption": "Your business never stops. I offer security updates, backups, and technical optimization to keep your site running perfectly 24/7."
+  },
+  "google_maps": {
+    "title": "Google Business Profile",
+    "caption": "Make your business stand out when customers search in your area. I create, verify, and optimize your listing on Google Maps and Search to attract local traffic and improve your reputation."
+}
+}

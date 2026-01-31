@@ -1,0 +1,29 @@
+{
+  "title": "Contacto",
+  "hero": {
+    "title_default": "Hablemos",
+    "title_start": "Vamos a empezar tu proyecto",
+    "subtitle_default": "¿Tienes una idea en mente? Estoy listo para construirla.",
+    "subtitle_plan": "Has elegido el plan «{{val}}». Cuéntame un poco más para formalizar.",
+    "subtitle_service": "Has elegido el servicio «{{val}}». Cuéntame un poco más para formalizar."
+  },
+  "form": {
+    "title": "Información de contacto",
+    "caption": "Respondo rápido. Si es urgente, mándame un correo electrónico o un DM por Instagram.",
+    "quote": "Disponible para nuevos proyectos",
+    "name": {
+      "label": "Nombre completo",
+      "placeholder": "Ingresa tu nombre completo"
+    },
+    "email": {
+      "label": "Correo electrónico",
+      "placeholder": "Ingresa tu correo electrónico"
+    },
+    "message": {
+      "label": "Mensaje",
+      "placeholder": "Cuéntame sobre tu proyecto..."
+    },
+    "message_plan": "Hola Daniel, estoy interesado en contratar el plan «{{val}}». Me gustaría empezar cuanto antes.",
+    "message_service": "Hola Daniel, estoy interesado en contratar el servicio «{{val}}». Me gustaría empezar cuanto antes."
+  }
+}

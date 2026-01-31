@@ -1,0 +1,16 @@
+{
+    "home": {
+        "title": "Hago que tu negocio brille en línea con sitios web personalizados",
+        "caption": "Desarrollador web especializado en crear sitios web únicos y adaptables para emprendedores y pequeñas empresas."
+    },
+    "bug": {
+        "title": "Página no encontrada ~ Daniel Vargas",
+        "heading": "Lo siento, esta página no existe.",
+        "caption": "Es posible que esta página haya sido eliminada, movida o que haya escrito mal la URL."
+    },
+    "sitemap": {
+        "title": "Mapa del Sitio Web de Daniel Vargas",
+        "heading": "Mapa del Sitio Web",
+        "caption": "Explora la estructura completa de mi sitio web. Encuentra rápidamente cualquier página, servicio o herramienta que estés buscando."
+    }
+}

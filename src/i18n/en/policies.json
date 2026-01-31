@@ -1,0 +1,117 @@
+{
+  "title": "Policy and Terms Pages ~ Daniel Vargas",
+  "heading": "Policy and Terms Pages",
+  "caption": "Here you will find the policy and terms pages of the Daniel Vargas website.",
+  "updated": "Last updated: {{date}}.",
+  "button": {
+    "action": "Read policy",
+    "back": "Back to policies"
+  },
+  "terms": {
+    "title": "Terms and Conditions ~ Daniel Vargas",
+    "heading": "Terms and Conditions",
+    "caption": "Legal conditions establishing the rules for using this website and its services.",
+    "date": "August 1, 2025",
+    "intro": "This website, accessible from danielvargas.dev, is operated by Daniel Vargas. By browsing or using any of the functionalities available on this site, you accept these Terms and Conditions.",
+    "sections": {
+      "1": {
+        "title": "1. Purpose of the site",
+        "content": "The purpose of the site is to showcase the services offered by Daniel Vargas in the field of web development and related areas. It also offers free access to digital tools created to facilitate common tasks in the web environment."
+      },
+      "2": {
+        "title": "2. Conditions of use",
+        "content": "Access and use of the site is free. It is prohibited to use the site for illicit or defamatory purposes, or purposes that infringe upon the rights of third parties or the proper functioning of the service."
+      },
+      "3": {
+        "title": "3. Intellectual Property",
+        "content": "All content published on this site —including texts, tools, digitally generated images, and visual elements— is the property of Daniel Vargas, unless otherwise indicated. Its reproduction, distribution, or modification without prior authorization is prohibited."
+      },
+      "4": {
+        "title": "4. External links",
+        "content": "The site may contain links to third-party platforms such as PayPal, LinkedIn, or GitHub. Daniel Vargas is not responsible for the content, accuracy, or functioning of these external sites."
+      },
+      "5": {
+        "title": "5. Data protection",
+        "content": "Currently, personal data is not collected directly. In the event of implementing forms in the future, the provided data may be used for statistical, informational, promotional, or contact purposes, always within the applicable legal limits."
+      },
+      "6": {
+        "title": "6. Services offered",
+        "content": "Various services related to the digital environment are offered, such as web design and development, assistance in domain management, professional profile configuration, and consulting. These services are subject to availability and are quoted individually."
+      },
+      "7": {
+        "title": "7. Modifications",
+        "content": "Daniel Vargas reserves the right to modify these Terms and Conditions at any time. Modifications will enter into force from the moment they are published on this same page."
+      },
+      "8": {
+        "title": "8. Applicable legislation",
+        "content": "These terms are governed by the legislation in force in the Republic of El Salvador. In the event of any conflict related to the use of the site, the parties shall submit to the competent courts of the country."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy ~ Daniel Vargas",
+    "heading": "Privacy Policy",
+    "caption": "Learn how your personal information is handled, protected, and your rights as a user.",
+    "date": "August 1, 2025",
+    "intro": "This Privacy Policy describes how personal data will be handled on the website danielvargas.dev, operated by Daniel Vargas.",
+    "sections": {
+      "1": {
+        "title": "1. Collected data",
+        "content": "Currently, this site does not collect personal information directly. However, in the future, forms may be implemented to receive names, emails, or other contact data for informational, promotional, or statistical purposes."
+      },
+      "2": {
+        "title": "2. Purpose of processing",
+        "content": "Any data eventually collected will be used to improve the service, answer queries, send relevant updates, or analyze usage behavior within the site."
+      },
+      "3": {
+        "title": "3. Data retention",
+        "content": "The provided information will be stored only for the time necessary to fulfill the mentioned purposes and may be deleted at the user's request."
+      },
+      "4": {
+        "title": "4. Sharing with third parties",
+        "content": "Personal data will not be sold, rented, or shared with third parties, except under legal obligation or judicial requirement."
+      },
+      "5": {
+        "title": "5. User rights",
+        "content": "The user may exercise their rights of access, rectification, cancellation, or opposition at any time by writing to hello@danielvargas.dev."
+      },
+      "6": {
+        "title": "6. Changes to the policy",
+        "content": "This policy may be modified at any time. The most recent version will always be available on this same page."
+      }
+    }
+  },
+  "cookies": {
+    "title": "Cookies Policy ~ Daniel Vargas",
+    "heading": "Cookies Policy",
+    "caption": "Explanation of the browser storage technologies used to improve your experience.",
+    "date": "August 1, 2025",
+    "intro": "On this website, danielvargas.dev, privacy and transparency are fundamental principles. This policy explains how browser storage technologies are used, including the current and potential future use of cookies and local storage.",
+    "sections": {
+      "1": {
+        "title": "1. What are cookies?",
+        "content": "Cookies are small text files that a website can store in the user's browser. Their main function is to remember certain information about the visit, such as browsing preferences or login information. Some cookies are deleted when the browser is closed (session cookies), while others remain stored for a certain period (persistent cookies)."
+      },
+      "2": {
+        "title": "2. What is local storage?",
+        "content": "Local storage, also known as localStorage, allows websites to save data directly in the user's browser. Unlike cookies, local storage has a larger capacity and does not expire automatically."
+      },
+      "3": {
+        "title": "3. What technologies are used on this site?",
+        "content": "Currently, cookies are not used on danielvargas.dev. Local storage is used exclusively to remember the user's preferred language (key: i18nextLng), without collecting personal data or sharing information with third parties."
+      },
+      "4": {
+        "title": "4. Google Analytics",
+        "content": "This site uses Google Analytics 4 (GA4) to obtain statistics on site usage. Interactions are recorded through anonymous events. Data is not shared with Google for advertising or product improvement purposes."
+      },
+      "5": {
+        "title": "5. Possible future use of cookies",
+        "content": "First-party or third-party cookies could be implemented for technical or analytical purposes. Advertising cookies will not be used without the user's explicit consent."
+      },
+      "6": {
+        "title": "6. How to manage cookies",
+        "content": "Most browsers allow you to accept, block, or delete cookies. It is recommended to consult the official browser documentation for more information."
+      }
+    }
+  }
+}

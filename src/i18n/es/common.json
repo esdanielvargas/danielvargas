@@ -1,0 +1,61 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "plans": "Planes",
+    "projects": "Proyectos",
+    "about": "Sobre Mí",
+    "contact": "Contacto",
+    "support": "Apóyame"
+  },
+  "footer": {
+    "column": {
+      "explore": "Explorar",
+      "plans": "Planes",
+      "tools": "Herramientas",
+      "policies": "Políticas"
+    },
+    "links": {
+      "sitemap": "Mapa del Sitio"
+    },
+    "copyright": "{{year}} Daniel Vargas ~ Todos los derechos reservados."
+  },
+  "action": {
+    "github": "Ir al perfil de GitHub",
+    "contact_me": "Contáctame",
+    "resume": "Ver currículum",
+    "view_more": "Ver más",
+    "view_details": "Ver detalles",
+    "view_plans": "Ver planes",
+    "view_services": "Ver servicios",
+    "view_projects": "Ver proyectos",
+    "view_more_services": "Ver más servicios",
+    "view_more_plans": "Ver más planes",
+    "view_more_projects": "Ver más proyectos",
+    "hire_service": "Contratar servicio",
+    "hire_plan": "Contratar plan",
+    "visit_website": "Ir al sitio web",
+    "go_back_projects": "Volver a proyectos",
+    "read_policy": "Leer política",
+    "try_tool": "Probar herramienta",
+    "sending": "Enviando...",
+    "request_quote": "Solicitar cotización",
+    "send_message": "Enviar mensaje",
+    "back_home": "Volver al inicio",
+    "go_back": "Retroceder",
+    "open_lang": "Abrir selección de idioma",
+    "close_lang": "Cerrar selección de idioma",
+    "change_language": "Cambiar idioma a",
+    "open_menu": "Abrir menú de navegación",
+    "close_menu": "Cerrar menú de navegación",
+    "select_category": "Seleccionar categoría"
+  },
+  "label": {
+    "all": "Todos",
+    "from": "Desde",
+    "per_month": "al mes",
+    "maintenance": "Mantenimiento recomendado",
+    "caption": "Descripción",
+    "technologies": "Tecnologías utilizadas"
+  }
+}

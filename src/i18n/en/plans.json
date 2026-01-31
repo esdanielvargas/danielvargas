@@ -1,0 +1,64 @@
+{
+    "title": "Service Plans ~ Daniel Vargas",
+    "heading": "Service Plans",
+    "caption": "Choose the ideal package for your project. Transparent pricing and professional results.",
+    "landing": {
+        "title": "Landing Page",
+        "caption": "Ideal for promotions, personal profiles, or quickly validating an idea.",
+        "features": [
+            "1 Page (Single page)",
+            "100% Responsive Design",
+            "WhatsApp / Chat Button",
+            "Domain Configuration",
+            "Social Media Links",
+            "Basic SEO Optimization"
+        ],
+        "maintenance": {
+            "title": "Essential Maintenance",
+            "caption": "Includes fast hosting, domain renewal, and minor text/image updates."
+        }
+    },
+    "professional": {
+        "title": "Professional Website",
+        "caption": "The perfect option for businesses needing a solid corporate presence.",
+        "features": [
+            "Up to 6 pages",
+            "Premium UI/UX Design",
+            "Location Map",
+            "Image Gallery",
+            "Speed Optimization",
+            "Functional Contact Form"
+        ],
+        "maintenance": {
+            "title": "Business Maintenance",
+            "caption": "Includes all basics + Monthly traffic report and priority WhatsApp support."
+        }
+    },
+    "app": {
+        "title": "Web Application",
+        "caption": "Complex systems with data and user management.",
+        "features": [
+            "User Authentication",
+            "Secure Database",
+            "Admin Dashboard",
+            "Custom Business Logic",
+            "File Storage",
+            "Priority Support"
+        ],
+        "maintenance": {
+            "title": "App Technical Support",
+            "caption": "Server monitoring, database backups, and bug fixing."
+        }
+    },
+    "custom": {
+        "title": "Custom Project",
+        "text": "Contact",
+        "caption": "Have a big project in mind? E-commerce, SAAS, or educational platforms.",
+        "features": [
+            "Architecture Consulting",
+            "Custom Development",
+            "Complex Integrations",
+            "Dedicated Team"
+        ]
+    }
+}

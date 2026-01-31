@@ -1,0 +1,107 @@
+{
+    "title": "Herramientas Gratuitas para Emprendedores ~ Daniel Vargas",
+    "heading": "Herramientas Gratuitas para Emprendedores",
+    "caption": "Utilidades simples y gratuitas, para facilitar tareas en proyectos y/o trabajos académicos.",
+    "button": {
+        "action": "Probar herramienta",
+        "copy": "Copiar",
+        "copied": "Copiado",
+        "back": "Volver a las herramientas",
+        "id_generate": "Generar identificador",
+        "utm_generate": "Generar enlace",
+        "change": "Intercambiar divisas",
+        "calculate": "Calcular IMC"
+    },
+    "utm": {
+        "title": "Generador de Urchin Tracking Module (UTM)",
+        "heading": "Generador de UTM",
+        "short_title": "Generador de UTM",
+        "caption": "Crea enlaces con parámetros UTM para medir el rendimiento de tus campañas de marketing.",
+        "generated_url_title": "URL de seguimiento de UTM generada",
+        "generated_url_label": "URL generada",
+        "generated_url_text": "Utiliza esta dirección en cualquier canal promocional que desees asociar con esta campaña personalizada.",
+        "form_title": "Ingresa la URL del sitio web y la información de la campaña",
+        "base_label": "URL del sitio web *",
+        "base_text": "La dirección completa del sitio web que deseas promocionar.",
+        "source_label": "Fuente de la campaña *",
+        "source_text": "El origen del tráfico, como el sitio web, red social o plataforma desde donde llegará el visitante (ej. google, facebook, newsletter).",
+        "medium_label": "Medio de la campaña *",
+        "medium_text": "El canal de marketing utilizado: por ejemplo, email, CPC, banner, social, entre otros.",
+        "campaign_label": "Nombre de la campaña *",
+        "campaign_text": "Identifica la campaña que estás ejecutando: el nombre del producto, promoción o estrategia (ej. verano2025, blackfriday).",
+        "id_label": "Identificación de la campaña",
+        "id_text": "Un ID único para la campaña publicitaria, útil para análisis internos o vinculación con otras plataformas.",
+        "term_label": "Término de la campaña",
+        "term_text": "Palabras clave para campañas de búsqueda pagada. Ayuda a analizar el rendimiento de términos específicos.",
+        "content_label": "Contenido de la campaña",
+        "content_text": "Distingue entre diferentes versiones de un anuncio o enlace dentro de la misma campaña.",
+        "generate_button": "Generar enlace",
+        "copy_button_title": "Copiar enlace con parámetros"
+    },
+    "citations": {
+        "title": "Generador de Citas",
+        "heading": "Generador de Citas",
+        "caption": "Genera citas rápidas y precisas en formato APA para tus trabajos académicos."
+    },
+    "references": {
+        "title": "Generador de Referencias",
+        "heading": "Generador de Referencias",
+        "caption": "Construye referencias completas en estilo APA listas para tus documentos y proyectos."
+    },
+    "id_generator": {
+        "title": "Generador de Identificadores (IDs)",
+        "heading": "Generador de Identificadores",
+        "short_title": "Generador de Identificadores",
+        "caption": "Genera identificadores únicos de forma rápida y personalizada. Elige la longitud, tipo y formato. Útil para formularios, bases de datos o proyectos web.",
+        "format_label": "Formato *",
+        "format_text": "Elige el formato del identificador a generar.",
+        "format_options": {
+            "alphanumeric": "Alfanumérico",
+            "numeric": "Numérico",
+            "letters": "Solo letras",
+            "uuid": "UUID v4"
+        },
+        "length_label": "Longitud *",
+        "length_text": "Define cuántos caracteres tendrá el identificador.",
+        "prefix_label": "Prefijo",
+        "prefix_placeholder": "Ej: user_, temp-, ID-",
+        "prefix_text": "Texto que aparece al inicio del identificador.",
+        "suffix_label": "Sufijo",
+        "suffix_placeholder": "Ej: _dev, -2025, _x1",
+        "suffix_text": "Texto que aparece al final del identificador.",
+        "generate_button": "Generar nuevo",
+        "result_label": "Identificador generado",
+        "result_text": "Resultado listo para copiar y usar."
+    },
+    "currency_converter": {
+        "title": "Conversor de Divisas",
+        "heading": "Conversor de Divisas",
+        "short_title": "Conversor de Divisas",
+        "caption": "",
+        "quantity": "Cantidad",
+        "quantity_text": "Introduce la cantidad de dinero que deseas convertir.",
+        "from": "De",
+        "from_text": "Selecciona la divisa principal.",
+        "to": "A",
+        "to_text": "Selecciona la divisa que desea convertir.",
+        "result": "Resultado",
+        "result_text": ""
+    },
+    "bmi": {
+        "title": "Calculadora de IMC",
+        "heading": "Índice de Masa Corporal",
+        "caption": "Calcula tu índice de masa corporal ingresando tu peso y altura.",
+        "weight_label": "Peso (kg)",
+        "weight_text": "Ingresa tu peso en kilogramos.",
+        "height_label": "Altura (cm)",
+        "height_text": "Ingresa tu altura en centímetros.",
+        "result_label": "Resultado",
+        "result_text": "Tu IMC calculado:",
+        "categories": {
+            "underweight": "Bajo peso",
+            "normal": "Peso normal",
+            "overweight": "Sobrepeso",
+            "obese": "Obesidad"
+        }
+    }
+}

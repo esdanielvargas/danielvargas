@@ -1,0 +1,31 @@
+{
+  "title": "Portafolio de Proyectos ~ Daniel Vargas",
+  "heading": "Portafolio de Proyectos",
+  "caption": "Descubre algunos de los sitios y aplicaciones web que he desarrollado, con un enfoque en funcionalidad, diseño y experiencia de usuario.",
+  "list": {
+    "cloudbook": {
+      "title": "Aplicación Web ~ Red Social",
+      "caption": "Aplicación web tipo red social minimalista para compartir ideas y conectar con otras personas."
+    },
+    "artist_site": {
+      "title": "Sitio Web Oficial de Daniel Ospid",
+      "caption": "Landing page responsiva que presenta mi trabajo artístico y como desarrollador web."
+    },
+    "discography": {
+      "title": "Discografía de Daniel Ospid",
+      "caption": "Plataforma dinámica con panel de administración y autenticación de usuarios para gestionar lanzamientos musicales."
+    },
+    "dashboard": {
+      "title": "Panel Administrativo de Daniel Ospid",
+      "caption": "Dashboard de gestión para la tienda online y la discografía, con control de usuarios y contenido."
+    },
+    "portfolio": {
+      "title": "Portafolio de Daniel Vargas",
+      "caption": "Mi sitio web personal profesional diseñado para mostrar mis servicios, planes y experiencia como desarrollador Full Stack."
+    },
+    "wow_solution": {
+      "title": "WOW Solution 360",
+      "caption": "Sitio corporativo desarrollado para empresa en Dallas, EE.UU., con enfoque en diseño limpio y optimización SEO."
+    }
+  }
+}

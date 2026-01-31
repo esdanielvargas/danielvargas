@@ -1,0 +1,102 @@
+{
+    "title": "Desarrollador Web Frontend",
+    "profile": {
+        "title": "Objetivo Profesional",
+        "bio": "Desarrollador Web Frontend con enfoque en el diseño de interfaces modernas, accesibles y adaptables. Posee experiencia en el desarrollo de soluciones digitales funcionales utilizando tecnologías como React, TailwindCSS y Vite. Su objetivo es aportar soluciones creativas, eficientes y centradas en el usuario final, dentro de entornos colaborativos o como profesional independiente."
+    },
+    "skills": {
+        "title": "Habilidades"
+    },
+    "languages": {
+        "title": "Idiomas",
+        "list": {
+            "spanish": {
+                "title": "Español (Nativo)"
+            },
+            "english": {
+                "title": "Inglés Básico A1"
+            }
+        }
+    },
+    "experience": {
+        "title": "Experiencia",
+        "positions": [
+            {
+                "title": "Desarrollador Web Frontend",
+                "date": {
+                    "start": "Feb. 2024",
+                    "end": "Nov. 2024"
+                },
+                "description": "Responsable del desarrollo integral del sitio web corporativo de la empresa. El proyecto incluyó diseño responsivo, optimización básica para motores de búsqueda (SEO) y configuración de DNS. Trabajo remoto, entregado en un entorno productivo."
+            },
+            {
+                "title": "Desarrollador Web Full Stack",
+                "company": "Autónomo",
+                "locale": "San Salvador, El Salvador",
+                "date": {
+                    "start": "Ene. 2025",
+                    "end": "Actualmente"
+                },
+                "description": "Diseño y desarrollo de sitios web para emprendedores, proyectos personales y pequeñas empresas. Implementación de interfaces modernas, responsivas y funcionales con tecnologías como React, TailwindCSS y Vite."
+            }
+        ]
+    },
+    "projects": {
+        "title": "Proyectos",
+        "list": [
+            {
+                "title": "Proyecto de Red Social (en desarrollo)",
+                "company": "Sin Nombre — San Salvador",
+                "date": {
+                    "start": "Oct. 2022",
+                    "end": " Actualmente"
+                },
+                "description": "Desarrollo de una red social experimental enfocada en la interacción por afinidad y relaciones mutuas. El proyecto ha evolucionado a través de múltiples iteraciones y rediseños, permitiendo la aplicación de nuevas tecnologías y buenas prácticas de desarrollo. Implementación con React, TailwindCSS y Firebase. Funcionalidades: sistema de autenticación, feed personalizado, publicación de contenido, reacciones y arquitectura escalable para su futuro despliegue en producción."
+            }
+        ]
+    },
+    "education": {
+        "title": "Educación",
+        "degrees": [
+            {
+                "title": "Bachiller General",
+                "date": {
+                    "start": "Ene. 2020",
+                    "end": "Dic. 2021"
+                }
+            },
+            {
+                "title": "Ingeniería en Sistemas y Computación",
+                "date": {
+                    "start": "Jul. 2022",
+                    "end": " Actualmente"
+                }
+            }
+        ]
+    },
+    "certificates": {
+        "title": "Certificados",
+        "list": [
+            {
+                "title": "Certificado de Introducción a la Web: Historia y Funcionamiento de Internet",
+                "pass": "Aprobado el 12 de diciembre del 2025"
+            },
+            {
+                "title": "Certificado de Inglés Básico A1",
+                "pass": "Aprobado el 12 de diciembre del 2025"
+            },
+            {
+                "title": "Certificado de Creación de Páginas Web con Astro",
+                "pass": "Aprobado el 12 de diciembre del 2025"
+            },
+            {
+                "title": "Certificado de Frontend Developer",
+                "pass": "Aprobado el 14 de diciembre del 2025"
+            },
+            {
+                "title": "Certificado de Supabase",
+                "pass": "Aprobado el 21 de diciembre del 2025"
+            }
+        ]
+    }
+}

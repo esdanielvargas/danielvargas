@@ -1,0 +1,103 @@
+{
+    "title": "Frontend Web Developer",
+    "profile": {
+        "title": "Professional Objective",
+        "bio": "Front-end web developer with a focus on designing modern, accessible, and adaptable interfaces. Experienced in developing functional digital solutions using technologies such as React, TailwindCSS, and Vite. Aims to provide creative, efficient, and end-user-focused solutions within collaborative environments or as a freelancer."
+    },
+    "skills": {
+        "title": "Skills"
+    },
+    "languages": {
+        "title": "Languages",
+        "list": {
+            "spanish": {
+                "title": "Spanish (native)"
+            },
+            "english": {
+                "title": "Basic English A1"
+            }
+        }
+    },
+    "experience": {
+        "title": "Experience",
+        "positions": [
+            {
+                "title": "Frontend Web Developer",
+                "locale": "Texas, United States",
+                "date": {
+                    "start": "Feb. 2024",
+                    "end": "Nov. 2024"
+                },
+                "description": "Responsible for the complete development of the company’s corporate website. The project included responsive design, basic search engine optimization (SEO), and DNS configuration. Remote work, delivered in a production environment."
+            },
+            {
+                "title": "Web Developer",
+                "company": "Freelance",
+                "locale": "San Salvador, El Salvador",
+                "date": {
+                    "start": "Jan. 2025",
+                    "end": "Present"
+                },
+                "description": "Design and development of websites for entrepreneurs, personal projects, and small businesses. Implementation of modern, responsive, and functional interfaces using technologies such as React, TailwindCSS, and Vite."
+            }
+        ]
+    },
+    "projects": {
+        "title": "Projects",
+        "list": [
+            {
+                "title": "Social Network Project (in development)",
+                "company": "No Name — San Salvador",
+                "date": {
+                    "start": "Oct. 2022",
+                    "end": "Present"
+                },
+                "description": "Development of an experimental social network focused on affinity-based interaction and mutual relationships. The project has evolved through multiple iterations and redesigns, enabling the application of new technologies and best development practices. Implemented with React, TailwindCSS, and Firebase. Features: authentication system, personalized feeds, content publishing, reactions, and scalable architecture for future production deployment."
+            }
+        ]
+    },
+    "education": {
+        "title": "Education",
+        "degrees": [
+            {
+                "title": "High School Diploma",
+                "date": {
+                    "start": "Jan. 2020",
+                    "end": "Dec. 2021"
+                }
+            },
+            {
+                "title": "Systems and Computing Engineering",
+                "date": {
+                    "start": "Jul. 2022",
+                    "end": " Present"
+                }
+            }
+        ]
+    },
+    "certificates": {
+        "title": "Certificates",
+        "list": [
+            {
+                "title": "Introduction to the Web: History and Functioning of the Internet Certificate",
+                "pass": "Approved on December 12, 2025"
+            },
+            {
+                "title": "Basic English A1 Certificate",
+                "pass": "Approved on December 12, 2025"
+            },
+            {
+                "title": "Website Creation with Astro Certificate",
+                "pass": "Approved on December 12, 2025"
+            },
+            {
+                "title": "Frontend Developer Certificate",
+                "pass": "Approved on December 14, 2025"
+            },
+            {
+                "title": "Supabase Certificate",
+                "pass": "Approved on December 21, 2025"
+            }
+        ]
+    }
+}

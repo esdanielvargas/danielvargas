@@ -1,0 +1,20 @@
+{
+    "title": "Sobre Daniel Vargas ~ Desarrollador Web",
+    "heading": "¡Hola! Soy Daniel Vargas",
+    "caption": "Soy un desarrollador web salvadoreño, apasionado por crear interfaces modernas, funcionales y accesibles. Me gusta escribir código limpio y diseñar experiencias que no solo se ven bien, sino que también resuelven problemas reales de forma eficiente y elegante.",
+    "quote": "Construyo el internet que me gustaría navegar",
+    "image": {
+        "alt": "Fotografía de perfil de Daniel Vargas | Desarrollador Web",
+        "title": "Fotografía de perfil de Daniel Vargas | Desarrollador Web"
+    },
+    "technologies": {
+        "title": "Tecnologías que utilizo",
+        "short_title": "Tecnologías",
+        "caption": "Trabajo con una variedad de tecnologías modernas para crear soluciones web efectivas y escalables."
+    },
+    "tools": {
+        "title": "Herramientas que uso",
+        "short_title": "Herramientas",
+        "caption": "Utilizo herramientas y plataformas que me permiten ser más eficiente y productivo en mi trabajo diario."
+    }
+}
