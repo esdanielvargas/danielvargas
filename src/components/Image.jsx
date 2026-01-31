@@ -1,8 +1,10 @@
+import { getOptimizedImage } from "../utils/imageOptimizer";
+
 export default function Image({
   src,
   alt = "",
   title = "",
-  loading = "lazy", /** lazy y eager **/
+  loading = "lazy" /** lazy y eager **/,
   width,
   height,
   size,
@@ -18,7 +20,7 @@ export default function Image({
       className={`size-full flex items-center justify-center overflow-hidden ${containerClass}`}
     >
       <img
-        src={src}
+        src={getOptimizedImage(src, resolvedWidth)}
         alt={alt}
         title={title}
         loading={loading}
