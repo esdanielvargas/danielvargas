@@ -6,8 +6,10 @@ import { useMenu } from "../context/MenuContext";
 import { useEffect, useRef, useState } from "react";
 import LanguageDropdown from "./LanguageDropdown";
 import FalseHeader from "./FalseHeader";
+import { useTranslation } from "react-i18next";
 
 export default function Header({ menuRef }) {
+  const { t } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -69,7 +71,7 @@ export default function Header({ menuRef }) {
             </Link>
           </div>
           <div
-            className={`size-full flex items-center justify-center ${
+            className={`size-full hidden md:flex items-center justify-center ${
               scrolled ? "text-neutral-950 dark:text-neutral-50" : ""
             }`}
           >
@@ -83,13 +85,13 @@ export default function Header({ menuRef }) {
                   ref={langButtonRef}
                   title={
                     lang
-                      ? "Cerrar selección de idioma"
-                      : "Abrir selección de idioma"
+                      ? t("common.action.close_lang")
+                      : t("common.action.open_lang")
                   }
                   aria-label={
                     lang
-                      ? "Cerrar selección de idioma"
-                      : "Abrir selección de idioma"
+                      ? t("common.action.close_lang")
+                      : t("common.action.open_lang")
                   }
                   className="size-7.5 cursor-pointer flex items-center justify-center relative text-neutral-950 dark:text-neutral-50"
                   onClick={() => toggleLang()}
@@ -101,8 +103,16 @@ export default function Header({ menuRef }) {
               <button
                 type="button"
                 ref={menuButtonRef}
-                title={menu ? "Cerrar menú" : "Abrir menú"}
-                aria-label={menu ? "Cerrar menú" : "Abrir menú"}
+                title={
+                  menu
+                    ? t("common.action.close_menu")
+                    : t("common.action.open_menu")
+                }
+                aria-label={
+                  menu
+                    ? t("common.action.close_menu")
+                    : t("common.action.open_menu")
+                }
                 className="size-7.5 z-50 cursor-pointer flex flex-col items-center justify-center text-neutral-950 dark:text-neutral-50"
                 onClick={() => toggleMenu()}
               >

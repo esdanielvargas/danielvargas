@@ -1,16 +1,14 @@
-export const getProjects = () => [
+export const getProjects = (t) => [
   {
     order: 0,
     show: true,
     category: "app",
     categories: ["app"],
     id: "cEsjmUhdxvD5M8",
-    title: "Aplicación Web ~ Red Social",
-    description:
-      "Aplicación web tipo red social minimalista para compartir ideas y conectar con otras personas.",
+    title: t("projects.list.cloudbook.title"),
+    caption: t("projects.list.cloudbook.caption"),
     image: "/images/projects/cloudbook.png",
     path: "cloudbook",
-    pathname: "/projects/",
     link: "https://cloudbook.danielvargas.dev/login",
     tech: [
       {
@@ -47,14 +45,12 @@ export const getProjects = () => [
     order: 1,
     show: true,
     category: "landing",
-    categories: ["landing", ""],
+    categories: ["landing"],
     id: "8bO636SQSO4CQ8",
-    title: "Sitio Web Oficial de Daniel Ospid",
-    description:
-      "Landing page responsiva que presenta mi trabajo artístico y como desarrollador web.",
+    title: t("projects.list.artist_site.title"),
+    caption: t("projects.list.artist_site.caption"),
     image: "/images/projects/danielospid.png",
     path: "danielospid",
-    pathname: "/projects/",
     link: "https://danielospid.com",
     tech: [
       {
@@ -124,14 +120,12 @@ export const getProjects = () => [
     order: 2,
     show: true,
     category: "landing",
-    categories: ["landing", "custom"],
+    categories: ["landing"],
     id: "B8t279jSd5iDou",
-    title: "Discografía de Daniel Ospid",
-    description:
-      "Plataforma dinámica con panel de administración y autenticación de usuarios para gestionar y explorar lanzamientos musicales.",
+    title: t("projects.list.discography.title"),
+    caption: t("projects.list.discography.caption"),
     image: "/images/projects/danielospid-music-v1.png",
     path: "danielospid-music",
-    pathname: "/projects/",
     link: "https://music.danielospid.com",
     tech: [
       {
@@ -170,12 +164,10 @@ export const getProjects = () => [
     category: "ecommerce",
     categories: ["ecommerce", "app"],
     id: "UWkRqm5gFg7UEO",
-    title: "Tienda Online de Daniel Ospid",
-    description:
-      "E-commerce moderno desarrollado con React y Firebase para venta de productos y merchandising.",
+    title: t("projects.list.ecommerce.title"),
+    caption: t("projects.list.ecommerce.caption"),
     image: "/images/projects/danielospid-shop.png",
     path: "danielospid-shop",
-    pathname: "/projects/",
     link: "https://shop.danielospid.com",
     tech: [
       {
@@ -210,17 +202,15 @@ export const getProjects = () => [
   },
   {
     order: 4,
-    show: false,
+    show: true,
     category: "app",
-    categories: ["app", ""],
+    categories: ["app"],
     id: "aDm1N0sPidAdmin",
-    title: "Panel Administrativo de Daniel Ospid",
-    description:
-      "Dashboard de gestión para la tienda online y la discografía, con control de usuarios y contenido.",
+    title: t("projects.list.dashboard.title"),
+    caption: t("projects.list.dashboard.caption"),
     image: "/images/projects/danielospid-admin.png",
     path: "danielospid-admin",
-    pathname: "/projects/",
-    // link: "https://admin.danielospid.com",
+    link: "https://admin.danielospid.com",
     tech: [
       {
         id: "STnZmzFDjg54Mz",
@@ -256,13 +246,12 @@ export const getProjects = () => [
     order: 5,
     show: true,
     category: "professional",
-    categories: ["professional", ""],
+    categories: ["professional"],
     id: "8ZorcD58InBjys",
-    title: "Portafolio de Daniel Vargas",
-    description: "",
+    title: t("projects.list.portfolio.title"),
+    caption: t("projects.list.portfolio.caption"),
     image: "/images/projects/danielvargas.png",
     path: "danielvargas",
-    pathname: "/projects/",
     link: "https://danielvargas.dev",
     tech: [
       {
@@ -310,15 +299,13 @@ export const getProjects = () => [
   {
     order: 6,
     show: true,
-    category: "basic",
-    categories: ["basic", ""],
+    category: "professional",
+    categories: ["professional"],
     id: "bLQYbiWCvfOe83",
-    title: "WOW Solution 360",
-    description:
-      "Sitio corporativo desarrollado para empresa en Dallas, EE.UU., con enfoque en diseño limpio y optimización SEO.",
+    title: t("projects.list.wow_solution.title"),
+    caption: t("projects.list.wow_solution.caption"),
     image: "/images/projects/wowsolution360.png",
     path: "wowsolution360",
-    pathname: "/projects/",
     link: "https://wowsolution360.com",
     tech: [
       {

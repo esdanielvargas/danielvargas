@@ -6,7 +6,7 @@ export default function ServiceBox({
   order,
   image,
   title,
-  description,
+  caption,
   path,
 }) {
   const { t } = useTranslation();
@@ -15,7 +15,7 @@ export default function ServiceBox({
     <div
       className={`w-full flex flex-col ${
         order % 2 !== 0 ? "md:flex-row-reverse " : "md:flex-row "
-      }items-start gap-10 justify-between`}
+      }items-start gap-6 md:gap-10 justify-between`}
     >
       {/* Imagen */}
       <div
@@ -42,9 +42,9 @@ export default function ServiceBox({
             : "md:items-start md:text-left"
         }`}
       >
-        <h2 className="text-sm md:text-lg lg:text-xl font-bold">{title}</h2>
-        <p className="text-balance text-normal text-sm/6 text-neutral-400 mb-1">
-          {description}
+        <h2 className="text-lg lg:text-xl font-bold">{title}</h2>
+        <p className="text-balance text-normal text-sm/5.5 text-neutral-400 mb-1">
+          {caption}
         </p>
         <div
           className={`w-full flex flex-col-reverse md:flex-row items-center ${
@@ -52,7 +52,7 @@ export default function ServiceBox({
           } gap-2`}
         >
           <SmartButton variant="primary" to={`/contact?service=${path}`}>
-            {t("services.button.hire")}
+            {t("common.action.hire_service")}
           </SmartButton>
         </div>
       </div>

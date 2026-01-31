@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from "react";
 import { useSearchParams } from "react-router-dom";
-import { Mail, Phone, MapPin, CheckCircle } from "lucide-react";
+import { Mail, MapPin, CheckCircle, Smartphone } from "lucide-react";
 import { FieldBlock, SmartButton } from "../components";
 import { getPlans, getServices } from "../database";
 import { useTranslation } from "react-i18next";
@@ -111,9 +111,9 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 bg-neutral-900 border border-neutral-800 rounded-lg shadow-xl overflow-hidden">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-lg shadow-xl overflow-hidden">
           {/* Columna Izquierda: Info de Contacto */}
-          <div className="p-6 md:p-10 relative flex flex-col justify-between">
+          <div className="p-6 md:p-10 relative flex flex-col justify-between text-neutral-50">
             <div className="z-2">
               <h3 className="mb-4 md:mb-6 text-xl md:text-2xl font-bold font-grotesk">
                 {t("contact.form.title")}
@@ -128,8 +128,8 @@ export default function Contact() {
                   <span>hello@danielvargas.dev</span>
                 </div>
                 <div className="hidden items-center space-x-4">
-                  <Phone className="w-6 h-6" />
-                  <span>+503 1234 5678</span>
+                  <Smartphone className="w-6 h-6" />
+                  <span>{"+(503) 1234-5678"}</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <MapPin className="w-6 h-6" />
@@ -200,10 +200,10 @@ export default function Contact() {
                 className="transition duration-300 transform hover:-translate-y-1"
               >
                 {loading
-                  ? t("button.sending")
+                  ? t("common.action.sending")
                   : planSelected
-                  ? t("button.quote")
-                  : t("button.message")}
+                  ? t("common.action.request_quote")
+                  : t("common.action.send_message")}
               </SmartButton>
             </form>
           </div>

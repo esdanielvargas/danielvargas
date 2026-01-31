@@ -1,10 +1,7 @@
 export default function PageTitle(props) {
   const {
-    // path,
-    // title,
-    header,
-    description,
-    // noindex,
+    heading,
+    caption,
     children,
     positionX = "",
   } = props;
@@ -24,11 +21,11 @@ export default function PageTitle(props) {
         }`}
       >
         <h1 className="text-xl md:text-2xl lg:text-3xl font-semibold text-center text-balance line-clamp-3 font-sans">
-          {header || "Título de la Página"}
+          {heading || "Título de la Página"}
         </h1>
-        {description && (
+        {caption && (
           <span className="text-sm md:text-md lg:text-base text-center text-balance text-neutral-600 dark:text-neutral-400 line-clamp-3 font-text">
-            {description || "Description de la página"}
+            {caption || "Description de la página"}
           </span>
         )}
       </div>

@@ -1,4 +1,4 @@
-import UTMGenerator from "./UTMGenerador";
+import UTMGenerator from "./UTMGenerator";
 import IDGenerator from "./IDGenerator";
 import CurrencyConverter from "./CurrencyConverter";
 import BMICalculator from "./BMICalculator";

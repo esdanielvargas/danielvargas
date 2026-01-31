@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import {
   FalseHeader,
   FieldBlock,
+  PageMeta,
   PageTitle,
   SmartButton,
   Wrapper,
@@ -35,14 +36,18 @@ export default function BMICalculator() {
 
   return (
     <>
+      <PageMeta
+        path="tools/bmi-calculator"
+        title={t("tools.bmi.title")}
+        caption={t("tools.bmi.caption")}
+      />
       <FalseHeader page />
       <section className="w-full flex justify-center">
         <Wrapper>
           <PageTitle
             path="/tools/bmi-calculator"
-            title={t("tools.bmi.title")}
-            header={t("tools.bmi.header")}
-            description={t("tools.bmi.description")}
+            heading={t("tools.bmi.heading")}
+            caption={t("tools.bmi.caption")}
           />
           <div className="w-full flex flex-col md:flex-row-reverse md:items-start gap-4">
             {/* Panel izquierdo: inputs */}
@@ -74,8 +79,9 @@ export default function BMICalculator() {
                 <FieldBlock
                   label={t("tools.bmi.result_label")}
                   text={t("tools.bmi.result_text")}
-                  // value={`${bmi} (${category})`}
-                  placeholder={bmi === null ? "24.2 (Peso normal)" : `${bmi} (${category})`}
+                  placeholder={
+                    bmi === null ? "24.2 (Peso normal)" : `${bmi} (${category})`
+                  }
                   readOnly
                 />
               </div>

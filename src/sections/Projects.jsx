@@ -6,7 +6,7 @@ import { ChevronDown } from "lucide-react";
 
 export default function Projects({ line = false }) {
   const { t } = useTranslation();
-  const projects = getProjects();
+  const projects = getProjects(t);
   const [select, setSelect] = useState("all");
 
   const categories = [
@@ -73,9 +73,8 @@ export default function Projects({ line = false }) {
       id="projects"
     >
       <div className="w-full max-w-300 mx-4 space-y-14">
-        <div className="w-full flex items-center justify-between">
-          <h2 className="text-3xl font-bold select-none">{t("projects.header")}</h2>
-          
+        <div className="w-full flex items-center justify-center">
+          <h2 className="text-2xl md:text-3xl font-bold select-none">{t("projects.heading")}</h2>
           <div className="h-8.5 relative hidden items-center justify-center cursor-pointer overflow-hidden rounded-lg bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800">
             <select
               value={select}
@@ -112,7 +111,7 @@ export default function Projects({ line = false }) {
         </div>
         <div className="w-full flex items-center justify-end gap-2">
           <SmartButton variant="secondary" to="/projects">
-            {t("projects.button.more")}
+            {t("common.action.view_more_projects")}
           </SmartButton>
         </div>
       </div>

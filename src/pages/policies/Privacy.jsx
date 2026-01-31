@@ -7,99 +7,85 @@ import {
   Wrapper,
 } from "../../components";
 
-export default function Terms() {
+export default function Privacy() {
   const { t } = useTranslation();
-  const date = t("legal.terms.date");
+  const date = t("policies.privacy.date");
 
   return (
     <>
       <PageMeta
-        path="legal/terms"
-        title={t("legal.terms.title")}
-        description={t("legal.terms.description")}
+        path="/policies/privacy"
+        title={t("policies.privacy.title")}
+        description={t("policies.privacy.description")}
       />
       <FalseHeader page />
       <section className="w-full min-h-screen flex justify-center">
         <Wrapper>
           <PageTitle
-            header={t("legal.terms.header")}
-            description={t("legal.terms.description")}
+            heading={t("policies.privacy.heading")}
+            caption={t("policies.privacy.caption")}
           />
           <div className="w-full space-y-4 leading-relaxed font-text text-neutral-700 dark:text-neutral-300">
             <div className="w-full space-y-2">
-              <p className="font-normal text-sm/7">{t("legal.terms.intro")}</p>
-            </div>
-            <div className="w-full space-y-2">
-              <h2 className="font-semibold text-md font-sans text-white">
-                {t("legal.terms.sections.1.title")}
-              </h2>
               <p className="font-normal text-sm/7">
-                {t("legal.terms.sections.1.content")}
+                {t("policies.privacy.intro")}
               </p>
             </div>
             <div className="w-full space-y-2">
               <h2 className="font-semibold text-md font-sans text-white">
-                {t("legal.terms.sections.2.title")}
+                {t("policies.privacy.sections.1.title")}
               </h2>
               <p className="font-normal text-sm/7">
-                {t("legal.terms.sections.2.content")}
+                {t("policies.privacy.sections.1.content")}
               </p>
             </div>
             <div className="w-full space-y-2">
               <h2 className="font-semibold text-md font-sans text-white">
-                {t("legal.terms.sections.3.title")}
+                {t("policies.privacy.sections.2.title")}
               </h2>
               <p className="font-normal text-sm/7">
-                {t("legal.terms.sections.3.content")}
+                {t("policies.privacy.sections.2.content")}
               </p>
             </div>
             <div className="w-full space-y-2">
               <h2 className="font-semibold text-md font-sans text-white">
-                {t("legal.terms.sections.4.title")}
+                {t("policies.privacy.sections.3.title")}
               </h2>
               <p className="font-normal text-sm/7">
-                {t("legal.terms.sections.4.content")}
+                {t("policies.privacy.sections.3.content")}
               </p>
             </div>
             <div className="w-full space-y-2">
               <h2 className="font-semibold text-md font-sans text-white">
-                {t("legal.terms.sections.5.title")}
+                {t("policies.privacy.sections.4.title")}
               </h2>
               <p className="font-normal text-sm/7">
-                {t("legal.terms.sections.5.content")}
+                {t("policies.privacy.sections.4.content")}
               </p>
             </div>
             <div className="w-full space-y-2">
               <h2 className="font-semibold text-md font-sans text-white">
-                {t("legal.terms.sections.6.title")}
+                {t("policies.privacy.sections.5.title")}
               </h2>
               <p className="font-normal text-sm/7">
-                {t("legal.terms.sections.6.content")}
+                {t("policies.privacy.sections.5.content")}
               </p>
             </div>
             <div className="w-full space-y-2">
               <h2 className="font-semibold text-md font-sans text-white">
-                {t("legal.terms.sections.7.title")}
+                {t("policies.privacy.sections.6.title")}
               </h2>
               <p className="font-normal text-sm/7">
-                {t("legal.terms.sections.7.content")}
-              </p>
-            </div>
-            <div className="w-full space-y-2">
-              <h2 className="font-semibold text-md font-sans text-white">
-                {t("legal.terms.sections.8.title")}
-              </h2>
-              <p className="font-normal text-sm/7">
-                {t("legal.terms.sections.8.content")}
+                {t("policies.privacy.sections.6.content")}
               </p>
             </div>
             <div className="w-full space-y-2">
               <p className="font-normal text-sm/7 italic">
-                {t("legal.updated", { date })}
+                {t("policies.updated", { date })}
               </p>
             </div>
           </div>
-          <SmartButton to="/legal">{t("legal.button.back")}</SmartButton>
+          <SmartButton to="/policies">{t("policies.button.back")}</SmartButton>
         </Wrapper>
       </section>
     </>

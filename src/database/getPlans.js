@@ -1,69 +1,64 @@
 export const getPlans = (t) => [
   {
-    id: "landing-plan-01",
+    id: "plan-01",
     order: 0,
     show: true,
     path: "landing-page",
     title: t("plans.landing.title"),
     price: 350,
     caption: t("plans.landing.caption"),
-    features: [
-      "1 Página (One page)",
-      "Diseño 100% adaptable",
-      "Formulario de contacto",
-      "Configuración de dominio",
-      "Enlaces a redes sociales",
-      "Optimización SEO básica",
-      "Carga ultrarrápida",
-    ],
+    features: t("plans.landing.features", { returnObjects: true }),
+    maintenance: {
+      price: 15,
+      period: t("common.label.per_month"),
+      title: t("plans.landing.maintenance.title"),
+      caption: t("plans.landing.maintenance.caption"),
+      disclaimer: t("plans.landing.maintenance.disclaimer")
+    }
   },
   {
-    id: "website-plan-02",
+    id: "plan-02",
     order: 1,
     show: true,
     path: "website",
     title: t("plans.professional.title"),
     price: 850,
     caption: t("plans.professional.caption"),
-    features: [
-      "Hasta 6 páginas",
-      "Diseño UI/UX premium",
-      "Mapa de ubicación",
-      "Galería de imágenes",
-      "Optimización de velocidad",
-      "SEO Técnico avanzado",
-    ],
+    features: t("plans.professional.features", { returnObjects: true }),
+    maintenance: {
+      price: 25,
+      period: t("common.label.per_month"),
+      title: t("plans.professional.maintenance.title"),
+      caption: t("plans.professional.maintenance.caption"),
+      disclaimer: t("plans.professional.maintenance.disclaimer")
+    }
   },
   {
-    id: "webapp-plan-03",
+    id: "plan-03",
     order: 2,
     show: true,
     path: "web-app",
     title: t("plans.app.title"),
-    price: 1050,
+    price: 2550,
+    pricePrefix: t("common.label.from"),
     caption: t("plans.app.caption"),
-    features: [
-      "Autenticación de usuarios",
-      "Base de datos segura",
-      "Panel de administración",
-      "Lógica de negocio a medida",
-      "Almacenamiento de archivos",
-      "Soporte prioritario"
-    ],
+    features: t("plans.app.features", { returnObjects: true }),
+    maintenance: {
+      price: 45,
+      period: t("common.label.per_month"),
+      title: t("plans.app.maintenance.title"),
+      caption: t("plans.app.maintenance.caption"),
+      disclaimer: t("plans.app.maintenance.disclaimer")
+    }
   },
   {
-    id: "custom-plan-04",
+    id: "plan-04",
     order: 3,
     show: true,
     path: "custom",
     title: t("plans.custom.title"),
     text: t("plans.custom.text"),
     caption: t("plans.custom.caption"),
-    features: [
-      "Consultoría de arquitectura",
-      "Desarrollo a medida",
-      "Integraciones complejas",
-      "Equipo dedicado",
-    ],
+    features: t("plans.custom.features", { returnObjects: true }),
   },
 ];

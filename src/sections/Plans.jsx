@@ -16,9 +16,9 @@ export default function Plans({ line = false }) {
     >
       <div className="w-full max-w-300 mx-4 space-y-14">
         {/* Títulos */}
-        <div className="w-full flex items-center justify-between">
-          <h2 className="text-3xl font-bold select-none">
-            {t("plans.header")}
+        <div className="w-full flex items-center justify-center">
+          <h2 className="text-2xl md:text-3xl font-bold select-none">
+            {t("plans.heading")}
           </h2>
         </div>
         {/* Contenido */}
@@ -34,7 +34,7 @@ export default function Plans({ line = false }) {
         {/* Acciones */}
         <div className="w-full flex items-center justify-end gap-2">
           <SmartButton variant="secondary" to="/plans">
-            {t("plans.button.more")}
+            {t("common.action.view_more_plans")}
           </SmartButton>
         </div>
       </div>

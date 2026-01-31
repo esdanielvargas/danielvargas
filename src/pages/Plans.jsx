@@ -18,17 +18,16 @@ export default function Plans() {
       <PageMeta
         path="plans"
         title={t("plans.title")}
-        description={t("plans.description")}
+        caption={t("plans.caption")}
       />
       <FalseHeader page />
       <Section>
         <Wrapper>
           <PageTitle
             path="/plans"
-            title={t("plans.title")}
-            header={t("plans.header")}
-            description={t("plans.description")}
-          ></PageTitle>
+            heading={t("plans.heading")}
+            caption={t("plans.caption")}
+          />
           <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-2">
             {plans
               .filter((plan) => plan.show)

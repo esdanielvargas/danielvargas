@@ -1,17 +1,22 @@
 import { useTranslation } from "react-i18next";
-import { FalseHeader, HeroAbout, Section, Wrapper } from "../components";
+import { FalseHeader, HeroAbout, PageMeta, Section, Wrapper } from "../components";
 
 export default function About() {
   const { t } = useTranslation();
 
   return (
     <>
+      <PageMeta
+        path="about"
+        title={t("about.title")}
+        caption={t("about.caption")}
+      />
       <FalseHeader page />
       <Section>
         <Wrapper>
-          <HeroAbout path="about" title={t("about.title")} />
+          <HeroAbout />
           {/* tecnologías */}
-          <div className="w-full flex flex-col items-center md:items-start gap-[30px]">
+          <div className="w-full flex flex-col items-center md:items-start gap-7.5">
             <h2 className="text-xl md:text-2xl font-semibold text-neutral-900 dark:text-neutral-100">
               {t("about.technologies.title")}
             </h2>

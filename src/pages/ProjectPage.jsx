@@ -14,7 +14,7 @@ import { useTranslation } from "react-i18next";
 export default function ProjectPage() {
   const { t } = useTranslation();
   const { path } = useParams();
-  const projects = getProjects();
+  const projects = getProjects(t);
   const project = projects.find((project) => project.path === path);
 
   return (
@@ -24,9 +24,8 @@ export default function ProjectPage() {
         <Wrapper>
           <PageTitle
             path={`/projects/${path}`}
-            title={project.title}
-            header={project.title}
-            description={project.description}
+            heading={project.title}
+            caption={project.caption}
           />
           <div className="w-full space-y-2">
             <Image
@@ -42,21 +41,18 @@ export default function ProjectPage() {
           <section className="w-full grid grid-cols-1 gap-8">
             <div>
               <h2 className="text-xl font-semibold font-sans mb-2">
-                Descripción
+                {t("common.label.caption")}
               </h2>
               <p className="leading-relaxed font-text text-neutral-400">
-                {project.description}
+                {project.caption}
               </p>
             </div>
 
             {project.tech && (
               <div>
-                <h2 className="text-xl font-semibold mb-2">Tecnologías</h2>
-                <ul className="hidden flex-wrap gap-2">
-                  <li className="px-3 py-1 border rounded-lg">React</li>
-                  <li className="px-3 py-1 border rounded-lg">Firebase</li>
-                  <li className="px-3 py-1 border rounded-lg">TailwindCSS</li>
-                </ul>
+                <h2 className="text-xl font-semibold mb-2">
+                  {t("common.label.technologies")}
+                </h2>
                 <div className="w-full flex flex-wrap gap-2">
                   {project.tech.map((tech) => (
                     <Soap key={tech.id} {...tech} />
@@ -85,9 +81,11 @@ export default function ProjectPage() {
 
           {/* 5. Enlaces de acción */}
           <div className="flex gap-4 justify-center">
-            <SmartButton to="/projects">← Volver a proyectos</SmartButton>
+            <SmartButton to="/projects">
+              ← {t("common.action.go_back_projects")}
+            </SmartButton>
             <SmartButton variant="secondary" href={project.link}>
-              {t("projects.button.web")}
+              {t("common.action.visit_website")}
             </SmartButton>
           </div>
         </Wrapper>

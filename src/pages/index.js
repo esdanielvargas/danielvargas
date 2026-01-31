@@ -12,8 +12,8 @@ import Resume from "./Resume";
 import Sitemap from "./Sitemap";
 import ToolsPage from "./ToolsPage";
 export * from "./tools";
-import LegalPage from "./LegalPage";
-export * from "./legal";
+import PoliciesPage from "./PoliciesPage";
+export * from "./policies";
 
 export {
   About,
@@ -27,7 +27,7 @@ export {
   ToolsPage,
   Contact,
   NoFound,
-  LegalPage,
+  PoliciesPage,
   Resume,
   Sitemap,
 };

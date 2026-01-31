@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import {
   FalseHeader,
   FieldBlock,
+  PageMeta,
   PageTitle,
   SmartButton,
   Wrapper,
@@ -19,7 +20,7 @@ export default function CurrencyConverter() {
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(
-      convertPrice(price, fromCurrency, toCurrency)
+      convertPrice(price, fromCurrency, toCurrency),
     );
     setCopied(true);
     setTimeout(() => setCopied(false), 3000);
@@ -27,14 +28,18 @@ export default function CurrencyConverter() {
 
   return (
     <>
+      <PageMeta
+        path="tools/currency-converter"
+        title={t("tools.currency_converter.title")}
+        caption={t("tools.currency_converter.caption")}
+      />
       <FalseHeader page />
       <div className="w-full flex justify-center">
         <Wrapper>
           <PageTitle
             path="/tools/currency-converter"
-            title={t("tools.currency_converter.title")}
-            header={t("tools.currency_converter.header")}
-            description={t("tools.currency_converter.description")}
+            heading={t("tools.currency_converter.heading")}
+            caption={t("tools.currency_converter.caption")}
           />
           <div className="w-full flex flex-col md:flex-row-reverse md:items-start gap-4">
             <div className="w-full p-4 flex flex-col gap-4 rounded-lg bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800">
@@ -54,7 +59,7 @@ export default function CurrencyConverter() {
                       value: code,
                       label: title,
                       title: label,
-                    })
+                    }),
                   )}
                   value={fromCurrency}
                   onChange={(e) => setFromCurrency(e.target.value)}
@@ -68,7 +73,7 @@ export default function CurrencyConverter() {
                       value: code,
                       label: title,
                       title: label,
-                    })
+                    }),
                   )}
                   value={toCurrency}
                   onChange={(e) => setToCurrency(e.target.value)}

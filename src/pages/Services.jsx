@@ -18,14 +18,14 @@ export default function Services() {
       <PageMeta
         path="services"
         title={t("services.title")}
-        description={t("services.description")}
+        caption={t("services.caption")}
       />
       <FalseHeader page />
       <Section>
         <Wrapper>
           <PageTitle
-            header={t("services.header")}
-            description={t("services.description")}
+            heading={t("services.heading")}
+            caption={t("services.caption")}
           />
           <div className="w-full space-y-10">
             {services

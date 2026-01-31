@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { SmartButton } from "../buttons";
-import { Check } from "lucide-react";
+import { Check, ShieldCheck } from "lucide-react";
 
 export default function PlanBox(props) {
   const {
@@ -12,11 +12,12 @@ export default function PlanBox(props) {
     caption,
     features,
     path,
+    period,
+    pricePrefix,
+    maintenance,
     className = "",
   } = props;
   const { t } = useTranslation();
-
-  const displayPrice = text ? text : `$${price.toLocaleString("en-US")} USD`;
 
   return (
     <div
@@ -32,10 +33,40 @@ export default function PlanBox(props) {
           {title || "Nombre del plan"}
         </h2>
 
-        {/* Precio o texto */}
-        <p className="w-full text-left font-bold text-3xl font-grotesk">
-          {displayPrice}
-        </p>
+        <div className="w-full text-left font-bold text-3xl font-grotesk flex flex-wrap items-baseline gap-1">
+          {text ? (
+            <span>{text}</span>
+          ) : (
+            <div className="w-full min-h-13 flex flex-col justify-center">
+              {pricePrefix ? (
+                <div className="flex flex-col items-start">
+                  {pricePrefix && (
+                    <span className="font-medium text-xs uppercase tracking-wide">
+                      {pricePrefix}
+                    </span>
+                  )}
+                  <span>
+                    ${price?.toLocaleString("en-US")}
+                    <span className="font-black text-lg uppercase tracking-wide">{" USD"}</span>
+                  </span>
+                </div>
+              ) : (
+                <div className="flex flex-col items-start">
+                  <span>
+                    ${price?.toLocaleString("en-US")}
+                    <span className="font-black text-lg uppercase tracking-wide">{" USD"}</span>
+                  </span>
+                  {period && (
+                    <span className="text-xs font-medium uppercase tracking-wide">
+                      {" "}
+                      {period}
+                    </span>
+                  )}
+                </div>
+              )}
+            </div>
+          )}
+        </div>
 
         {/* Descripción corta (Caption) */}
         {caption && (
@@ -46,8 +77,8 @@ export default function PlanBox(props) {
 
         <hr className="text-neutral-200 dark:text-neutral-800" />
 
-        {/* Lista de */}
-        {features && (
+        {/* Lista de incluidos */}
+        {Array.isArray(features) && features.length > 0 && (
           <ul className="w-full space-y-2.5">
             {features?.map((feature, index) => (
               <li
@@ -62,14 +93,40 @@ export default function PlanBox(props) {
             ))}
           </ul>
         )}
+
+        {maintenance && (
+          <div className="w-full mt-2 p-3 rounded-md bg-white dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 overflow-hidden">
+            <div className="flex items-center gap-2 mb-1">
+              <ShieldCheck
+                size={14}
+                className="text-sky-600 dark:text-sky-400"
+              />
+              <span className="text-xs font-bold text-neutral-800 dark:text-neutral-200">
+                {maintenance.title}
+              </span>
+            </div>
+
+            <div className="flex justify-between items-baseline w-full gap-2">
+              <p className="w-full font-medium text-[10.5px] leading-tight text-neutral-500">
+                {maintenance.caption}
+              </p>
+              <div className="min-w-fit flex flex-col text-right">
+                <span className="text-sm font-bold block text-neutral-800 dark:text-neutral-200">
+                  +${maintenance.price}
+                </span>
+                <span className="text-[10px] text-neutral-400">
+                  {maintenance.period}
+                </span>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
       <div className="w-full flex flex-col items-center justify-center gap-2">
-        <SmartButton
-          full
-          variant="primary"
-          to={`/contact?plan=${path}`}
-        >
-          {text ? "Solicitar cotización" : t("plans.button.hire")}
+        <SmartButton full variant="primary" to={`/contact?plan=${path}`}>
+          {text
+            ? t("common.action.request_quote")
+            : t("common.action.hire_plan")}
         </SmartButton>
       </div>
     </div>

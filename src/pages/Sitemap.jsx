@@ -8,11 +8,11 @@ import {
 } from "../components";
 import {
   getInternal,
-  getLegal,
+  getServices,
   getPlans,
   getProjects,
-  getServices,
   getTools,
+  getPolicies,
 } from "../database";
 import { Link } from "react-router-dom";
 import {
@@ -32,44 +32,50 @@ export default function Sitemap() {
   const plans = getPlans(t);
   const projects = getProjects(t);
   const tools = getTools(t);
-  const legal = getLegal(t);
+  const policies = getPolicies(t);
 
   const categories = [
     {
       title: "Inicio",
+      pathname: "/",
       path: "/",
       icon: <Home className="w-4 h-4" />,
       items: internal,
     },
     {
       title: "Servicios",
+      pathname: "/contact?service=",
       path: "/services",
       icon: <Briefcase className="w-4 h-4" />,
       items: services,
     },
     {
       title: "Planes",
+      pathname: "/contact?plan=",
       path: "/plans",
       icon: <Layers className="w-4 h-4" />,
       items: plans,
     },
     {
       title: "Proyectos",
+      pathname: "/projects/",
       path: "/projects",
       icon: <FileText className="w-4 h-4" />,
       items: projects,
     },
     {
       title: "Herramientas",
+      pathname: "/tools/",
       path: "/tools",
       icon: <Wrench className="w-4 h-4" />,
       items: tools,
     },
     {
       title: "Políticas",
-      path: "/legal",
+      pathname: "/policies/",
+      path: "/policies",
       icon: <Shield className="w-4 h-4" />,
-      items: legal,
+      items: policies,
     },
   ];
 
@@ -77,21 +83,21 @@ export default function Sitemap() {
     <>
       <PageMeta
         path="sitemap"
-        title="Mapa del Sitio Web de Daniel Vargas"
-        description="lorem lorem lorem"
+        title={t("pages.sitemap.title")}
+        caption={t("pages.sitemap.caption")}
       />
       <FalseHeader page />
       <Section>
         <Wrapper>
           <PageTitle
-            header="Mapa del Sitio Web"
-            description="lorem lorem lorem"
+            heading={t("pages.sitemap.heading")}
+            caption={t("pages.sitemap.caption")}
           />
           <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
             {categories.map((cat) => (
               <div
                 key={cat.title}
-                className="bg-white dark:bg-neutral-900 rounded-xl shadow-md p-4 transition hover:shadow-lg"
+                className="bg-neutral-50 dark:bg-neutral-900 rounded-xl border border-neutral-200 dark:border-neutral-800 shadow-md p-4 transition hover:shadow-lg"
               >
                 <h3 className="flex items-center gap-2 font-semibold font-sans mb-3">
                   {cat.icon}
@@ -104,12 +110,12 @@ export default function Sitemap() {
                 </h3>
                 <ul className="space-y-1">
                   {cat.items
-                    .filter((item) => item.show)
+                    .filter((item) => item.show || item.show_header || item.show_menu)
                     .sort((a, b) => b.title - a.title)
                     .map((item) => (
                       <li key={item.id}>
                         <Link
-                          to={item.pathname + item.path}
+                          to={cat.pathname + item.path}
                           className="text-sm font-text text-neutral-700 dark:text-neutral-300 transition hover:underline"
                         >
                           {item.title}

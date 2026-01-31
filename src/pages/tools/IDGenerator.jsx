@@ -1,5 +1,12 @@
 import { useTranslation } from "react-i18next";
-import { FalseHeader, FieldBlock, PageTitle, SmartButton, Wrapper } from "../../components";
+import {
+  FalseHeader,
+  FieldBlock,
+  PageMeta,
+  PageTitle,
+  SmartButton,
+  Wrapper,
+} from "../../components";
 import { generateID } from "../../utils";
 import { useState } from "react";
 
@@ -29,13 +36,17 @@ export default function IDGenerator() {
 
   return (
     <>
+      <PageMeta
+        path="tools/id-generator"
+        title={t("tools.id_generator.title")}
+        caption={t("tools.id_generator.caption")}
+      />
       <FalseHeader page />
       <section className="w-full flex justify-center">
         <Wrapper>
           <PageTitle
             path="/tools/id-generator"
-            title={t("tools.id_generator.title")}
-            header={t("tools.id_generator.header")}
+            heading={t("tools.id_generator.heading")}
             description={t("tools.id_generator.description")}
           />
           <div className="w-full flex flex-col md:flex-row-reverse md:items-start gap-4">
@@ -103,7 +114,7 @@ export default function IDGenerator() {
                 />
               </div>
               <SmartButton variant="primary" full onClick={handleGenerate}>
-                {t("tools.button.id_generator")}
+                {t("tools.button.id_generate")}
               </SmartButton>
             </div>
             <div className="w-full flex flex-col gap-4">

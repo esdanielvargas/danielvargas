@@ -13,7 +13,7 @@ import { useState } from "react";
 
 export default function Projects() {
   const { t } = useTranslation();
-  const projects = getProjects();
+  const projects = getProjects(t);
   const [select, setSelect] = useState("all");
 
   const categories = [
@@ -21,25 +21,13 @@ export default function Projects() {
       show: true,
       value: "all",
       id: "PqhxgqVVafErOZ",
-      title: t("plans.all.title"),
+      title: t("common.label.all"),
     },
     {
       show: true,
       value: "landing",
       id: "RoLF89pKy2lJiL",
       title: t("plans.landing.title"),
-    },
-    {
-      show: true,
-      value: "basic",
-      id: "mVzScGlJsaNeMd",
-      title: t("plans.basic.title"),
-    },
-    {
-      show: true,
-      value: "standard",
-      id: "demdmKCWXHWs7f",
-      title: t("plans.standard.title"),
     },
     {
       show: true,
@@ -54,16 +42,10 @@ export default function Projects() {
       title: t("plans.app.title"),
     },
     {
-      show: true,
+      show: false,
       value: "ecommerce",
       id: "WvgNlnoHmrJQox",
       title: t("plans.ecommerce.title"),
-    },
-    {
-      show: false,
-      value: "custom",
-      id: "mYtIKOzOL4FIR4",
-      title: t("plans.custom.title"),
     },
   ];
 
@@ -77,22 +59,21 @@ export default function Projects() {
       <PageMeta
         path="projects"
         title={t("projects.title")}
-        description={t("projects.description")}
+        caption={t("projects.caption")}
       />
       <FalseHeader page />
       <Section>
         <Wrapper>
           <PageTitle
             path="/projects"
-            title={t("projects.title")}
-            header={t("projects.header")}
-            description={t("projects.description")}
+            heading={t("projects.heading")}
+            caption={t("projects.caption")}
             positionX="end"
           >
             <div className="h-8.5 relative flex items-center justify-center cursor-pointer overflow-hidden rounded-lg bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800">
               <select
                 value={select}
-                title="Select the category"
+                title={t("common.label.select_category")}
                 onChange={(e) => setSelect(e.target.value)}
                 className="w-full h-8.5 px-3 pr-9 cursor-pointer text-xs/3.5 font-grotesk select-none appearance-none bg-neutral-100 dark:bg-neutral-900 focus:outline-0"
               >

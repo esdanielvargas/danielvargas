@@ -2,13 +2,11 @@ import { useTranslation } from "react-i18next";
 import Image from "./Image";
 import { SmartButton } from "./buttons";
 
-export default function HeroAbout({ title, path }) {
+export default function HeroAbout() {
   const { t } = useTranslation();
 
   return (
     <div className="w-full py-8 flex flex-col md:flex-row items-center justify-center gap-6 overflow-hidden border-b border-neutral-200 dark:border-neutral-800">
-      <title>{title && title}</title>
-      <link rel="canonical" href={`${window.location.origin}${path}`} />
       <div className="min-w-[384px] min-h-[384px] md:min-w-[310px] md:min-h-[310px] lg:min-w-[264px] lg:min-h-[264px] md:max-w-67 overflow-hidden rounded-4xl border-2 border-neutral-400 dark:border-neutral-600 shadow-md">
         <Image
           size={384}
@@ -22,8 +20,8 @@ export default function HeroAbout({ title, path }) {
         <h1 className="text-2xl md:text-3xl font-bold text-neutral-950 dark:text-neutral-100">
           {t("about.heading")}
         </h1>
-        <p className="w-70/100 text-sm md:text-md lg:text-md leading-7 font-grotesk text-neutral-700 dark:text-neutral-300">
-          {t("about.description")}
+        <p className="w-70/100 text-sm md:text-md lg:text-md leading-6 font-grotesk text-neutral-700 dark:text-neutral-300">
+          {t("about.caption")}
         </p>
         <span className="text-xs font-code text-neutral-600 dark:text-neutral-400">
           <em>"{t("about.quote")}"</em>
@@ -32,16 +30,16 @@ export default function HeroAbout({ title, path }) {
           <SmartButton
             variant="primary"
             className="px-3!"
-            title={t("button.github")}
+            title={t("common.action.github")}
             href="https://github.com/esdanielvargas"
           >
             <img src="/images/icons/github.svg" alt="" width={24} height={24} />
           </SmartButton>
           <SmartButton variant="primary" to="/contact" font="grotesk">
-            {t("about.button.contact")}
+            {t("common.action.contact_me")}
           </SmartButton>
           <SmartButton variant="secondary" href="/resume" font="grotesk">
-            {t("about.button.resume")}
+            {t("common.action.resume")}
           </SmartButton>
         </div>
       </div>

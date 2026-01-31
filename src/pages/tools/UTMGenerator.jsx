@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { FalseHeader, FieldBlock, PageTitle, Wrapper } from "../../components";
+import { FalseHeader, FieldBlock, PageMeta, PageTitle, Wrapper } from "../../components";
 import { SmartButton } from "../../components/buttons";
 
 export default function UTMGenerator() {
@@ -51,14 +51,18 @@ export default function UTMGenerator() {
 
   return (
     <>
+      <PageMeta
+        path="tools/utm-generator"
+        title={t("tools.utm.title")}
+        caption={t("tools.utm.caption")}
+      />
       <FalseHeader page />
       <section className="w-full min-h-screen flex justify-center">
         <Wrapper>
           <PageTitle
             path="/tools/utm"
-            title={t("tools.utm.title")}
-            header={t("tools.utm.header")}
-            description={t("tools.utm.description")}
+            heading={t("tools.utm.heading")}
+            caption={t("tools.utm.caption")}
           />
           <div className="w-full flex flex-col md:flex-row-reverse md:items-start gap-4">
             <div className="w-full p-4 flex flex-col gap-4 rounded-lg bg-neutral-900 border border-neutral-800">
@@ -130,7 +134,7 @@ export default function UTMGenerator() {
                 value={form.content}
               />
               <SmartButton variant="primary" full onClick={generateURL}>
-                {t("tools.utm.generate_button")}
+                {t("tools.button.utm_generate")}
               </SmartButton>
             </div>
             <div className="w-full flex flex-col gap-4">
@@ -144,7 +148,7 @@ export default function UTMGenerator() {
                 />
                 <div className="flex items-center justify-end">
                   <SmartButton variant="gray" onClick={copyToClipboard}>
-                    {copied ? "Copiado" : "Copiar"}
+                    {copied ? t("tools.button.copied") : t("tools.button.copy")}
                   </SmartButton>
                 </div>
               </div>

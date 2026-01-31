@@ -7,16 +7,16 @@ export default function PlayBox(props) {
   const {
     icon,
     title,
-    description,
+    caption,
     path,
     pathname,
     variant = "more",
   } = props;
 
   const variants = {
-    more: "Ver más",
-    tool: t("tools.button.action"),
-    legal: t("legal.button.action"),
+    more: t("common.action.view_more"),
+    tool: t("common.action.try_tool"),
+    legal: t("common.action.read_policy"),
   };
 
   return (
@@ -36,9 +36,9 @@ export default function PlayBox(props) {
       </div>
       <p
         className="font-normal text-sm font-text line-clamp-2 text-neutral-500 dark:text-neutral-300"
-        title={description}
+        title={caption}
       >
-        {description ||
+        {caption ||
           "Lorem ipsum dolor sit amet consectetur, adipisicing elite. Nostrum reiciendis to maxime aliquam, enim ex animi! Dolorem et distinctio deleniti placeat natus vero! At repellendus error corrupti ad accusamus dolor officia, fugit veritatis, ipsa natus tempore aliquam quis facere fuga magni."}
       </p>
       <div className="w-full pt-2 flex items-center justify-center">
