@@ -3,13 +3,13 @@ import { useLang } from "../context/LangContext";
 
 export default function LanguageDropdown() {
   const { lang, toggleLang } = useLang();
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const lngs = {
     es: { nativeName: "Español", show: true, available: true },
     en: { nativeName: "English", show: true, available: true },
-    ca: { nativeName: "Català", show: true, available: true },
-    fr: { nativeName: "Français", show: true, available: true },
+    ca: { nativeName: "Català", show: false, available: true },
+    fr: { nativeName: "Français", show: false, available: true },
     it: { nativeName: "Italiano", show: false, available: false },
     pt: { nativeName: "Português", show: false, available: false },
     de: { nativeName: "Deutsch", show: false, available: false },
@@ -32,8 +32,8 @@ export default function LanguageDropdown() {
                 toggleLang();
                 i18n.changeLanguage(lng);
               }}
-              title={`Change to ${lngs[lng].nativeName}`}
-              aria-label={`Change to ${lngs[lng].nativeName}`}
+              title={`${t("common.action.change_language")} ${lngs[lng].nativeName}`}
+              aria-label={`${t("common.action.change_language")} ${lngs[lng].nativeName}`}
               className={`w-full h-10 px-3 text-left text-sm md:text-md font-text cursor-pointer rounded-md border border-neutral-200/50 dark:border-neutral-800/50 hover:bg-neutral-200/35 dark:hover:bg-neutral-900/35 transition-all duration-300 ease-out ${i18n.resolvedLanguage === lng
                 ? "font-bold text-neutral-950 dark:text-neutral-50 bg-neutral-200/75 dark:bg-neutral-900/75 backdrop-blur-xl"
                 : "text-neutral-800 dark:text-neutral-200"
