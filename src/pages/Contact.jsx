@@ -115,9 +115,9 @@ export default function Contact() {
           {/* Columna Izquierda: Info de Contacto */}
           <div className="p-6 md:p-10 relative flex flex-col justify-between text-neutral-50">
             <div className="z-2">
-              <h3 className="mb-4 md:mb-6 text-xl md:text-2xl font-bold font-grotesk">
+              <h2 className="mb-4 md:mb-6 text-xl md:text-2xl font-bold font-grotesk">
                 {t("contact.form.title")}
-              </h3>
+              </h2>
               <p className="mb-6 md:mb-8 text-sm font-grotesk">
                 {t("contact.form.caption")}
               </p>
@@ -151,7 +151,11 @@ export default function Contact() {
             <div className="absolute z-1 inset-0 flex items-center justify-center">
               <img
                 src="/images/gradient-i.svg"
-                alt="null"
+                alt=""
+                title=" "
+                loading="eager"
+                width={426.5}
+                height={488}
                 className="size-full object-cover object-center pointer-events-none select-none"
               />
             </div>

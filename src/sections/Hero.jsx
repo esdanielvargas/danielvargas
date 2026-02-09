@@ -7,11 +7,20 @@ export default function Hero({ line = false }) {
   return (
     <>
       <section
-        className={`w-full h-screen z-55 flex items-center justify-center bg-neutral-950/25 bg-[url('/images/hero.png')] bg-cover bg-bottom ${
+        className={`w-full h-screen z-55 flex items-center justify-center bg-neutral-950/25 bg-cover bg-bottom ${
           line ? "border-b" : ""
         } border-neutral-900`}
       >
-        <div className="size-full max-w-300 mx-4 flex flex-col items-start justify-center gap-8">
+        <img
+          src="/images/hero.png"
+          alt="Banner del sitio web de Daniel Vargas"
+          title="Banner del sitio web de Daniel Vargas"
+          width={1905}
+          height={917}
+          loading="eager"
+          className="size-full z-0 object-cover object-center absolute inset-0 select-none pointer-events-none"
+        />
+        <div className="size-full max-w-300 mx-4 z-1 flex flex-col items-start justify-center gap-8">
           <h1 className="text-center md:text-left text-2xl md:text-3xl lg:text-4xl font-bold text-neutral-50 text-balance">
             {t("pages.home.title")}
           </h1>
