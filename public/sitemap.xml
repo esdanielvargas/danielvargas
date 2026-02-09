@@ -5,7 +5,7 @@
     <loc>https://danielvargas.dev/</loc>
   </url>
 
-  <!-- Secciones principales -->
+  <!-- Páginas principales -->
   <url>
     <loc>https://danielvargas.dev/services</loc>
   </url>
@@ -13,53 +13,42 @@
     <loc>https://danielvargas.dev/plans</loc>
   </url>
   <url>
-    <loc>https://danielvargas.dev/contact</loc>
+    <loc>https://danielvargas.dev/projects</loc>
   </url>
   <url>
     <loc>https://danielvargas.dev/about</loc>
   </url>
   <url>
+    <loc>https://danielvargas.dev/contact</loc>
+  </url>
+  <url>
     <loc>https://danielvargas.dev/tools</loc>
   </url>
   <url>
-    <loc>https://danielvargas.dev/legal</loc>
+    <loc>https://danielvargas.dev/policies</loc>
+  </url>
+  <url>
+    <loc>https://danielvargas.dev/sitemap</loc>
   </url>
 
-  <!-- Servicios individuales -->
-  <url>
-    <loc>https://danielvargas.dev/services/web-development</loc>
+  <!-- Proyectos -->
+   <url>
+    <loc>https://danielvargas.dev/projects/cloudbook</loc>
   </url>
   <url>
-    <loc>https://danielvargas.dev/services/web-design</loc>
+    <loc>https://danielvargas.dev/projects/danielvargas</loc>
   </url>
   <url>
-    <loc>https://danielvargas.dev/services/maintenance</loc>
+    <loc>https://danielvargas.dev/projects/danielospid</loc>
   </url>
   <url>
-    <loc>https://danielvargas.dev/services/google-maps</loc>
+    <loc>https://danielvargas.dev/projects/danielospid-music</loc>
   </url>
   <url>
-    <loc>https://danielvargas.dev/services/professional-emails</loc>
-  </url>
-
-  <!-- Planes individuales -->
-  <url>
-    <loc>https://danielvargas.dev/plans/landing-page</loc>
+    <loc>https://danielvargas.dev/projects/danielospid-admin</loc>
   </url>
   <url>
-    <loc>https://danielvargas.dev/plans/basic-website</loc>
-  </url>
-  <url>
-    <loc>https://danielvargas.dev/plans/standard-website</loc>
-  </url>
-  <url>
-    <loc>https://danielvargas.dev/plans/professional-website</loc>
-  </url>
-  <url>
-    <loc>https://danielvargas.dev/plans/application-website</loc>
-  </url>
-  <url>
-    <loc>https://danielvargas.dev/plans/ecommerce-website</loc>
+    <loc>https://danielvargas.dev/projects/wowsolution360</loc>
   </url>
 
   <!-- Herramientas -->
@@ -67,28 +56,31 @@
     <loc>https://danielvargas.dev/tools/utm-generator</loc>
   </url>
   <url>
-    <loc>https://danielvargas.dev/tools/id-generator</loc>
+    <loc>https://danielvargas.dev/tools/bmi-calculator</loc>
   </url>
   <url>
     <loc>https://danielvargas.dev/tools/currency-converter</loc>
   </url>
+  <url>
+    <loc>https://danielvargas.dev/tools/id-generator</loc>
+  </url>
+
+  <!-- Páginas de políticas -->
+  <url>
+    <loc>https://danielvargas.dev/policies/terms</loc>
+  </url>
+  <url>
+    <loc>https://danielvargas.dev/policies/privacy</loc>
+  </url>
+  <url>
+    <loc>https://danielvargas.dev/policies/cookies</loc>
+  </url>
 
   <!-- Página de CV -->
-   <url>
+  <url>
     <loc>https://danielvargas.dev/resume</loc>
   </url>
   <url>
     <loc>https://danielvargas.dev/about/resume</loc>
-  </url>
-
-  <!-- Páginas legales -->
-  <url>
-    <loc>https://danielvargas.dev/legal/terms</loc>
-  </url>
-  <url>
-    <loc>https://danielvargas.dev/legal/privacy</loc>
-  </url>
-  <url>
-    <loc>https://danielvargas.dev/legal/cookies</loc>
   </url>
 </urlset>
