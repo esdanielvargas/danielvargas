@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta property="og:title" content="{{subject}}" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Space+Grotesk:wght@300..700&display=swap">
+
+    <title>Preview: Newsletter</title>
+
+    <style type="text/css">
+        .google-sans {
+            font-family: 'Google Sans', system-ui, -apple-system, sans-serif;
+        }
+        
+        .google-sans-flex {
+            font-family: 'Google Sans Flex', system-ui, -apple-system, sans-serif;
+        }
+
+        .font-mono {
+            font-family: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+        }
+
+        #outlook a {
+            padding: 0;
+        }
+
+        body {
+            width: 100% !important;
+        }
+
+        .ReadMsgBody {
+            width: 100%;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        body {
+            -webkit-text-size-adjust: none;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+
+        table td {
+            border-collapse: collapse;
+        }
+
+        #backgroundTable {
+            height: 100% !important;
+            margin: 0;
+            padding: 0;
+            width: 100% !important;
+        }
+
+        body,
+        #backgroundTable {
+            background-color: #FAFAFA;
+        }
+
+        #templateContainer {
+            border: 1px solid #DDDDDD;
+        }
+
+        /* h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        a,
+        strong,
+        span,
+        .content,
+        .grotesk {
+            font-family: 'Space Grotesk', sans-serif !important;
+        } */
+
+        a {
+            text-decoration: none !important;
+        }
+
+        a:hover {
+            text-decoration: underline !important;
+        }
+
+        h1,
+        .h1 {
+            color: #202020;
+            display: block;
+            font-size: 34px;
+            font-weight: bold;
+            line-height: 150%;
+            text-align: left;
+            margin: 0;
+        }
+
+        h2,
+        .h2 {
+            color: #202020;
+            display: block;
+            font-size: 30px;
+            font-weight: bold;
+            line-height: 100%;
+            margin: 0 0 10px 0;
+            text-align: left;
+        }
+
+        h3,
+        .h3 {
+            color: #202020;
+            display: block;
+            font-size: 26px;
+            font-weight: bold;
+            line-height: 100%;
+            margin: 0 0 10px 0;
+            text-align: left;
+        }
+
+        h4,
+        .h4 {
+            color: #202020;
+            display: block;
+            font-size: 22px;
+            font-weight: bold;
+            line-height: 100%;
+            margin: 0 0 10px 0;
+            text-align: left;
+        }
+
+        #templatePreheader {
+            background-color: #FAFAFA;
+        }
+
+        .preheaderContent div {
+            color: #505050;
+            font-size: 10px;
+            line-height: 125%;
+            text-align: left;
+        }
+
+        .preheaderContent div a:link,
+        .preheaderContent div a:visited {
+            color: #88aed4;
+            font-weight: normal;
+            text-decoration: underline;
+        }
+
+        #templateHeader {
+            background-color: #FFFFFF;
+            border-bottom: 0;
+        }
+
+        .headerContent {
+            color: #202020;
+            font-weight: bold;
+            line-height: 0%;
+            padding: 0;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        #headerImage {
+            height: auto;
+            max-width: 600px;
+            max-height: 150px;
+        }
+
+        #templateContainer,
+        .bodyContent {
+            background-color: #FFFFFF;
+        }
+
+        .bodyContent div {
+            color: #505050;
+            font-size: 12px;
+            line-height: 150%;
+            text-align: justify;
+        }
+
+        .bodyContent div a:link,
+        .bodyContent div a:visited {
+            color: #88AED4;
+            font-weight: normal;
+            text-decoration: underline;
+        }
+
+        #templateSidebar {
+            background-color: #FFFFFF;
+            border-left: 0px solid #CDCDCD;
+        }
+
+        .sidebarContent div {
+            color: #505050;
+            font-size: 12px;
+            line-height: 150%;
+            text-align: justify;
+        }
+
+        #templateFooter {
+            background-color: #F5F5F5;
+            border-top: 0;
+        }
+
+        .footerContent div {
+            color: #707070;
+            font-size: 12px;
+            line-height: 125%;
+            text-align: center;
+        }
+
+        #social {
+            background-color: transparent;
+            border: 0;
+        }
+
+        #social div {
+            text-align: center;
+        }
+
+        #utility {
+            background-color: transparent;
+            border: 0;
+        }
+
+        #utility div {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    <center>
+        <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="backgroundTable">
+            <tr>
+                <td align="center" valign="top">
+                    <table border="0" cellpadding="0" cellspacing="0" width="600" id="templatePreheader">
+                        <tr>
+                            <td valign="top" class="preheaderContent" style="padding: 20px 0;">
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="google-sans-flex">
+                                    <tr>
+                                        <td valign="top">
+                                            <div data-content-edit="std_preheader_content">
+                                                Utiliza esta área para ofrecer un breve resumen del contenido de tu
+                                                correo electrónico. El texto que escribas aquí aparecerá en el área de
+                                                vista previa de algunos clientes de correo electrónico.
+                                            </div>
+                                        </td>
+                                        <td valign="top" width="200">
+                                            <div data-content-edit="std_preheader_links">
+                                                ¿Este correo electrónico no se muestra correctamente?<br /><a href="#"
+                                                    target="_blank">Ver en el navegador</a>.
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer">
+                        <tr>
+                            <td align="center" valign="top">
+                                <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateHeader"
+                                    style="border-bottom: 1px solid #dddddd;">
+                                    <tr>
+                                        <td class="headerContent">
+                                            <img src="../images/header_placeholder_600px.png" style="max-width: 600px;"
+                                                id="headerImage" width="600px" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" valign="top">
+                                <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateBody">
+                                    <tr>
+                                        <td valign="top" width="100%">
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tr>
+                                                    <td valign="top" class="bodyContent" width="100%">
+                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                            class="google-sans-flex"
+                                                            style="padding: 14px; margin-bottom: -12px; border-right: 1px solid #dddddd;">
+                                                            <tr>
+                                                                <td valign="top">
+                                                                    <div>
+                                                                        <h1
+                                                                            style="margin-bottom: -4px; font-size: 20px;">
+                                                                            Lorem ipsum dolor sit amet dolorum is
+                                                                            consectetur adipisicing elit magna ass</h1>
+                                                                        <p>
+                                                                            Lorem ipsum dolor, sit amet consectetur
+                                                                            adipisicing elit. Harum, ducimus aut magnam
+                                                                            omnis, aperiam, ab delectus animi
+                                                                            necessitatibus
+                                                                            fuga hic minima sit numquam exercitationem
+                                                                            nihil
+                                                                            voluptatem in unde dolorum quam voluptas!
+                                                                        </p>
+                                                                        <p>
+                                                                            Perspiciatis harum laborum necessitatibus?
+                                                                            Deserunt, delectus ad? Voluptas enim sunt
+                                                                            vero
+                                                                            veritatis voluptatum amet a eum ab iste
+                                                                            totam
+                                                                            laborum itaque velarse, cum facilis neque
+                                                                            debitis
+                                                                            consequatur quae veniam molestias
+                                                                            consectetur!
+                                                                        </p>
+                                                                        <p>
+                                                                            Libero aliquam numquam iste, eligendi
+                                                                            explicabo
+                                                                            veritatis officia quam soluta. Facilis nulla
+                                                                            fugit suscipit iste consectetur eveniet
+                                                                            nesciunt
+                                                                            sunt incidunt excepturi minima architecto
+                                                                            similique natus nam quod explicabo illo
+                                                                            sequi,
+                                                                            totam, quasi aliquam praesentium iure.
+                                                                        </p>
+                                                                        <p>
+                                                                            Mollitia is una let
+                                                                            ipsum dignissimos laudantium saepe sunt fuga
+                                                                            laboriosam repellat, qui odit quae obcaecati
+                                                                            molestias. Esse quod corrupti voluptatibus
+                                                                            iusto pan
+                                                                            libero. Natus quidem repellendus dolorem
+                                                                            repudiandae vero libero aut ipsa in
+                                                                            inventore
+                                                                            quos facere maxime, et saepe necessitatibus!
+                                                                        </p>
+                                                                        <p>
+                                                                            Necessitatibus nobis dolorem, facere
+                                                                            pariatur
+                                                                            impedit nesciunt fugiat ipsum quasi placeat,
+                                                                            animi eligendi recusandae, officia obcaecati
+                                                                            voluptatibus tempora enim quaerat! Aliquam
+                                                                            ab
+                                                                            sit accusantium commodi, totam nesciunt
+                                                                            dolorem
+                                                                            temporibus cupiditate fugit blanditiis
+                                                                            pariatur
+                                                                            qui ratione.
+                                                                        </p>
+                                                                        <p>
+                                                                            Laboriosam in vel impedit
+                                                                            blanditiis mollitia eveniet delectus
+                                                                            voluptate
+                                                                            dolorum, expedita facilis odit eum sed
+                                                                            nostrum
+                                                                            perferendis ab alias et dolores consequatur
+                                                                            qui
+                                                                            officia exercitationem similique repellendus
+                                                                            aliquam perspiciatis! Magni, beatae. Facilis is nulla
+                                                                            fugit suscipit consectetur eveniet absolute.
+                                                                        </p>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td valign="top" width="188" id="templateSidebar">
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tr>
+                                                    <td valign="top" class="sidebarContent">
+                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                            style="display: none; padding: 14px 14px 0 14px; border-left: 1px solid #dddddd;"
+                                                            class="google-sans-flex">
+                                                            <tr>
+                                                                <td align="left" valign="middle" width="16">
+                                                                    <img src="https://eep.io/images/yzco4xsimv0y/3VjJhbqftKuok6gqYuUQKy/328d56c5d13ad50b9679b11e716bb218/icon-twitter.svg?w=320&q=70"
+                                                                        style="margin:0 !important;" />
+                                                                </td>
+                                                                <td align="left" valign="top">
+                                                                    <div data-content-edit="sbwi_link_two"
+                                                                        style="margin-top: 1px;">
+                                                                        <a
+                                                                            href="https://socials.danielvargas.dev/twitter">Seguir
+                                                                            en Twitter</a>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left" valign="middle" width="16">
+                                                                    <img src="https://eep.io/images/yzco4xsimv0y/5daYAeMRSgIUUiSquGwsgI/1904e3f818575ec9625fa15dab193243/icon-facebook.svg?w=320&q=70"
+                                                                        style="margin:0 !important;" />
+                                                                </td>
+                                                                <td align="left" valign="top">
+                                                                    <div data-content-edit="sbwi_link_one"
+                                                                        style="margin-top: 1px;">
+                                                                        <a
+                                                                            href="https://socials.danielvargas.dev/instagram">Seguir
+                                                                            en Instagram</a>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                            style="padding: 14px;">
+                                                            <tr>
+                                                                <td valign="top" style="width: 100%;">
+                                                                    <img src="../images/image_placeholder_160px.png"
+                                                                        style="width: 160px; margin-bottom: 14px;" />
+                                                                    <div
+                                                                        style="font-size: 12px; font-family: 'Google Sans', system-ui, -apple-system, sans-serif;">
+                                                                        <h2
+                                                                            style="font-weight: 600; font-size: 16px; font-family: 'Google Sans Flex', system-ui, -apple-system, sans-serif;">
+                                                                            Lorem ipsum dolor sit amet deleniti ad.</h2>
+                                                                        <p>
+                                                                            Lorem ipsum dolor sit amet  consectetur,
+                                                                            adipisicing elit. Corporis sint nam deleniti
+                                                                            asperiores. Est id deleniti quasi iure
+                                                                            pariatur,
+                                                                            culpa tempores send ass, adipisci autem ex, quo
+                                                                            praesentium excepturi nemo!
+                                                                        </p>
+                                                                        <p>
+                                                                            Dolor ipsut sit, amet costoso consectetur
+                                                                            adipisicing elit. Laudantium are accusantium
+                                                                            veritatis rerum, liquid id qui commodi ex
+                                                                            doloremque iure error fuck ass natus porro
+                                                                            consequuntur is perspiciatis doloribus acaroso suscipit
+                                                                            reprehenderit fosis modi iste incidunt.
+                                                                        </p>
+                                                                        <p>
+                                                                            Lorem ipsum dolor sit amet consectetur
+                                                                            adipisicing elite. Official
+                                                                            similique repellendus
+                                                                            aliquam perspiciatis! Magnis.
+                                                                        </p>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" valign="top">
+                                <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateFooter"
+                                    style="padding: 24px 14px; border-top: 1px solid #dddddd;" class="google-sans">
+                                    <tr>
+                                        <td valign="top" class="footerContent">
+                                            <table border="0" cellpadding="4" cellspacing="0" width="100%"
+                                                class="font-sans">
+                                                <tr>
+                                                    <td colspan="2" valign="middle" id="social">
+                                                        <div data-content-edit="std_social">
+                                                            &nbsp;<a href="https://twitter.com/">Twitter</a>
+                                                            | <a href="https://instagram.com/">Instagram</a>
+                                                            | <a href="https://facebook.com/">Facebook</a>&nbsp;
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td valign="top" width="100%">
+                                                        <div data-content-edit="std_footer" class="grotesk">
+                                                            <span>&copy; 2026 Daniel Vargas - Todos los
+                                                                derechos reservados.</span>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" valign="middle" id="utility">
+                                                        <div data-content-edit="std_utility">
+                                                            &nbsp;<a href="#">Darse de baja</a> | <a href="#">Actualizar
+                                                                preferencias</a>&nbsp;
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <br />
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+
+</html>
