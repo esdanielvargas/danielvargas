@@ -17,12 +17,12 @@ export default function Contact() {
 
   const activePlan = useMemo(
     () => plans.find((plan) => plan.path === planSelected),
-    [plans, planSelected]
+    [plans, planSelected],
   );
 
   const activeService = useMemo(
     () => services.find((service) => service.path === serviceSelected),
-    [services, serviceSelected]
+    [services, serviceSelected],
   );
 
   const [formData, setFormData] = useState({
@@ -60,27 +60,47 @@ export default function Contact() {
       timeStyle: "short",
     });
 
-    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+    const serviceGmail = import.meta.env.VITE_EMAILJS_SERVICE_GMAIL;
+    const serviceOutlook = import.meta.env.VITE_EMAILJS_SERVICE_OUTLOOK;
+    const templateContact = import.meta.env.VITE_EMAILJS_TEMPLATE_CONTACT;
+    const templateAutoReply = import.meta.env.VITE_EMAILJS_TEMPLATE_AUTOREPLY;
     const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
-    const templateParams = {
+    const templateContactParams = {
       name: formData.name,
       email: formData.email,
       message: formData.message,
       time: time,
     };
+    
+    const templateAutoReplyParams = {
+      name: formData.name,
+      email: formData.email,
+    };
 
-    emailjs
-      .send(serviceId, templateId, templateParams, publicKey)
-      .then((response) => {
-        console.log("SUCCESS!", response.status, response.text);
+    const sendContact = emailjs.send(
+      serviceOutlook,
+      templateContact,
+      templateContactParams,
+      publicKey,
+    );
+
+    const sendAutoReply = emailjs.send(
+      serviceGmail,
+      templateAutoReply,
+      templateAutoReplyParams,
+      publicKey,
+    );
+
+    Promise.all([sendContact, sendAutoReply])
+      .then((responses) => {
+        console.log("¡ÉXITO!", responses);
         setFormData({ name: "", email: "", message: "" });
         setSearchParams({});
       })
       .catch((err) => {
-        console.log("FAILED...", err);
-        alert("Hubo un error al enviar el mensaje. Inténtalo más tarde.");
+        console.error("FAILED...", err);
+        alert("Hubo un error al enviar uno de los mensajes.");
       })
       .finally(() => {
         setLoading(false);
@@ -104,10 +124,10 @@ export default function Contact() {
                   val: activePlan?.title,
                 })
               : serviceSelected
-              ? t("contact.hero.subtitle_service", {
-                  val: activeService?.title,
-                })
-              : t("contact.hero.subtitle_default")}
+                ? t("contact.hero.subtitle_service", {
+                    val: activeService?.title,
+                  })
+                : t("contact.hero.subtitle_default")}
           </p>
         </div>
 
@@ -206,8 +226,8 @@ export default function Contact() {
                 {loading
                   ? t("common.action.sending")
                   : planSelected
-                  ? t("common.action.request_quote")
-                  : t("common.action.send_message")}
+                    ? t("common.action.request_quote")
+                    : t("common.action.send_message")}
               </SmartButton>
             </form>
           </div>
